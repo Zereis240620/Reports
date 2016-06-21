@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiDocument">
+  <ReportName>Report</ReportName>
+  <ReportAlias>Report</ReportAlias>
+  <ReportAuthor />
+  <ReportVersion>2016.1.12</ReportVersion>
+  <ReportDescription />
+  <ReportCreated>6/21/2016 2:45:25 PM</ReportCreated>
+  <RenderedWith>Wpf</RenderedWith>
+  <Unit Ref="1" type="in" isKey="true" />
+  <Pages isList="true" count="2">
+    <Page1 Ref="2" type="Page" isKey="true">
+      <PaperSize>Letter</PaperSize>
+      <PageWidth>8.5</PageWidth>
+      <PageHeight>11</PageHeight>
+      <Watermark Ref="3" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <fn>Arial,100</fn>
+        <tb>[50:0:0:0]</tb>
+      </Watermark>
+      <Margins>0.39,0.39,0.39,0.39</Margins>
+      <br>None;Black;2;Solid;False;4;Black</br>
+      <bh>Transparent</bh>
+      <Components isList="true" count="62">
+        <RichText1 Ref="4" type="Stimulsoft.Report.Components.StiRichText" isKey="true">
+          <br>None;White;1;Solid;False;4;Black</br>
+          <text>__LP__\rtf1\ansi\ansicpg1252\deff0\deflang1033__LP__\fonttbl__LP__\f0\fnil\fcharset0 Open Sans;__RP____LP__\f1\fnil\fcharset0 Microsoft Sans Serif;__RP____RP__
+__LP__\colortbl ;\red100\green100\blue100;\red193\green205\blue35;__RP__
+\viewkind4\uc1\pard\cf1\b\i\f0\fs52 COM\cf2 P\cf1 ANY\cf2 Name\cf0\b0\i0\f1\fs17\par
+__RP__
+ </text>
+          <Margins>5,0,0,0</Margins>
+          <BackColor>Transparent</BackColor>
+          <DataColumn />
+          <Conditions isList="true" count="0" />
+          <ClientRectangle>0,0.1,2.9,0.5</ClientRectangle>
+          <Name>RichText1</Name>
+          <ComponentPlacement>ph.PageHeaderBand1</ComponentPlacement>
+        </RichText1>
+        <item1 Ref="5" type="Text" isSer="true" name="Text1" text="insurance of any kind" va="Center" pl="ph.PageHeaderBand1" rc="0,0.5,2.9,0.2" fn="Open Sans,10" tb="[100:100:100]" bh="Transparent" br="None;White;1;Solid;False;4;Black" mr="5,0,0,0" />
+        <item2 Ref="6" type="Text" isSer="true" name="Text2" text="Insurance Home" ha="Right" va="Center" pl="ph.PageHeaderBand1" rc="4.6,0.4,3.1,0.3" fn="Open Sans,18" tb="[100:100:100]" bh="Transparent" br="None;White;1;Solid;False;4;Black" />
+        <item3 Ref="7" type="Text" isSer="true" name="Text3" text="Any risk that can be quantified can potentially be insured. Specific kinds of risk that may give rise to claims are known as perils. An insurance policy will set out in detail which perils are covered by the policy and which are not. " va="Center" pl="ph.PageHeaderBand1" rc="0,0.8,7.7,0.6" fn="Open Sans,10" tb="[100:100:100]" bh="Transparent" br="None;White;1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <HorizontalLinePrimitive1 Ref="8" type="HorizontalLinePrimitive" isKey="true">
+          <StartCap Ref="9" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+          <EndCap Ref="10" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Color>193, 205, 35</Color>
+          <Size>3</Size>
+          <ClientRectangle>0,0.8,7.7,1</ClientRectangle>
+          <Name>HorizontalLinePrimitive1</Name>
+          <ComponentPlacement>ph.PageHeaderBand1</ComponentPlacement>
+        </HorizontalLinePrimitive1>
+        <item5 Ref="11" type="Text" isSer="true" name="Text4" text="Insured:" va="Center" pl="h.HeaderBand1" rc="0.1,1.5,0.7,0.2" fn="Open Sans,10,Bold" tb="[100:100:100]" bh="Transparent" br="None;White;1;Solid;False;4;Black" />
+        <item6 Ref="12" type="Text" isSer="true" name="Text5" text="France, Paris&#xD;&#xA;203, Rue des Francs-Bourgeois" guid="d4c4e756c61b48e583cf57f8f3ff6e1a" pl="h.HeaderBand1" rc="0.1,1.7,1.5,0.7" fn="Open Sans,10" tb="[100:100:100]" bh="Transparent" br="None;White;1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item7 Ref="13" type="Text" isSer="true" name="Text8" text="Property Location:" va="Center" guid="a01a7941ff9a4263b8c067d0cea92629" pl="h.HeaderBand1" rc="0.1,2.5,1.4,0.2" fn="Open Sans,10,Bold" tb="[100:100:100]" bh="Transparent" br="None;White;1;Solid;False;4;Black" />
+        <item8 Ref="14" type="Text" isSer="true" name="Text9" text="France, Reims &#xD;&#xA;59 rue de l'Abbaye" guid="6875333d51cb422f95706d25dfd7bafb" pl="h.HeaderBand1" rc="0.1,2.7,1.4,0.6" fn="Open Sans,10" tb="[100:100:100]" bh="Transparent" br="None;White;1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item9 Ref="15" type="Text" isSer="true" name="Text11" text="Quote Number:" va="Center" guid="c38d8dd6e10a4f35ac1cfd265abad2a6" pl="h.HeaderBand1" rc="3.7,1.5,1.4,0.2" fn="Open Sans,10,Bold" tb="[100:100:100]" bh="Transparent" br="None;White;1;Solid;False;4;Black" />
+        <item10 Ref="16" type="Text" isSer="true" name="Text12" text="021321657890168989704890" va="Center" guid="99da83ce56794974a7af8ddcfb2c06a9" excelvalue="021321657890168989704890" format="N" pl="h.HeaderBand1" rc="5.1,1.5,2.5,0.2" fn="Open Sans,10" tb="[100:100:100]" bh="Transparent" br="None;White;1;Solid;False;4;Black" />
+        <item11 Ref="17" type="Text" isSer="true" name="Text13" text="Agency:" va="Center" guid="85c5af11800c47df9e0a7950956bac53" pl="h.HeaderBand1" rc="3.7,1.7,1.4,0.2" fn="Open Sans,10,Bold" tb="[100:100:100]" bh="Transparent" br="None;White;1;Solid;False;4;Black" />
+        <item12 Ref="18" type="Text" isSer="true" name="Text14" text="Effective Date:" va="Center" guid="c37517b6566447158d4daaab8761a6f6" pl="h.HeaderBand1" rc="3.7,2.5,1.4,0.2" fn="Open Sans,10,Bold" tb="[100:100:100]" bh="Transparent" br="None;White;1;Solid;False;4;Black" />
+        <item13 Ref="19" type="Text" isSer="true" name="Text15" text="Qoute Period:" va="Center" guid="51cd3e4012a1419896b7606a55f0092b" pl="h.HeaderBand1" rc="3.7,2.7,1.4,0.2" fn="Open Sans,10,Bold" tb="[100:100:100]" bh="Transparent" br="None;White;1;Solid;False;4;Black" />
+        <item14 Ref="20" type="Text" isSer="true" name="Text16" text="Policy Type:" va="Center" guid="ae561e863d67497f871d776f4d43edc9" pl="h.HeaderBand1" rc="3.7,2.9,1.4,0.2" fn="Open Sans,10,Bold" tb="[100:100:100]" bh="Transparent" br="None;White;1;Solid;False;4;Black" />
+        <item15 Ref="21" type="Text" isSer="true" name="Text17" text="Territory:" va="Center" guid="a7a43c7abb45442784e265aa4c9676bd" pl="h.HeaderBand1" rc="3.7,3.1,1.4,0.2" fn="Open Sans,10,Bold" tb="[100:100:100]" bh="Transparent" br="None;White;1;Solid;False;4;Black" />
+        <item16 Ref="22" type="Text" isSer="true" name="Text18" text="Construction Type:" va="Center" guid="30683f47a7624c0aadc379049fa7503f" pl="h.HeaderBand1" rc="3.7,3.3,1.4,0.2" fn="Open Sans,10,Bold" tb="[100:100:100]" bh="Transparent" br="None;White;1;Solid;False;4;Black" />
+        <item17 Ref="23" type="Text" isSer="true" name="Text19" text="Deductible:" va="Center" guid="a4d04fef8105499881adeac08df31359" pl="h.HeaderBand1" rc="3.7,3.5,1.4,0.2" fn="Open Sans,10,Bold" tb="[100:100:100]" bh="Transparent" br="None;White;1;Solid;False;4;Black" />
+        <item18 Ref="24" type="Text" isSer="true" name="Text20" text="Year Built:" va="Center" guid="0848571e215c42c1aa2754505fac31f5" pl="h.HeaderBand1" rc="3.7,3.7,1.4,0.2" fn="Open Sans,10,Bold" tb="[100:100:100]" bh="Transparent" br="None;White;1;Solid;False;4;Black" />
+        <item19 Ref="25" type="Text" isSer="true" name="Text21" text="BCEG:" va="Center" guid="b0a56860bab348a193c30c0bbb6e151e" pl="h.HeaderBand1" rc="3.7,3.9,1.4,0.2" fn="Open Sans,10,Bold" tb="[100:100:100]" bh="Transparent" br="None;White;1;Solid;False;4;Black" />
+        <item20 Ref="26" type="Text" isSer="true" name="Text22" text="6/15/2016" va="Center" guid="5d791c846e1c4b6582194940bcdc2ed0" pl="h.HeaderBand1" rc="5.1,2.5,2.5,0.2" fn="Open Sans,10" tb="[100:100:100]" bh="Transparent" br="None;White;1;Solid;False;4;Black" />
+        <item21 Ref="27" type="Text" isSer="true" name="Text23" text="5 Years" va="Center" guid="8562497a1b8043048f08b585121c0a67" pl="h.HeaderBand1" rc="5.1,2.7,2.5,0.2" fn="Open Sans,10" tb="[100:100:100]" bh="Transparent" br="None;White;1;Solid;False;4;Black" />
+        <item22 Ref="28" type="Text" isSer="true" name="Text24" text="Homeowners Special Form" va="Center" guid="d25772d590244373b74d047a7666bba3" pl="h.HeaderBand1" rc="5.1,2.9,2.5,0.2" fn="Open Sans,10" tb="[100:100:100]" bh="Transparent" br="None;White;1;Solid;False;4;Black" />
+        <item23 Ref="29" type="Text" isSer="true" name="Text25" text="Detached House&#xD;&#xA;" va="Center" guid="0670e97840dd4b16b3cd7f2e2fd1e950" pl="h.HeaderBand1" rc="5.1,3.3,2.5,0.2" fn="Open Sans,10" tb="[100:100:100]" bh="Transparent" br="None;White;1;Solid;False;4;Black" />
+        <item24 Ref="30" type="Text" isSer="true" name="Text26" text="3 % for Full Insurance" va="Center" guid="0aaac372836e492fb52243f46c0d45ae" pl="h.HeaderBand1" rc="5.1,3.5,2.5,0.2" fn="Open Sans,10" tb="[100:100:100]" bh="Transparent" br="None;White;1;Solid;False;4;Black" />
+        <item25 Ref="31" type="Text" isSer="true" name="Text27" text="2015" va="Center" guid="1bd58bc01c6a4b94883d911eb0cc70d7" pl="h.HeaderBand1" rc="5.1,3.7,2.5,0.2" fn="Open Sans,10" tb="[100:100:100]" bh="Transparent" br="None;White;1;Solid;False;4;Black" />
+        <item26 Ref="32" type="Text" isSer="true" name="Text28" text="05" va="Center" guid="4f684dfc6f07402db4a06fe5ed63a147" pl="h.HeaderBand1" rc="5.1,3.9,2.5,0.2" fn="Open Sans,10" tb="[100:100:100]" bh="Transparent" br="None;White;1;Solid;False;4;Black" />
+        <Image1 Ref="33" type="Image" isKey="true">
+          <Margins>0,0,0,0</Margins>
+          <va>Center</va>
+          <br>None;White;1;Solid;False;4;Black</br>
+          <bh>Transparent</bh>
+          <ImageToDraw>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</ImageToDraw>
+          <Conditions isList="true" count="0" />
+          <ClientRectangle>0.1,3.3,1.3,1.1</ClientRectangle>
+          <Name>Image1</Name>
+          <ComponentPlacement>h.HeaderBand1</ComponentPlacement>
+        </Image1>
+        <item28 Ref="34" type="Text" isSer="true" name="Text6" text="France, Reims, 59 rue de l'Abbaye 51100,&#xD;&#xA;Paul Henriot Accounting Manager &#xD;&#xA;Phone: 26.47.15.10" guid="2f0b328d0a1b4f34a379100392ca018b" excelvalue="France, Reims, 59 rue de l'Abbaye 51100,&#xD;&#xA;Paul Henriot Accounting Manager &#xD;&#xA;Phone: 26.47.15.10" format="N" pl="h.HeaderBand1" rc="5.1,1.7,2.5,0.8" fn="Open Sans,10" tb="[100:100:100]" bh="Transparent" br="None;White;1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item29 Ref="35" type="Text" isSer="true" name="Text7" text="59 rue de l'Abbaye" va="Center" guid="714dcbbd59354b09929c07a2ca8521a6" pl="h.HeaderBand1" rc="5.1,3.1,2.5,0.2" fn="Open Sans,10" tb="[100:100:100]" bh="Transparent" br="None;White;1;Solid;False;4;Black" />
+        <item30 Ref="36" type="Text" isSer="true" name="Text29" text="Beverages" va="Center" pl="gh.GroupHeaderBand1" rc="0,4.5,7.7,0.3" fn="Open Sans,16,Bold" tb="[100:100:100]" bh="Transparent" />
+        <item31 Ref="37" type="Text" isSer="true" name="HeaderProducts_ProductName" text="Name" ha="Center" va="Center" pl="gh.GroupHeaderBand1" rc="0,4.8,2.6,0.3" fn="Open Sans,12,Bold" tb="[64:64:64]" bh="[193:205:35]" to=",,,,WordWrap=True,A=0" />
+        <item32 Ref="38" type="Text" isSer="true" name="HeaderProducts_UnitPrice" text="Notes" ha="Center" va="Center" pl="gh.GroupHeaderBand1" rc="2.6,4.8,2.6,0.3" fn="Open Sans,12,Bold" tb="[64:64:64]" bh="[193:205:35]" to=",,,,WordWrap=True,A=0" />
+        <item33 Ref="39" type="Text" isSer="true" name="HeaderProducts_UnitsInStock" text="Cost" ha="Center" va="Center" pl="gh.GroupHeaderBand1" rc="5.2,4.8,2.5,0.3" fn="Open Sans,12,Bold" tb="[64:64:64]" bh="[193:205:35]" to=",,,,WordWrap=True,A=0" />
+        <item34 Ref="40" type="Text" isSer="true" name="DataProducts_ProductName" text="Chartreuse verte" va="Center" pl="d.DataProducts" rc="0.1,5.1,2.6,0.3" fn="Open Sans,10" tb="Black" bh="Transparent" to=",,,,WordWrap=True,A=0" />
+        <item35 Ref="41" type="Text" isSer="true" name="DataProducts_UnitPrice" text="Soft drinks, coffees, teas, beers, and ales" va="Center" pl="d.DataProducts" rc="2.7,5.1,2.5,0.4" fn="Open Sans,10" tb="Black" bh="Transparent" to=",,,,WordWrap=True,A=0" />
+        <item36 Ref="42" type="Text" isSer="true" name="DataProducts_UnitsInStock" text="$18.00" ha="Right" va="Center" excelvalue="18" format="C" pl="d.DataProducts" rc="5.2,5.1,2.5,0.3" fn="Open Sans,10" tb="Black" bh="Transparent" to=",,,,WordWrap=True,A=0" />
+        <item37 Ref="43" type="Text" isSer="true" name="DataProducts_ProductName" text="Steeleye Stout" va="Center" pl="d.DataProducts" rc="0.1,5.5,2.6,0.3" fn="Open Sans,10" tb="Black" bh="Transparent" to=",,,,WordWrap=True,A=0" />
+        <item38 Ref="44" type="Text" isSer="true" name="DataProducts_UnitPrice" text="Soft drinks, coffees, teas, beers, and ales" va="Center" pl="d.DataProducts" rc="2.7,5.5,2.5,0.4" fn="Open Sans,10" tb="Black" bh="Transparent" to=",,,,WordWrap=True,A=0" />
+        <item39 Ref="45" type="Text" isSer="true" name="DataProducts_UnitsInStock" text="$18.00" ha="Right" va="Center" excelvalue="18" format="C" pl="d.DataProducts" rc="5.2,5.5,2.5,0.3" fn="Open Sans,10" tb="Black" bh="Transparent" to=",,,,WordWrap=True,A=0" />
+        <item40 Ref="46" type="Text" isSer="true" name="DataProducts_ProductName" text="Outback Lager" va="Center" pl="d.DataProducts" rc="0.1,5.9,2.6,0.3" fn="Open Sans,10" tb="Black" bh="Transparent" to=",,,,WordWrap=True,A=0" />
+        <item41 Ref="47" type="Text" isSer="true" name="DataProducts_UnitPrice" text="Soft drinks, coffees, teas, beers, and ales" va="Center" pl="d.DataProducts" rc="2.7,5.9,2.5,0.4" fn="Open Sans,10" tb="Black" bh="Transparent" to=",,,,WordWrap=True,A=0" />
+        <item42 Ref="48" type="Text" isSer="true" name="DataProducts_UnitsInStock" text="$15.00" ha="Right" va="Center" excelvalue="15" format="C" pl="d.DataProducts" rc="5.2,5.9,2.5,0.3" fn="Open Sans,10" tb="Black" bh="Transparent" to=",,,,WordWrap=True,A=0" />
+        <item43 Ref="49" type="Text" isSer="true" name="DataProducts_ProductName" text="Lakkalikööri" va="Center" pl="d.DataProducts" rc="0.1,6.3,2.6,0.3" fn="Open Sans,10" tb="Black" bh="Transparent" to=",,,,WordWrap=True,A=0" />
+        <item44 Ref="50" type="Text" isSer="true" name="DataProducts_UnitPrice" text="Soft drinks, coffees, teas, beers, and ales" va="Center" pl="d.DataProducts" rc="2.7,6.3,2.5,0.4" fn="Open Sans,10" tb="Black" bh="Transparent" to=",,,,WordWrap=True,A=0" />
+        <item45 Ref="51" type="Text" isSer="true" name="DataProducts_UnitsInStock" text="$18.00" ha="Right" va="Center" excelvalue="18" format="C" pl="d.DataProducts" rc="5.2,6.3,2.5,0.3" fn="Open Sans,10" tb="Black" bh="Transparent" to=",,,,WordWrap=True,A=0" />
+        <item46 Ref="52" type="Text" isSer="true" name="DataProducts_ProductName" text="Chang" va="Center" pl="d.DataProducts" rc="0.1,6.7,2.6,0.3" fn="Open Sans,10" tb="Black" bh="Transparent" to=",,,,WordWrap=True,A=0" />
+        <item47 Ref="53" type="Text" isSer="true" name="DataProducts_UnitPrice" text="Soft drinks, coffees, teas, beers, and ales" va="Center" pl="d.DataProducts" rc="2.7,6.7,2.5,0.4" fn="Open Sans,10" tb="Black" bh="Transparent" to=",,,,WordWrap=True,A=0" />
+        <item48 Ref="54" type="Text" isSer="true" name="DataProducts_UnitsInStock" text="$19.00" ha="Right" va="Center" excelvalue="19" format="C" pl="d.DataProducts" rc="5.2,6.7,2.5,0.3" fn="Open Sans,10" tb="Black" bh="Transparent" to=",,,,WordWrap=True,A=0" />
+        <item49 Ref="55" type="Text" isSer="true" name="DataProducts_ProductName" text="Chai" va="Center" pl="d.DataProducts" rc="0.1,7.1,2.6,0.3" fn="Open Sans,10" tb="Black" bh="Transparent" to=",,,,WordWrap=True,A=0" />
+        <item50 Ref="56" type="Text" isSer="true" name="DataProducts_UnitPrice" text="Soft drinks, coffees, teas, beers, and ales" va="Center" pl="d.DataProducts" rc="2.7,7.1,2.5,0.4" fn="Open Sans,10" tb="Black" bh="Transparent" to=",,,,WordWrap=True,A=0" />
+        <item51 Ref="57" type="Text" isSer="true" name="DataProducts_UnitsInStock" text="$18.00" ha="Right" va="Center" excelvalue="18" format="C" pl="d.DataProducts" rc="5.2,7.1,2.5,0.3" fn="Open Sans,10" tb="Black" bh="Transparent" to=",,,,WordWrap=True,A=0" />
+        <item52 Ref="58" type="Text" isSer="true" name="Text29" text="Condiments" va="Center" pl="gh.GroupHeaderBand1" rc="0,7.7,7.7,0.3" fn="Open Sans,16,Bold" tb="[100:100:100]" bh="Transparent" />
+        <item53 Ref="59" type="Text" isSer="true" name="HeaderProducts_ProductName" text="Name" ha="Center" va="Center" pl="gh.GroupHeaderBand1" rc="0,8,2.6,0.3" fn="Open Sans,12,Bold" tb="[64:64:64]" bh="[193:205:35]" to=",,,,WordWrap=True,A=0" />
+        <item54 Ref="60" type="Text" isSer="true" name="HeaderProducts_UnitPrice" text="Notes" ha="Center" va="Center" pl="gh.GroupHeaderBand1" rc="2.6,8,2.6,0.3" fn="Open Sans,12,Bold" tb="[64:64:64]" bh="[193:205:35]" to=",,,,WordWrap=True,A=0" />
+        <item55 Ref="61" type="Text" isSer="true" name="HeaderProducts_UnitsInStock" text="Cost" ha="Center" va="Center" pl="gh.GroupHeaderBand1" rc="5.2,8,2.5,0.3" fn="Open Sans,12,Bold" tb="[64:64:64]" bh="[193:205:35]" to=",,,,WordWrap=True,A=0" />
+        <item56 Ref="62" type="Text" isSer="true" name="DataProducts_ProductName" text="Gula Malacca" va="Center" pl="d.DataProducts" rc="0.1,8.3,2.6,0.3" fn="Open Sans,10" tb="Black" bh="Transparent" to=",,,,WordWrap=True,A=0" />
+        <item57 Ref="63" type="Text" isSer="true" name="DataProducts_UnitPrice" text="Sweet and savory sauces, relishes, spreads, and seasonings" va="Center" pl="d.DataProducts" rc="2.7,8.3,2.5,0.4" fn="Open Sans,10" tb="Black" bh="Transparent" to=",,,,WordWrap=True,A=0" />
+        <item58 Ref="64" type="Text" isSer="true" name="DataProducts_UnitsInStock" text="$19.45" ha="Right" va="Center" excelvalue="19.45" format="C" pl="d.DataProducts" rc="5.2,8.3,2.5,0.3" fn="Open Sans,10" tb="Black" bh="Transparent" to=",,,,WordWrap=True,A=0" />
+        <item59 Ref="65" type="Text" isSer="true" name="DataProducts_ProductName" text="Louisiana Hot Spiced Okra" va="Center" pl="d.DataProducts" rc="0.1,8.7,2.6,0.3" fn="Open Sans,10" tb="Black" bh="Transparent" to=",,,,WordWrap=True,A=0" />
+        <item60 Ref="66" type="Text" isSer="true" name="DataProducts_UnitPrice" text="Sweet and savory sauces, relishes, spreads, and seasonings" va="Center" pl="d.DataProducts" rc="2.7,8.7,2.5,0.4" fn="Open Sans,10" tb="Black" bh="Transparent" to=",,,,WordWrap=True,A=0" />
+        <item61 Ref="67" type="Text" isSer="true" name="DataProducts_UnitsInStock" text="$17.00" ha="Right" va="Center" excelvalue="17" format="C" pl="d.DataProducts" rc="5.2,8.7,2.5,0.3" fn="Open Sans,10" tb="Black" bh="Transparent" to=",,,,WordWrap=True,A=0" />
+      </Components>
+      <Guid>5531a858abef412f9cbc356b451d0e2c</Guid>
+      <Conditions isList="true" count="0" />
+      <Name>Page1</Name>
+    </Page1>
+    <Page1 Ref="68" type="Page" isKey="true">
+      <PaperSize>Letter</PaperSize>
+      <PageWidth>8.5</PageWidth>
+      <PageHeight>11</PageHeight>
+      <Watermark Ref="69" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <fn>Arial,100</fn>
+        <tb>[50:0:0:0]</tb>
+      </Watermark>
+      <Margins>0.39,0.39,0.39,0.39</Margins>
+      <br>None;Black;2;Solid;False;4;Black</br>
+      <bh>Transparent</bh>
+      <Components isList="true" count="44">
+        <item0 Ref="70" type="Text" isSer="true" name="Text10" text="21/06/2016" ha="Right" va="Center" excelvalue="6/21/2016 12:00:00 AM" format="Ddd/MM/yyyy" pl="pf.PageFooterBand1" rc="7,10.02,0.7,0.2" fn="Open Sans,8,Bold" tb="[89:89:89]" bh="Transparent" />
+        <item1 Ref="71" type="Text" isSer="true" name="Text33" text="Printed:" ha="Right" va="Center" guid="658ff1da7bd046b1beb9f98e5ef53b83" pl="pf.PageFooterBand1" rc="6.2,10.02,0.8,0.2" fn="Open Sans,8,Bold" tb="[89:89:89]" bh="Transparent" />
+        <item2 Ref="72" type="Text" isSer="true" name="Text34" text="Thank You for Your Choice" va="Center" guid="fa7afd0615904ab3a1aa2d7cd02fa8b1" pl="pf.PageFooterBand1" rc="0,10.02,5.6,0.2" fn="Open Sans,8,Bold" tb="[89:89:89]" bh="Transparent" />
+        <item3 Ref="73" type="Text" isSer="true" name="Text35" text="Insurance can have various effects on society through the way that it changes who bears the cost of losses and damage. On one hand it can increase fraud; on the other it can help societies and individuals prepare for catastrophes and mitigate the effects of catastrophes on both households and societies." va="Center" guid="d7dd767c4e944ce096306a4aa1a97709" pl="pf.PageFooterBand1" rc="0,9.62,7.7,0.4" fn="Open Sans,8,Bold" tb="[89:89:89]" bh="Transparent" to=",,,,WordWrap=True,A=0" />
+        <HorizontalLinePrimitive2 Ref="74" type="HorizontalLinePrimitive" isKey="true">
+          <StartCap Ref="75" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+          <EndCap Ref="76" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Color>193, 205, 35</Color>
+          <Size>3</Size>
+          <ClientRectangle>0,9.57,7.7,1</ClientRectangle>
+          <Guid>727175d7bb9a41a4b2f473b61839385d</Guid>
+          <Name>HorizontalLinePrimitive2</Name>
+          <ComponentPlacement>pf.PageFooterBand1</ComponentPlacement>
+        </HorizontalLinePrimitive2>
+        <item5 Ref="77" type="Text" isSer="true" name="DataProducts_ProductName" text="Genen Shouyu" va="Center" pl="d.DataProducts" rc="0.1,0,2.6,0.3" fn="Open Sans,10" tb="Black" bh="Transparent" to=",,,,WordWrap=True,A=0" />
+        <item6 Ref="78" type="Text" isSer="true" name="DataProducts_UnitPrice" text="Sweet and savory sauces, relishes, spreads, and seasonings" va="Center" pl="d.DataProducts" rc="2.7,0,2.5,0.4" fn="Open Sans,10" tb="Black" bh="Transparent" to=",,,,WordWrap=True,A=0" />
+        <item7 Ref="79" type="Text" isSer="true" name="DataProducts_UnitsInStock" text="$15.50" ha="Right" va="Center" excelvalue="15.5" format="C" pl="d.DataProducts" rc="5.2,0,2.5,0.3" fn="Open Sans,10" tb="Black" bh="Transparent" to=",,,,WordWrap=True,A=0" />
+        <item8 Ref="80" type="Text" isSer="true" name="Text29" text="Confections" va="Center" pl="gh.GroupHeaderBand1" rc="0,0.6,7.7,0.3" fn="Open Sans,16,Bold" tb="[100:100:100]" bh="Transparent" />
+        <item9 Ref="81" type="Text" isSer="true" name="HeaderProducts_ProductName" text="Name" ha="Center" va="Center" pl="gh.GroupHeaderBand1" rc="0,0.9,2.6,0.3" fn="Open Sans,12,Bold" tb="[64:64:64]" bh="[193:205:35]" to=",,,,WordWrap=True,A=0" />
+        <item10 Ref="82" type="Text" isSer="true" name="HeaderProducts_UnitPrice" text="Notes" ha="Center" va="Center" pl="gh.GroupHeaderBand1" rc="2.6,0.9,2.6,0.3" fn="Open Sans,12,Bold" tb="[64:64:64]" bh="[193:205:35]" to=",,,,WordWrap=True,A=0" />
+        <item11 Ref="83" type="Text" isSer="true" name="HeaderProducts_UnitsInStock" text="Cost" ha="Center" va="Center" pl="gh.GroupHeaderBand1" rc="5.2,0.9,2.5,0.3" fn="Open Sans,12,Bold" tb="[64:64:64]" bh="[193:205:35]" to=",,,,WordWrap=True,A=0" />
+        <item12 Ref="84" type="Text" isSer="true" name="DataProducts_ProductName" text="Valkoinen suklaa" va="Center" pl="d.DataProducts" rc="0.1,1.2,2.6,0.3" fn="Open Sans,10" tb="Black" bh="Transparent" to=",,,,WordWrap=True,A=0" />
+        <item13 Ref="85" type="Text" isSer="true" name="DataProducts_UnitPrice" text="Desserts, candies, and sweet breads" va="Center" pl="d.DataProducts" rc="2.7,1.2,2.5,0.3" fn="Open Sans,10" tb="Black" bh="Transparent" to=",,,,WordWrap=True,A=0" />
+        <item14 Ref="86" type="Text" isSer="true" name="DataProducts_UnitsInStock" text="$16.25" ha="Right" va="Center" excelvalue="16.25" format="C" pl="d.DataProducts" rc="5.2,1.2,2.5,0.3" fn="Open Sans,10" tb="Black" bh="Transparent" to=",,,,WordWrap=True,A=0" />
+        <item15 Ref="87" type="Text" isSer="true" name="DataProducts_ProductName" text="Pavlova" va="Center" pl="d.DataProducts" rc="0.1,1.5,2.6,0.3" fn="Open Sans,10" tb="Black" bh="Transparent" to=",,,,WordWrap=True,A=0" />
+        <item16 Ref="88" type="Text" isSer="true" name="DataProducts_UnitPrice" text="Desserts, candies, and sweet breads" va="Center" pl="d.DataProducts" rc="2.7,1.5,2.5,0.3" fn="Open Sans,10" tb="Black" bh="Transparent" to=",,,,WordWrap=True,A=0" />
+        <item17 Ref="89" type="Text" isSer="true" name="DataProducts_UnitsInStock" text="$17.45" ha="Right" va="Center" excelvalue="17.45" format="C" pl="d.DataProducts" rc="5.2,1.5,2.5,0.3" fn="Open Sans,10" tb="Black" bh="Transparent" to=",,,,WordWrap=True,A=0" />
+        <item18 Ref="90" type="Text" isSer="true" name="DataProducts_ProductName" text="Maxilaku" va="Center" pl="d.DataProducts" rc="0.1,1.8,2.6,0.3" fn="Open Sans,10" tb="Black" bh="Transparent" to=",,,,WordWrap=True,A=0" />
+        <item19 Ref="91" type="Text" isSer="true" name="DataProducts_UnitPrice" text="Desserts, candies, and sweet breads" va="Center" pl="d.DataProducts" rc="2.7,1.8,2.5,0.3" fn="Open Sans,10" tb="Black" bh="Transparent" to=",,,,WordWrap=True,A=0" />
+        <item20 Ref="92" type="Text" isSer="true" name="DataProducts_UnitsInStock" text="$20.00" ha="Right" va="Center" excelvalue="20" format="C" pl="d.DataProducts" rc="5.2,1.8,2.5,0.3" fn="Open Sans,10" tb="Black" bh="Transparent" to=",,,,WordWrap=True,A=0" />
+        <item21 Ref="93" type="Text" isSer="true" name="Text29" text="Grains/Cereals" va="Center" pl="gh.GroupHeaderBand1" rc="0,2.3,7.7,0.3" fn="Open Sans,16,Bold" tb="[100:100:100]" bh="Transparent" />
+        <item22 Ref="94" type="Text" isSer="true" name="HeaderProducts_ProductName" text="Name" ha="Center" va="Center" pl="gh.GroupHeaderBand1" rc="0,2.6,2.6,0.3" fn="Open Sans,12,Bold" tb="[64:64:64]" bh="[193:205:35]" to=",,,,WordWrap=True,A=0" />
+        <item23 Ref="95" type="Text" isSer="true" name="HeaderProducts_UnitPrice" text="Notes" ha="Center" va="Center" pl="gh.GroupHeaderBand1" rc="2.6,2.6,2.6,0.3" fn="Open Sans,12,Bold" tb="[64:64:64]" bh="[193:205:35]" to=",,,,WordWrap=True,A=0" />
+        <item24 Ref="96" type="Text" isSer="true" name="HeaderProducts_UnitsInStock" text="Cost" ha="Center" va="Center" pl="gh.GroupHeaderBand1" rc="5.2,2.6,2.5,0.3" fn="Open Sans,12,Bold" tb="[64:64:64]" bh="[193:205:35]" to=",,,,WordWrap=True,A=0" />
+        <item25 Ref="97" type="Text" isSer="true" name="DataProducts_ProductName" text="Ravioli Angelo" va="Center" pl="d.DataProducts" rc="0.1,2.9,2.6,0.3" fn="Open Sans,10" tb="Black" bh="Transparent" to=",,,,WordWrap=True,A=0" />
+        <item26 Ref="98" type="Text" isSer="true" name="DataProducts_UnitPrice" text="Breads, crackers, pasta, and cereal" va="Center" pl="d.DataProducts" rc="2.7,2.9,2.5,0.3" fn="Open Sans,10" tb="Black" bh="Transparent" to=",,,,WordWrap=True,A=0" />
+        <item27 Ref="99" type="Text" isSer="true" name="DataProducts_UnitsInStock" text="$19.50" ha="Right" va="Center" excelvalue="19.5" format="C" pl="d.DataProducts" rc="5.2,2.9,2.5,0.3" fn="Open Sans,10" tb="Black" bh="Transparent" to=",,,,WordWrap=True,A=0" />
+        <item28 Ref="100" type="Text" isSer="true" name="Text29" text="Seafood" va="Center" pl="gh.GroupHeaderBand1" rc="0,3.4,7.7,0.3" fn="Open Sans,16,Bold" tb="[100:100:100]" bh="Transparent" />
+        <item29 Ref="101" type="Text" isSer="true" name="HeaderProducts_ProductName" text="Name" ha="Center" va="Center" pl="gh.GroupHeaderBand1" rc="0,3.7,2.6,0.3" fn="Open Sans,12,Bold" tb="[64:64:64]" bh="[193:205:35]" to=",,,,WordWrap=True,A=0" />
+        <item30 Ref="102" type="Text" isSer="true" name="HeaderProducts_UnitPrice" text="Notes" ha="Center" va="Center" pl="gh.GroupHeaderBand1" rc="2.6,3.7,2.6,0.3" fn="Open Sans,12,Bold" tb="[64:64:64]" bh="[193:205:35]" to=",,,,WordWrap=True,A=0" />
+        <item31 Ref="103" type="Text" isSer="true" name="HeaderProducts_UnitsInStock" text="Cost" ha="Center" va="Center" pl="gh.GroupHeaderBand1" rc="5.2,3.7,2.5,0.3" fn="Open Sans,12,Bold" tb="[64:64:64]" bh="[193:205:35]" to=",,,,WordWrap=True,A=0" />
+        <item32 Ref="104" type="Text" isSer="true" name="DataProducts_ProductName" text="Boston Crab Meat" va="Center" pl="d.DataProducts" rc="0.1,4,2.6,0.3" fn="Open Sans,10" tb="Black" bh="Transparent" to=",,,,WordWrap=True,A=0" />
+        <item33 Ref="105" type="Text" isSer="true" name="DataProducts_UnitPrice" text="Seaweed and fish" va="Center" pl="d.DataProducts" rc="2.7,4,2.5,0.3" fn="Open Sans,10" tb="Black" bh="Transparent" to=",,,,WordWrap=True,A=0" />
+        <item34 Ref="106" type="Text" isSer="true" name="DataProducts_UnitsInStock" text="$18.40" ha="Right" va="Center" excelvalue="18.4" format="C" pl="d.DataProducts" rc="5.2,4,2.5,0.3" fn="Open Sans,10" tb="Black" bh="Transparent" to=",,,,WordWrap=True,A=0" />
+        <item35 Ref="107" type="Text" isSer="true" name="DataProducts_ProductName" text="Röd Kaviar" va="Center" pl="d.DataProducts" rc="0.1,4.3,2.6,0.3" fn="Open Sans,10" tb="Black" bh="Transparent" to=",,,,WordWrap=True,A=0" />
+        <item36 Ref="108" type="Text" isSer="true" name="DataProducts_UnitPrice" text="Seaweed and fish" va="Center" pl="d.DataProducts" rc="2.7,4.3,2.5,0.3" fn="Open Sans,10" tb="Black" bh="Transparent" to=",,,,WordWrap=True,A=0" />
+        <item37 Ref="109" type="Text" isSer="true" name="DataProducts_UnitsInStock" text="$15.00" ha="Right" va="Center" excelvalue="15" format="C" pl="d.DataProducts" rc="5.2,4.3,2.5,0.3" fn="Open Sans,10" tb="Black" bh="Transparent" to=",,,,WordWrap=True,A=0" />
+        <item38 Ref="110" type="Text" isSer="true" name="DataProducts_ProductName" text="Inlagd Sill" va="Center" pl="d.DataProducts" rc="0.1,4.6,2.6,0.3" fn="Open Sans,10" tb="Black" bh="Transparent" to=",,,,WordWrap=True,A=0" />
+        <item39 Ref="111" type="Text" isSer="true" name="DataProducts_UnitPrice" text="Seaweed and fish" va="Center" pl="d.DataProducts" rc="2.7,4.6,2.5,0.3" fn="Open Sans,10" tb="Black" bh="Transparent" to=",,,,WordWrap=True,A=0" />
+        <item40 Ref="112" type="Text" isSer="true" name="DataProducts_UnitsInStock" text="$19.00" ha="Right" va="Center" excelvalue="19" format="C" pl="d.DataProducts" rc="5.2,4.6,2.5,0.3" fn="Open Sans,10" tb="Black" bh="Transparent" to=",,,,WordWrap=True,A=0" />
+        <item41 Ref="113" type="Text" isSer="true" name="Text30" text="$283.55" ha="Right" va="Center" tvh="1" excelvalue="283.55" format="C" pl="f.FooterBand1" rc="6.1,5.41,1.6,0.3" fn="Open Sans,10,Bold" tb="[64:64:64]" bh="Transparent" />
+        <item42 Ref="114" type="Text" isSer="true" name="Text31" text="Total" va="Center" pl="f.FooterBand1" rc="0,5.1,7.7,0.3" fn="Open Sans,16,Bold" tb="[100:100:100]" bh="Transparent" br="Bottom;Black;1;Solid;False;4;Black" />
+        <item43 Ref="115" type="Text" isSer="true" name="Text32" text="Estimated Policy Premium" va="Center" pl="f.FooterBand1" rc="0.1,5.41,3.4,0.3" fn="Open Sans,10" tb="Black" bh="Transparent" />
+      </Components>
+      <Guid>6406769ae8a841f2b323f328fbc7a7a4</Guid>
+      <Conditions isList="true" count="0" />
+      <Name>Page1</Name>
+    </Page1>
+  </Pages>
+  <Variables isList="true" count="0" />
+  <Styles isList="true" count="0" />
+  <Bookmark Ref="116" type="Bookmark" isKey="true">
+    <Bookmarks isList="true" count="0" />
+    <text>Report</text>
+  </Bookmark>
+</StiSerializer>

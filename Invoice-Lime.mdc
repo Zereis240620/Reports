@@ -1,0 +1,861 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiDocument">
+  <ReportName>Report</ReportName>
+  <ReportAlias>Report</ReportAlias>
+  <ReportAuthor />
+  <ReportVersion>2016.1.12</ReportVersion>
+  <ReportDescription />
+  <ReportCreated>6/21/2016 2:48:13 PM</ReportCreated>
+  <RenderedWith>Wpf</RenderedWith>
+  <Unit Ref="1" type="in" isKey="true" />
+  <Pages isList="true" count="2">
+    <Page1 Ref="2" type="Page" isKey="true">
+      <PaperSize>Letter</PaperSize>
+      <PageWidth>8.5</PageWidth>
+      <PageHeight>11</PageHeight>
+      <Watermark Ref="3" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <fn>Arial,100</fn>
+        <tb>[50:0:0:0]</tb>
+      </Watermark>
+      <Margins>0.39,0.39,0.39,0.39</Margins>
+      <br>None;Black;2;Solid;False;4;Black</br>
+      <bh>Transparent</bh>
+      <Components isList="true" count="118">
+        <item0 Ref="4" type="Container" isSer="true" name="ReportTitleBand1" pl="rt.Page1" rc="0,1.3,7.72,1.6" bh="[60:63:70]" br="None;[155:155:155];1;Solid;False;4;Black" />
+        <item1 Ref="5" type="Container" isSer="true" name="HeaderBand1" pl="h.Page1" rc="0,2.9,7.72,0.22" bh="[89:90:92]" br="None;[155:155:155];1;Solid;False;4;Black" />
+        <item2 Ref="6" type="Container" isSer="true" name="HeaderBand2" pl="h.ap.Page1" rc="0,3.12,7.72,0.3" bh="[145:200:83]" br="None;[155:155:155];1;Solid;False;4;Black" />
+        <item3 Ref="7" type="Container" isSer="true" name="DataOrder Details" pl="d.Page1" rc="0,3.72,7.72,0.3" bh="[213:219:209]" br="None;[145:145:145];1;Solid;False;4;Black" />
+        <item4 Ref="8" type="Container" isSer="true" name="DataOrder Details" pl="d.Page1" rc="0,4.32,7.72,0.3" bh="[213:219:209]" br="None;[145:145:145];1;Solid;False;4;Black" />
+        <item5 Ref="9" type="Container" isSer="true" name="DataOrder Details" pl="d.Page1" rc="0,4.92,7.72,0.3" bh="[213:219:209]" br="None;[145:145:145];1;Solid;False;4;Black" />
+        <item6 Ref="10" type="Container" isSer="true" name="DataOrder Details" pl="d.Page1" rc="0,5.52,7.72,0.3" bh="[213:219:209]" br="None;[145:145:145];1;Solid;False;4;Black" />
+        <item7 Ref="11" type="Container" isSer="true" name="DataOrder Details" pl="d.Page1" rc="0,6.12,7.72,0.3" bh="[213:219:209]" br="None;[145:145:145];1;Solid;False;4;Black" />
+        <item8 Ref="12" type="Container" isSer="true" name="DataOrder Details" pl="d.Page1" rc="0,6.72,7.72,0.3" bh="[213:219:209]" br="None;[145:145:145];1;Solid;False;4;Black" />
+        <item9 Ref="13" type="Container" isSer="true" name="DataOrder Details" pl="d.Page1" rc="0,7.32,7.72,0.3" bh="[213:219:209]" br="None;[145:145:145];1;Solid;False;4;Black" />
+        <item10 Ref="14" type="Container" isSer="true" name="DataOrder Details" pl="d.Page1" rc="0,7.92,7.72,0.3" bh="[213:219:209]" br="None;[145:145:145];1;Solid;False;4;Black" />
+        <item11 Ref="15" type="Container" isSer="true" name="DataOrder Details" pl="d.Page1" rc="0,8.52,7.72,0.3" bh="[213:219:209]" br="None;[145:145:145];1;Solid;False;4;Black" />
+        <item12 Ref="16" type="Container" isSer="true" name="DataOrder Details" pl="d.Page1" rc="0,9.12,7.72,0.3" bh="[213:219:209]" br="None;[145:145:145];1;Solid;False;4;Black" />
+        <Image1 Ref="17" type="Image" isKey="true">
+          <Margins>0,0,0,0</Margins>
+          <ha>Center</ha>
+          <va>Center</va>
+          <br>None;[0:0:0];1;Solid;False;4;Black</br>
+          <bh>[0:0:0:0]</bh>
+          <ImageToDraw>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</ImageToDraw>
+          <Conditions isList="true" count="0" />
+          <ClientRectangle>0.1,0,1.4,1.3</ClientRectangle>
+          <Name>Image1</Name>
+          <ComponentPlacement>ph.PageHeaderBand1</ComponentPlacement>
+        </Image1>
+        <item14 Ref="18" type="Text" isSer="true" name="Text1" text="Company Name" va="Center" pl="ph.PageHeaderBand1" style="LimeGreen_company_name" rc="1.5,0.1,2.4,1.2" fn="Open Sans,18,Bold,Point,False,0" tb="Black" bh="Transparent" br="None;[155:155:155];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <Image2 Ref="19" type="Image" isKey="true">
+          <Margins>0,0,0,0</Margins>
+          <ha>Center</ha>
+          <va>Center</va>
+          <br>None;[0:0:0];1;Solid;False;4;Black</br>
+          <bh>[0:0:0:0]</bh>
+          <ImageToDraw>iVBORw0KGgoAAAANSUhEUgAAABQAAAAgCAYAAAASYli2AAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAHNSURBVEhLpdbPLgNRGAXwRpMK0W2X/kQI6UbiMSQWFcXKsisegh1lwaIPoEi8AGElaYL4u2wiWCkJIlRSQYxzJvc2t59vRluLXzI5935n9NIxkWQyqYnBBGxAEd4MXjNLA/dEPM+roZWNwzV4f7iCsbDCKCyDNhxmCaJaYTNlVlYW8mNqG+kB9o1Hk2n8j8+yVtDOrAT8xfAo7I15PQX3IPfzTGPcNOmE1i10gi2SuoE3lHNpLm6KkEZAlkijIOfWuXApwhuQw0HkURUZlkXIn1gOBtkCd7bMsCLCNZCDQfLgzlYY3onwDORgkAtwZ0sMCyL8hiGQw9IwuHNU4EJOhHQMbSBLrHY4BTmX42JKhNYB9IMsG4Aj0GZS3BCHdyd0fcIuLBh7JtP2siNu77pjwv/Ydh8OGWehWRm3kIf8ZBaa8QwdbiFlQdtcj0WWycIu+AJtIAxnerRCkl+leuRtmVbI51zQn5DmA3rDCmkVtGHNilsWVJiAF9AKXNyTqKeQZkErcc1ATVlYYQscglZEJ+D/86q3kPh40r63zLjm72ukkOZBFs5BdU+jhXwhOgdbxmv/JclqtJD64BX49jVosqpmCmna+LVWW+hFfgA2fzCEer5hMwAAAABJRU5ErkJggg==</ImageToDraw>
+          <Conditions isList="true" count="0" />
+          <ClientRectangle>4.3,0.4,0.4,0.4</ClientRectangle>
+          <Name>Image2</Name>
+          <ComponentPlacement>ph.PageHeaderBand1</ComponentPlacement>
+        </Image2>
+        <Image3 Ref="20" type="Image" isKey="true">
+          <Margins>0,0,0,0</Margins>
+          <ha>Center</ha>
+          <va>Center</va>
+          <br>None;[0:0:0];1;Solid;False;4;Black</br>
+          <bh>[0:0:0:0]</bh>
+          <ImageToDraw>iVBORw0KGgoAAAANSUhEUgAAACAAAAAaCAYAAADWm14/AAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAJaSURBVEhLtdZLq05RGMDxgyKEMhATEUZvblEmLh+AyMiAgcRYTDCTgUv5AjglI1GYKMLQgCgyEwYuAyUmR+63//9tr91a6zz7nLfOcepXez/7uezOXmvvd6jX641nEXbhBK7iCV7hE743PDbmNXPMtWYhop6tMIjlOIVn+DsBf2CPk1iGUbPqwHrchoVRw4n4DXuvQzszHczEMP7H4Jo3ch7O7N/AXDxGlNzFZ/4aPnd5bCzK7fIIc7yBS1mwyx3sgX/9O+/gNf/MvYuoV+6iRZ+rYO0a6kGDuoGoZzJi0rcqWDuOuvGg3I5Rz+SLSR+qYO0IUsPVuI6HeIq0Bjw25jVzUv4xRD2T9ybdqoK1jUgNDzexsRxCyt/cxLrcNGkLfmbBZAQHkZrpCuq82mXkNd5QtM5+YFNKWoszOAef+XbMRt7IN9l460VfsRR5rb12wN7OOI016HwV1+bBfRsNjLgefL9EvQphMDMF2/AS9RDfaM8bHtfXX2Ar7BH17guDWIGzcIXXjeWLKf83L0bXnreHvfzA5TP6RgWwCi7AqJnuYxrquqnwYxPVyJ4rUdQVJ40LiBokxdes4rWoJvEjVNQUJ40HiIrlLhjrmXptrJ1i76KmOGl8RFSsX5iOqE4zYE5UK3sXNcUJ5iMqzPmOqOuSnYhqcs5oa/JibUBUlHNLLkBda6xr1+Sc0dblDbQbUVHtDfZjCdyOB/AWUW7NGe3MfLiOIiqaTM5oZ+bDtQ9R0WTai3ZmPlyz8A5R4WTwMRU/6fLhic/0Hgb58g3KXv5GdM1ks3pD/wDoIZmXLEydKgAAAABJRU5ErkJggg==</ImageToDraw>
+          <Guid>f0e145c17da544199d4063ec40c6e018</Guid>
+          <Conditions isList="true" count="0" />
+          <ClientRectangle>5.5,0.4,0.4,0.4</ClientRectangle>
+          <Name>Image3</Name>
+          <ComponentPlacement>ph.PageHeaderBand1</ComponentPlacement>
+        </Image3>
+        <Image4 Ref="21" type="Image" isKey="true">
+          <Margins>0,0,0,0</Margins>
+          <ha>Center</ha>
+          <va>Center</va>
+          <br>None;[0:0:0];1;Solid;False;4;Black</br>
+          <bh>[0:0:0:0]</bh>
+          <ImageToDraw>iVBORw0KGgoAAAANSUhEUgAAACAAAAAWCAYAAAChWZ5EAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAFtSURBVEhL7dW/K8RxHMfxI0RKSgZ1q9B3UCaTKCmD0WpkYJW/QFkMRiWDkSwmu5IyGP0qGVjIIqUczvN1+Xz79Ln3p8t99b3lhsd1vT/vz/vzvs/3fXeFJEkuUW6Qkho4CoJ5qjTQgx18/gbzco0ZNeAMYx9W8n96xho6UPAbcMZxAmtzFm/YgG48Pc8/ODSHG1jF/qKEbQyg6hy97GLUD3rasYInWMVrOcQQrNp6BMt6o8Rv6PkPIkyUbui5vSI8xHKGCVi1WjGPW5QV8Dd+IHpd6McWdK3+PucKKt4Ca/80LpDuUdAv4Ghg1tGLsIiMQNfrGrnDEtpg5U/iFOE50QacF6yiC2FR6URfEPON4RhW7QolmQuBBywi9glDGrw9fMGql1KyuRChX68FaJDCQ6UIzVBsRqpok7lQwzlm4RrR0G7iHVZ+VL0NOJqRe9T9P5K1gcyaDTQbUAP6kTEX86AGpvDoB3PCVzc5+AEKl5p2ftkIxQAAAABJRU5ErkJggg==</ImageToDraw>
+          <Guid>a1604e98c0fd459eaec921ced52f966a</Guid>
+          <Conditions isList="true" count="0" />
+          <ClientRectangle>6.8,0.4,0.4,0.4</ClientRectangle>
+          <Name>Image4</Name>
+          <ComponentPlacement>ph.PageHeaderBand1</ComponentPlacement>
+        </Image4>
+        <item18 Ref="22" type="Text" isSer="true" name="Text2" text="Reims" ha="Center" va="Center" pl="ph.PageHeaderBand1" style="LimeGreen_company_info" rc="4,0.8,1.1,0.5" fn="Open Sans,9.75,Regular,Point,False,0" tb="Black" bh="Transparent" br="None;[0:0:0];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item19 Ref="23" type="Text" isSer="true" name="Text3" text="26.47.15.10" ha="Center" va="Center" pl="ph.PageHeaderBand1" style="LimeGreen_company_info" rc="5.2,0.8,1,0.5" fn="Open Sans,9.75,Regular,Point,False,0" tb="Black" bh="Transparent" br="None;[0:0:0];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item20 Ref="24" type="Text" isSer="true" name="Text4" text="59 rue de l'Abbaye" ha="Center" va="Center" pl="ph.PageHeaderBand1" style="LimeGreen_company_info" rc="6.3,0.8,1.4,0.5" fn="Open Sans,9.75,Regular,Point,False,0" tb="Black" bh="Transparent" br="None;[0:0:0];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item21 Ref="25" type="Text" isSer="true" name="Text5" text="Bill TO:" va="Center" pl="rt.ReportTitleBand1" style="LimeGreen_bill_to" rc="0.1,1.4,1.5,0.4" fn="Open Sans,14.25,Bold,Point,False,0" tb="White" bh="[60:63:70]" br="None;[155:155:155];1;Solid;False;4;Black" />
+        <item22 Ref="26" type="Text" isSer="true" name="Text6" text="Switzerland" va="Center" pl="rt.ReportTitleBand1" style="LimeGreen_bill_to_info" rc="0.1,1.8,2.3,0.2" fn="Open Sans,12,Regular,Point,False,0" tb="White" bh="[60:63:70]" br="None;[155:155:155];1;Solid;False;4;Black" />
+        <item23 Ref="27" type="Text" isSer="true" name="Text7" text="Bern" va="Center" pl="rt.ReportTitleBand1" style="LimeGreen_bill_to_info" rc="0.1,2,2.3,0.2" fn="Open Sans,12,Regular,Point,False,0" tb="White" bh="[60:63:70]" br="None;[155:155:155];1;Solid;False;4;Black" />
+        <item24 Ref="28" type="Text" isSer="true" name="Text8" text="Hauptstr. 29" va="Center" pl="rt.ReportTitleBand1" style="LimeGreen_bill_to_info" rc="0.1,2.2,2.3,0.2" fn="Open Sans,12,Regular,Point,False,0" tb="White" bh="[60:63:70]" br="None;[155:155:155];1;Solid;False;4;Black" />
+        <item25 Ref="29" type="Text" isSer="true" name="Text9" text="3012" va="Center" pl="rt.ReportTitleBand1" style="LimeGreen_bill_to_info" rc="0.1,2.5,1.1,0.4" fn="Open Sans,12,Regular,Point,False,0" tb="White" bh="[60:63:70]" br="None;[155:155:155];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item26 Ref="30" type="Text" isSer="true" name="Text10" text="0452-076545" va="Center" pl="rt.ReportTitleBand1" style="LimeGreen_bill_to_info" rc="1.3,2.5,1.1,0.4" fn="Open Sans,12,Regular,Point,False,0" tb="White" bh="[60:63:70]" br="None;[155:155:155];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item27 Ref="31" type="Text" isSer="true" name="Text11" text="INVOICE #" ha="Center" va="Center" pl="rt.ReportTitleBand1" style="LimeGreen_invoice" rc="2.7,1.4,4.9,1.5" fn="Open Sans,48,Bold,Point,False,0" tb="[145:200:83]" bh="[60:63:70]" br="None;[155:155:155];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item28 Ref="32" type="Text" isSer="true" name="Text12" text="8/10/2008" va="Center" excelvalue="8/10/2008 11:00:00 PM" format="Dd" pl="h.HeaderBand1" style="LimeGreen_invoice_info" rc="1,2.9,1.7,0.22" fn="Open Sans,9.75,Regular,Point,False,0" tb="White" bh="[89:90:92]" br="None;[155:155:155];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item29 Ref="33" type="Text" isSer="true" name="Text13" text="09.07.2008" va="Center" excelvalue="9/7/2008 11:00:00 PM" format="DMM.dd.yyyy" pl="h.HeaderBand1" style="LimeGreen_invoice_info" rc="3.8,2.9,1.6,0.22" fn="Open Sans,9.75,Regular,Point,False,0" tb="White" bh="[89:90:92]" br="None;[155:155:155];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item30 Ref="34" type="Text" isSer="true" name="Text14" text="2008, August" va="Center" excelvalue="8/22/2008 11:00:00 PM" format="Dyyyy, MMMM" pl="h.HeaderBand1" style="LimeGreen_invoice_info" rc="6.5,2.9,1.2,0.22" fn="Open Sans,9.75,Regular,Point,False,0" tb="White" bh="[89:90:92]" br="None;[155:155:155];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item31 Ref="35" type="Text" isSer="true" name="Text15" text="Order Date:" ha="Right" va="Center" guid="12bb43646e394d9fb150243013f84f3e" pl="h.HeaderBand1" style="LimeGreen_invoice_info" rc="0.1,2.9,0.9,0.22" fn="Open Sans,9.75,Regular,Point,False,0" tb="White" bh="[89:90:92]" br="None;[155:155:155];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item32 Ref="36" type="Text" isSer="true" name="Text16" text="Required Date:" ha="Right" va="Center" guid="23494c6cea4742c382b885568cd243a5" pl="h.HeaderBand1" style="LimeGreen_invoice_info" rc="2.8,2.9,1,0.22" fn="Open Sans,9.75,Regular,Point,False,0" tb="White" bh="[89:90:92]" br="None;[155:155:155];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item33 Ref="37" type="Text" isSer="true" name="Text17" text="Shipped Date:" ha="Right" va="Center" guid="9dd66fe2a13244928211f145513cbdb0" pl="h.HeaderBand1" style="LimeGreen_invoice_info" rc="5.5,2.9,1,0.22" fn="Open Sans,9.75,Regular,Point,False,0" tb="White" bh="[89:90:92]" br="None;[155:155:155];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item34 Ref="38" type="Text" isSer="true" name="Text18" text="Product Name" va="Center" guid="163f40a12c2b441d83de2a16d2a0d915" pl="h.ap.HeaderBand2" style="LimeGreen_header_band" rc="0,3.12,1.9,0.3" fn="Open Sans,12,Bold,Point,False,0" tb="White" bh="[145:200:83]" br="None;[155:155:155];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item35 Ref="39" type="Text" isSer="true" name="Text19" text="Unit Price" ha="Center" va="Center" guid="34924e0daba5456aa97b688da25b95cb" pl="h.ap.HeaderBand2" style="LimeGreen_header_text" rc="1.9,3.12,1.9,0.3" fn="Open Sans,12,Bold,Point,False,0" tb="White" bh="[145:200:83]" br="Left;White;1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item36 Ref="40" type="Text" isSer="true" name="Text20" text="Units In Stock" ha="Center" va="Center" guid="615dc4138cfd471f80a97880c1330413" pl="h.ap.HeaderBand2" style="LimeGreen_header_text" rc="3.8,3.12,1.9,0.3" fn="Open Sans,12,Bold,Point,False,0" tb="White" bh="[145:200:83]" br="Left;White;1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item37 Ref="41" type="Text" isSer="true" name="Text21" text="Discontinued" ha="Center" va="Center" guid="576e827a80ca4361824a5f8b95978d67" pl="h.ap.HeaderBand2" style="LimeGreen_header_text" rc="5.7,3.12,2,0.3" fn="Open Sans,12,Bold,Point,False,0" tb="White" bh="[145:200:83]" br="Left;White;1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item38 Ref="42" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_ProductName" text="Longlife Tofu" va="Center" pl="d.DataOrder Details" style="LimeGreen_data" rc="0,3.42,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item39 Ref="43" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_UnitPrice" text="$10" ha="Right" va="Center" excelvalue="10" format="C" pl="d.DataOrder Details" style="LimeGreen_data" rc="1.9,3.42,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <DataOrder_Details_ProductsOrderDetails_Discontinued Ref="44" type="CheckBox" isKey="true">
+          <bh>Transparent</bh>
+          <br>None;[145:145:145];1;Solid;False;4;Black</br>
+          <tb>[120:120:120]</tb>
+          <CheckedValue>False</CheckedValue>
+          <ContourColor>Black</ContourColor>
+          <Conditions isList="true" count="0" />
+          <ClientRectangle>5.7,3.42,2,0.3</ClientRectangle>
+          <Name>DataOrder_Details_ProductsOrderDetails_Discontinued</Name>
+          <ComponentPlacement>d.DataOrder Details</ComponentPlacement>
+          <ComponentStyle>LimeGreen_data</ComponentStyle>
+        </DataOrder_Details_ProductsOrderDetails_Discontinued>
+        <item41 Ref="45" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_UnitsInStock" text="4" ha="Right" va="Center" excelvalue="4" format="N" pl="d.DataOrder Details" style="LimeGreen_data" rc="3.8,3.42,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item42 Ref="46" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_ProductName" text="Longlife Tofu" va="Center" pl="d.DataOrder Details" style="LimeGreen_data" rc="0,3.72,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item43 Ref="47" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_UnitPrice" text="$10" ha="Right" va="Center" excelvalue="10" format="C" pl="d.DataOrder Details" style="LimeGreen_data" rc="1.9,3.72,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <DataOrder_Details_ProductsOrderDetails_Discontinued Ref="48" type="CheckBox" isKey="true">
+          <bh>Transparent</bh>
+          <br>None;[145:145:145];1;Solid;False;4;Black</br>
+          <tb>[120:120:120]</tb>
+          <CheckedValue>False</CheckedValue>
+          <ContourColor>Black</ContourColor>
+          <Conditions isList="true" count="0" />
+          <ClientRectangle>5.7,3.72,2,0.3</ClientRectangle>
+          <Name>DataOrder_Details_ProductsOrderDetails_Discontinued</Name>
+          <ComponentPlacement>d.DataOrder Details</ComponentPlacement>
+          <ComponentStyle>LimeGreen_data</ComponentStyle>
+        </DataOrder_Details_ProductsOrderDetails_Discontinued>
+        <item45 Ref="49" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_UnitsInStock" text="4" ha="Right" va="Center" excelvalue="4" format="N" pl="d.DataOrder Details" style="LimeGreen_data" rc="3.8,3.72,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item46 Ref="50" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_ProductName" text="Louisiana Hot Spiced Okra" va="Center" pl="d.DataOrder Details" style="LimeGreen_data" rc="0,4.02,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item47 Ref="51" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_UnitPrice" text="$17" ha="Right" va="Center" excelvalue="17" format="C" pl="d.DataOrder Details" style="LimeGreen_data" rc="1.9,4.02,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <DataOrder_Details_ProductsOrderDetails_Discontinued Ref="52" type="CheckBox" isKey="true">
+          <bh>Transparent</bh>
+          <br>None;[145:145:145];1;Solid;False;4;Black</br>
+          <tb>[120:120:120]</tb>
+          <CheckedValue>False</CheckedValue>
+          <ContourColor>Black</ContourColor>
+          <Conditions isList="true" count="0" />
+          <ClientRectangle>5.7,4.02,2,0.3</ClientRectangle>
+          <Name>DataOrder_Details_ProductsOrderDetails_Discontinued</Name>
+          <ComponentPlacement>d.DataOrder Details</ComponentPlacement>
+          <ComponentStyle>LimeGreen_data</ComponentStyle>
+        </DataOrder_Details_ProductsOrderDetails_Discontinued>
+        <item49 Ref="53" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_UnitsInStock" text="4" ha="Right" va="Center" excelvalue="4" format="N" pl="d.DataOrder Details" style="LimeGreen_data" rc="3.8,4.02,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item50 Ref="54" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_ProductName" text="Longlife Tofu" va="Center" pl="d.DataOrder Details" style="LimeGreen_data" rc="0,4.32,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item51 Ref="55" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_UnitPrice" text="$10" ha="Right" va="Center" excelvalue="10" format="C" pl="d.DataOrder Details" style="LimeGreen_data" rc="1.9,4.32,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <DataOrder_Details_ProductsOrderDetails_Discontinued Ref="56" type="CheckBox" isKey="true">
+          <bh>Transparent</bh>
+          <br>None;[145:145:145];1;Solid;False;4;Black</br>
+          <tb>[120:120:120]</tb>
+          <CheckedValue>False</CheckedValue>
+          <ContourColor>Black</ContourColor>
+          <Conditions isList="true" count="0" />
+          <ClientRectangle>5.7,4.32,2,0.3</ClientRectangle>
+          <Name>DataOrder_Details_ProductsOrderDetails_Discontinued</Name>
+          <ComponentPlacement>d.DataOrder Details</ComponentPlacement>
+          <ComponentStyle>LimeGreen_data</ComponentStyle>
+        </DataOrder_Details_ProductsOrderDetails_Discontinued>
+        <item53 Ref="57" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_UnitsInStock" text="4" ha="Right" va="Center" excelvalue="4" format="N" pl="d.DataOrder Details" style="LimeGreen_data" rc="3.8,4.32,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item54 Ref="58" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_ProductName" text="Longlife Tofu" va="Center" pl="d.DataOrder Details" style="LimeGreen_data" rc="0,4.62,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item55 Ref="59" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_UnitPrice" text="$10" ha="Right" va="Center" excelvalue="10" format="C" pl="d.DataOrder Details" style="LimeGreen_data" rc="1.9,4.62,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <DataOrder_Details_ProductsOrderDetails_Discontinued Ref="60" type="CheckBox" isKey="true">
+          <bh>Transparent</bh>
+          <br>None;[145:145:145];1;Solid;False;4;Black</br>
+          <tb>[120:120:120]</tb>
+          <CheckedValue>False</CheckedValue>
+          <ContourColor>Black</ContourColor>
+          <Conditions isList="true" count="0" />
+          <ClientRectangle>5.7,4.62,2,0.3</ClientRectangle>
+          <Name>DataOrder_Details_ProductsOrderDetails_Discontinued</Name>
+          <ComponentPlacement>d.DataOrder Details</ComponentPlacement>
+          <ComponentStyle>LimeGreen_data</ComponentStyle>
+        </DataOrder_Details_ProductsOrderDetails_Discontinued>
+        <item57 Ref="61" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_UnitsInStock" text="4" ha="Right" va="Center" excelvalue="4" format="N" pl="d.DataOrder Details" style="LimeGreen_data" rc="3.8,4.62,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item58 Ref="62" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_ProductName" text="Longlife Tofu" va="Center" pl="d.DataOrder Details" style="LimeGreen_data" rc="0,4.92,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item59 Ref="63" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_UnitPrice" text="$10" ha="Right" va="Center" excelvalue="10" format="C" pl="d.DataOrder Details" style="LimeGreen_data" rc="1.9,4.92,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <DataOrder_Details_ProductsOrderDetails_Discontinued Ref="64" type="CheckBox" isKey="true">
+          <bh>Transparent</bh>
+          <br>None;[145:145:145];1;Solid;False;4;Black</br>
+          <tb>[120:120:120]</tb>
+          <CheckedValue>False</CheckedValue>
+          <ContourColor>Black</ContourColor>
+          <Conditions isList="true" count="0" />
+          <ClientRectangle>5.7,4.92,2,0.3</ClientRectangle>
+          <Name>DataOrder_Details_ProductsOrderDetails_Discontinued</Name>
+          <ComponentPlacement>d.DataOrder Details</ComponentPlacement>
+          <ComponentStyle>LimeGreen_data</ComponentStyle>
+        </DataOrder_Details_ProductsOrderDetails_Discontinued>
+        <item61 Ref="65" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_UnitsInStock" text="4" ha="Right" va="Center" excelvalue="4" format="N" pl="d.DataOrder Details" style="LimeGreen_data" rc="3.8,4.92,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item62 Ref="66" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_ProductName" text="Longlife Tofu" va="Center" pl="d.DataOrder Details" style="LimeGreen_data" rc="0,5.22,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item63 Ref="67" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_UnitPrice" text="$10" ha="Right" va="Center" excelvalue="10" format="C" pl="d.DataOrder Details" style="LimeGreen_data" rc="1.9,5.22,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <DataOrder_Details_ProductsOrderDetails_Discontinued Ref="68" type="CheckBox" isKey="true">
+          <bh>Transparent</bh>
+          <br>None;[145:145:145];1;Solid;False;4;Black</br>
+          <tb>[120:120:120]</tb>
+          <CheckedValue>False</CheckedValue>
+          <ContourColor>Black</ContourColor>
+          <Conditions isList="true" count="0" />
+          <ClientRectangle>5.7,5.22,2,0.3</ClientRectangle>
+          <Name>DataOrder_Details_ProductsOrderDetails_Discontinued</Name>
+          <ComponentPlacement>d.DataOrder Details</ComponentPlacement>
+          <ComponentStyle>LimeGreen_data</ComponentStyle>
+        </DataOrder_Details_ProductsOrderDetails_Discontinued>
+        <item65 Ref="69" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_UnitsInStock" text="4" ha="Right" va="Center" excelvalue="4" format="N" pl="d.DataOrder Details" style="LimeGreen_data" rc="3.8,5.22,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item66 Ref="70" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_ProductName" text="Longlife Tofu" va="Center" pl="d.DataOrder Details" style="LimeGreen_data" rc="0,5.52,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item67 Ref="71" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_UnitPrice" text="$10" ha="Right" va="Center" excelvalue="10" format="C" pl="d.DataOrder Details" style="LimeGreen_data" rc="1.9,5.52,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <DataOrder_Details_ProductsOrderDetails_Discontinued Ref="72" type="CheckBox" isKey="true">
+          <bh>Transparent</bh>
+          <br>None;[145:145:145];1;Solid;False;4;Black</br>
+          <tb>[120:120:120]</tb>
+          <CheckedValue>False</CheckedValue>
+          <ContourColor>Black</ContourColor>
+          <Conditions isList="true" count="0" />
+          <ClientRectangle>5.7,5.52,2,0.3</ClientRectangle>
+          <Name>DataOrder_Details_ProductsOrderDetails_Discontinued</Name>
+          <ComponentPlacement>d.DataOrder Details</ComponentPlacement>
+          <ComponentStyle>LimeGreen_data</ComponentStyle>
+        </DataOrder_Details_ProductsOrderDetails_Discontinued>
+        <item69 Ref="73" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_UnitsInStock" text="4" ha="Right" va="Center" excelvalue="4" format="N" pl="d.DataOrder Details" style="LimeGreen_data" rc="3.8,5.52,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item70 Ref="74" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_ProductName" text="Louisiana Hot Spiced Okra" va="Center" pl="d.DataOrder Details" style="LimeGreen_data" rc="0,5.82,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item71 Ref="75" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_UnitPrice" text="$17" ha="Right" va="Center" excelvalue="17" format="C" pl="d.DataOrder Details" style="LimeGreen_data" rc="1.9,5.82,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <DataOrder_Details_ProductsOrderDetails_Discontinued Ref="76" type="CheckBox" isKey="true">
+          <bh>Transparent</bh>
+          <br>None;[145:145:145];1;Solid;False;4;Black</br>
+          <tb>[120:120:120]</tb>
+          <CheckedValue>False</CheckedValue>
+          <ContourColor>Black</ContourColor>
+          <Conditions isList="true" count="0" />
+          <ClientRectangle>5.7,5.82,2,0.3</ClientRectangle>
+          <Name>DataOrder_Details_ProductsOrderDetails_Discontinued</Name>
+          <ComponentPlacement>d.DataOrder Details</ComponentPlacement>
+          <ComponentStyle>LimeGreen_data</ComponentStyle>
+        </DataOrder_Details_ProductsOrderDetails_Discontinued>
+        <item73 Ref="77" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_UnitsInStock" text="4" ha="Right" va="Center" excelvalue="4" format="N" pl="d.DataOrder Details" style="LimeGreen_data" rc="3.8,5.82,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item74 Ref="78" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_ProductName" text="Louisiana Hot Spiced Okra" va="Center" pl="d.DataOrder Details" style="LimeGreen_data" rc="0,6.12,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item75 Ref="79" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_UnitPrice" text="$17" ha="Right" va="Center" excelvalue="17" format="C" pl="d.DataOrder Details" style="LimeGreen_data" rc="1.9,6.12,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <DataOrder_Details_ProductsOrderDetails_Discontinued Ref="80" type="CheckBox" isKey="true">
+          <bh>Transparent</bh>
+          <br>None;[145:145:145];1;Solid;False;4;Black</br>
+          <tb>[120:120:120]</tb>
+          <CheckedValue>False</CheckedValue>
+          <ContourColor>Black</ContourColor>
+          <Conditions isList="true" count="0" />
+          <ClientRectangle>5.7,6.12,2,0.3</ClientRectangle>
+          <Name>DataOrder_Details_ProductsOrderDetails_Discontinued</Name>
+          <ComponentPlacement>d.DataOrder Details</ComponentPlacement>
+          <ComponentStyle>LimeGreen_data</ComponentStyle>
+        </DataOrder_Details_ProductsOrderDetails_Discontinued>
+        <item77 Ref="81" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_UnitsInStock" text="4" ha="Right" va="Center" excelvalue="4" format="N" pl="d.DataOrder Details" style="LimeGreen_data" rc="3.8,6.12,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item78 Ref="82" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_ProductName" text="Longlife Tofu" va="Center" pl="d.DataOrder Details" style="LimeGreen_data" rc="0,6.42,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item79 Ref="83" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_UnitPrice" text="$10" ha="Right" va="Center" excelvalue="10" format="C" pl="d.DataOrder Details" style="LimeGreen_data" rc="1.9,6.42,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <DataOrder_Details_ProductsOrderDetails_Discontinued Ref="84" type="CheckBox" isKey="true">
+          <bh>Transparent</bh>
+          <br>None;[145:145:145];1;Solid;False;4;Black</br>
+          <tb>[120:120:120]</tb>
+          <CheckedValue>False</CheckedValue>
+          <ContourColor>Black</ContourColor>
+          <Conditions isList="true" count="0" />
+          <ClientRectangle>5.7,6.42,2,0.3</ClientRectangle>
+          <Name>DataOrder_Details_ProductsOrderDetails_Discontinued</Name>
+          <ComponentPlacement>d.DataOrder Details</ComponentPlacement>
+          <ComponentStyle>LimeGreen_data</ComponentStyle>
+        </DataOrder_Details_ProductsOrderDetails_Discontinued>
+        <item81 Ref="85" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_UnitsInStock" text="4" ha="Right" va="Center" excelvalue="4" format="N" pl="d.DataOrder Details" style="LimeGreen_data" rc="3.8,6.42,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item82 Ref="86" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_ProductName" text="Louisiana Hot Spiced Okra" va="Center" pl="d.DataOrder Details" style="LimeGreen_data" rc="0,6.72,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item83 Ref="87" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_UnitPrice" text="$17" ha="Right" va="Center" excelvalue="17" format="C" pl="d.DataOrder Details" style="LimeGreen_data" rc="1.9,6.72,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <DataOrder_Details_ProductsOrderDetails_Discontinued Ref="88" type="CheckBox" isKey="true">
+          <bh>Transparent</bh>
+          <br>None;[145:145:145];1;Solid;False;4;Black</br>
+          <tb>[120:120:120]</tb>
+          <CheckedValue>False</CheckedValue>
+          <ContourColor>Black</ContourColor>
+          <Conditions isList="true" count="0" />
+          <ClientRectangle>5.7,6.72,2,0.3</ClientRectangle>
+          <Name>DataOrder_Details_ProductsOrderDetails_Discontinued</Name>
+          <ComponentPlacement>d.DataOrder Details</ComponentPlacement>
+          <ComponentStyle>LimeGreen_data</ComponentStyle>
+        </DataOrder_Details_ProductsOrderDetails_Discontinued>
+        <item85 Ref="89" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_UnitsInStock" text="4" ha="Right" va="Center" excelvalue="4" format="N" pl="d.DataOrder Details" style="LimeGreen_data" rc="3.8,6.72,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item86 Ref="90" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_ProductName" text="Louisiana Hot Spiced Okra" va="Center" pl="d.DataOrder Details" style="LimeGreen_data" rc="0,7.02,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item87 Ref="91" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_UnitPrice" text="$17" ha="Right" va="Center" excelvalue="17" format="C" pl="d.DataOrder Details" style="LimeGreen_data" rc="1.9,7.02,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <DataOrder_Details_ProductsOrderDetails_Discontinued Ref="92" type="CheckBox" isKey="true">
+          <bh>Transparent</bh>
+          <br>None;[145:145:145];1;Solid;False;4;Black</br>
+          <tb>[120:120:120]</tb>
+          <CheckedValue>False</CheckedValue>
+          <ContourColor>Black</ContourColor>
+          <Conditions isList="true" count="0" />
+          <ClientRectangle>5.7,7.02,2,0.3</ClientRectangle>
+          <Name>DataOrder_Details_ProductsOrderDetails_Discontinued</Name>
+          <ComponentPlacement>d.DataOrder Details</ComponentPlacement>
+          <ComponentStyle>LimeGreen_data</ComponentStyle>
+        </DataOrder_Details_ProductsOrderDetails_Discontinued>
+        <item89 Ref="93" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_UnitsInStock" text="4" ha="Right" va="Center" excelvalue="4" format="N" pl="d.DataOrder Details" style="LimeGreen_data" rc="3.8,7.02,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item90 Ref="94" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_ProductName" text="Louisiana Hot Spiced Okra" va="Center" pl="d.DataOrder Details" style="LimeGreen_data" rc="0,7.32,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item91 Ref="95" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_UnitPrice" text="$17" ha="Right" va="Center" excelvalue="17" format="C" pl="d.DataOrder Details" style="LimeGreen_data" rc="1.9,7.32,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <DataOrder_Details_ProductsOrderDetails_Discontinued Ref="96" type="CheckBox" isKey="true">
+          <bh>Transparent</bh>
+          <br>None;[145:145:145];1;Solid;False;4;Black</br>
+          <tb>[120:120:120]</tb>
+          <CheckedValue>False</CheckedValue>
+          <ContourColor>Black</ContourColor>
+          <Conditions isList="true" count="0" />
+          <ClientRectangle>5.7,7.32,2,0.3</ClientRectangle>
+          <Name>DataOrder_Details_ProductsOrderDetails_Discontinued</Name>
+          <ComponentPlacement>d.DataOrder Details</ComponentPlacement>
+          <ComponentStyle>LimeGreen_data</ComponentStyle>
+        </DataOrder_Details_ProductsOrderDetails_Discontinued>
+        <item93 Ref="97" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_UnitsInStock" text="4" ha="Right" va="Center" excelvalue="4" format="N" pl="d.DataOrder Details" style="LimeGreen_data" rc="3.8,7.32,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item94 Ref="98" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_ProductName" text="Longlife Tofu" va="Center" pl="d.DataOrder Details" style="LimeGreen_data" rc="0,7.62,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item95 Ref="99" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_UnitPrice" text="$10" ha="Right" va="Center" excelvalue="10" format="C" pl="d.DataOrder Details" style="LimeGreen_data" rc="1.9,7.62,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <DataOrder_Details_ProductsOrderDetails_Discontinued Ref="100" type="CheckBox" isKey="true">
+          <bh>Transparent</bh>
+          <br>None;[145:145:145];1;Solid;False;4;Black</br>
+          <tb>[120:120:120]</tb>
+          <CheckedValue>False</CheckedValue>
+          <ContourColor>Black</ContourColor>
+          <Conditions isList="true" count="0" />
+          <ClientRectangle>5.7,7.62,2,0.3</ClientRectangle>
+          <Name>DataOrder_Details_ProductsOrderDetails_Discontinued</Name>
+          <ComponentPlacement>d.DataOrder Details</ComponentPlacement>
+          <ComponentStyle>LimeGreen_data</ComponentStyle>
+        </DataOrder_Details_ProductsOrderDetails_Discontinued>
+        <item97 Ref="101" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_UnitsInStock" text="4" ha="Right" va="Center" excelvalue="4" format="N" pl="d.DataOrder Details" style="LimeGreen_data" rc="3.8,7.62,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item98 Ref="102" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_ProductName" text="Louisiana Hot Spiced Okra" va="Center" pl="d.DataOrder Details" style="LimeGreen_data" rc="0,7.92,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item99 Ref="103" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_UnitPrice" text="$17" ha="Right" va="Center" excelvalue="17" format="C" pl="d.DataOrder Details" style="LimeGreen_data" rc="1.9,7.92,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <DataOrder_Details_ProductsOrderDetails_Discontinued Ref="104" type="CheckBox" isKey="true">
+          <bh>Transparent</bh>
+          <br>None;[145:145:145];1;Solid;False;4;Black</br>
+          <tb>[120:120:120]</tb>
+          <CheckedValue>False</CheckedValue>
+          <ContourColor>Black</ContourColor>
+          <Conditions isList="true" count="0" />
+          <ClientRectangle>5.7,7.92,2,0.3</ClientRectangle>
+          <Name>DataOrder_Details_ProductsOrderDetails_Discontinued</Name>
+          <ComponentPlacement>d.DataOrder Details</ComponentPlacement>
+          <ComponentStyle>LimeGreen_data</ComponentStyle>
+        </DataOrder_Details_ProductsOrderDetails_Discontinued>
+        <item101 Ref="105" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_UnitsInStock" text="4" ha="Right" va="Center" excelvalue="4" format="N" pl="d.DataOrder Details" style="LimeGreen_data" rc="3.8,7.92,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item102 Ref="106" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_ProductName" text="Longlife Tofu" va="Center" pl="d.DataOrder Details" style="LimeGreen_data" rc="0,8.22,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item103 Ref="107" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_UnitPrice" text="$10" ha="Right" va="Center" excelvalue="10" format="C" pl="d.DataOrder Details" style="LimeGreen_data" rc="1.9,8.22,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <DataOrder_Details_ProductsOrderDetails_Discontinued Ref="108" type="CheckBox" isKey="true">
+          <bh>Transparent</bh>
+          <br>None;[145:145:145];1;Solid;False;4;Black</br>
+          <tb>[120:120:120]</tb>
+          <CheckedValue>False</CheckedValue>
+          <ContourColor>Black</ContourColor>
+          <Conditions isList="true" count="0" />
+          <ClientRectangle>5.7,8.22,2,0.3</ClientRectangle>
+          <Name>DataOrder_Details_ProductsOrderDetails_Discontinued</Name>
+          <ComponentPlacement>d.DataOrder Details</ComponentPlacement>
+          <ComponentStyle>LimeGreen_data</ComponentStyle>
+        </DataOrder_Details_ProductsOrderDetails_Discontinued>
+        <item105 Ref="109" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_UnitsInStock" text="4" ha="Right" va="Center" excelvalue="4" format="N" pl="d.DataOrder Details" style="LimeGreen_data" rc="3.8,8.22,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item106 Ref="110" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_ProductName" text="Longlife Tofu" va="Center" pl="d.DataOrder Details" style="LimeGreen_data" rc="0,8.52,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item107 Ref="111" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_UnitPrice" text="$10" ha="Right" va="Center" excelvalue="10" format="C" pl="d.DataOrder Details" style="LimeGreen_data" rc="1.9,8.52,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <DataOrder_Details_ProductsOrderDetails_Discontinued Ref="112" type="CheckBox" isKey="true">
+          <bh>Transparent</bh>
+          <br>None;[145:145:145];1;Solid;False;4;Black</br>
+          <tb>[120:120:120]</tb>
+          <CheckedValue>False</CheckedValue>
+          <ContourColor>Black</ContourColor>
+          <Conditions isList="true" count="0" />
+          <ClientRectangle>5.7,8.52,2,0.3</ClientRectangle>
+          <Name>DataOrder_Details_ProductsOrderDetails_Discontinued</Name>
+          <ComponentPlacement>d.DataOrder Details</ComponentPlacement>
+          <ComponentStyle>LimeGreen_data</ComponentStyle>
+        </DataOrder_Details_ProductsOrderDetails_Discontinued>
+        <item109 Ref="113" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_UnitsInStock" text="4" ha="Right" va="Center" excelvalue="4" format="N" pl="d.DataOrder Details" style="LimeGreen_data" rc="3.8,8.52,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item110 Ref="114" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_ProductName" text="Longlife Tofu" va="Center" pl="d.DataOrder Details" style="LimeGreen_data" rc="0,8.82,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item111 Ref="115" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_UnitPrice" text="$10" ha="Right" va="Center" excelvalue="10" format="C" pl="d.DataOrder Details" style="LimeGreen_data" rc="1.9,8.82,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <DataOrder_Details_ProductsOrderDetails_Discontinued Ref="116" type="CheckBox" isKey="true">
+          <bh>Transparent</bh>
+          <br>None;[145:145:145];1;Solid;False;4;Black</br>
+          <tb>[120:120:120]</tb>
+          <CheckedValue>False</CheckedValue>
+          <ContourColor>Black</ContourColor>
+          <Conditions isList="true" count="0" />
+          <ClientRectangle>5.7,8.82,2,0.3</ClientRectangle>
+          <Name>DataOrder_Details_ProductsOrderDetails_Discontinued</Name>
+          <ComponentPlacement>d.DataOrder Details</ComponentPlacement>
+          <ComponentStyle>LimeGreen_data</ComponentStyle>
+        </DataOrder_Details_ProductsOrderDetails_Discontinued>
+        <item113 Ref="117" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_UnitsInStock" text="4" ha="Right" va="Center" excelvalue="4" format="N" pl="d.DataOrder Details" style="LimeGreen_data" rc="3.8,8.82,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item114 Ref="118" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_ProductName" text="Longlife Tofu" va="Center" pl="d.DataOrder Details" style="LimeGreen_data" rc="0,9.12,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item115 Ref="119" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_UnitPrice" text="$10" ha="Right" va="Center" excelvalue="10" format="C" pl="d.DataOrder Details" style="LimeGreen_data" rc="1.9,9.12,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <DataOrder_Details_ProductsOrderDetails_Discontinued Ref="120" type="CheckBox" isKey="true">
+          <bh>Transparent</bh>
+          <br>None;[145:145:145];1;Solid;False;4;Black</br>
+          <tb>[120:120:120]</tb>
+          <CheckedValue>False</CheckedValue>
+          <ContourColor>Black</ContourColor>
+          <Conditions isList="true" count="0" />
+          <ClientRectangle>5.7,9.12,2,0.3</ClientRectangle>
+          <Name>DataOrder_Details_ProductsOrderDetails_Discontinued</Name>
+          <ComponentPlacement>d.DataOrder Details</ComponentPlacement>
+          <ComponentStyle>LimeGreen_data</ComponentStyle>
+        </DataOrder_Details_ProductsOrderDetails_Discontinued>
+        <item117 Ref="121" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_UnitsInStock" text="4" ha="Right" va="Center" excelvalue="4" format="N" pl="d.DataOrder Details" style="LimeGreen_data" rc="3.8,9.12,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+      </Components>
+      <Guid>bd320a29a9f640629f43e3e22f63efc5</Guid>
+      <Conditions isList="true" count="0" />
+      <Name>Page1</Name>
+    </Page1>
+    <Page1 Ref="122" type="Page" isKey="true">
+      <PaperSize>Letter</PaperSize>
+      <PageWidth>8.5</PageWidth>
+      <PageHeight>11</PageHeight>
+      <Watermark Ref="123" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <fn>Arial,100</fn>
+        <tb>[50:0:0:0]</tb>
+      </Watermark>
+      <Margins>0.39,0.39,0.39,0.39</Margins>
+      <br>None;Black;2;Solid;False;4;Black</br>
+      <bh>Transparent</bh>
+      <Components isList="true" count="26">
+        <item0 Ref="124" type="Container" isSer="true" name="HeaderBand2" pl="h.ap.Page1" rc="0,1.3,7.72,0.3" bh="[145:200:83]" br="None;[155:155:155];1;Solid;False;4;Black" />
+        <Image1 Ref="125" type="Image" isKey="true">
+          <Margins>0,0,0,0</Margins>
+          <ha>Center</ha>
+          <va>Center</va>
+          <br>None;[0:0:0];1;Solid;False;4;Black</br>
+          <bh>[0:0:0:0]</bh>
+          <ImageToDraw>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</ImageToDraw>
+          <Conditions isList="true" count="0" />
+          <ClientRectangle>0.1,0,1.4,1.3</ClientRectangle>
+          <Name>Image1</Name>
+          <ComponentPlacement>ph.PageHeaderBand1</ComponentPlacement>
+        </Image1>
+        <item2 Ref="126" type="Text" isSer="true" name="Text1" text="Company Name" va="Center" pl="ph.PageHeaderBand1" style="LimeGreen_company_name" rc="1.5,0.1,2.4,1.2" fn="Open Sans,18,Bold,Point,False,0" tb="Black" bh="Transparent" br="None;[155:155:155];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <Image2 Ref="127" type="Image" isKey="true">
+          <Margins>0,0,0,0</Margins>
+          <ha>Center</ha>
+          <va>Center</va>
+          <br>None;[0:0:0];1;Solid;False;4;Black</br>
+          <bh>[0:0:0:0]</bh>
+          <ImageToDraw>iVBORw0KGgoAAAANSUhEUgAAABQAAAAgCAYAAAASYli2AAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAHNSURBVEhLpdbPLgNRGAXwRpMK0W2X/kQI6UbiMSQWFcXKsisegh1lwaIPoEi8AGElaYL4u2wiWCkJIlRSQYxzJvc2t59vRluLXzI5935n9NIxkWQyqYnBBGxAEd4MXjNLA/dEPM+roZWNwzV4f7iCsbDCKCyDNhxmCaJaYTNlVlYW8mNqG+kB9o1Hk2n8j8+yVtDOrAT8xfAo7I15PQX3IPfzTGPcNOmE1i10gi2SuoE3lHNpLm6KkEZAlkijIOfWuXApwhuQw0HkURUZlkXIn1gOBtkCd7bMsCLCNZCDQfLgzlYY3onwDORgkAtwZ0sMCyL8hiGQw9IwuHNU4EJOhHQMbSBLrHY4BTmX42JKhNYB9IMsG4Aj0GZS3BCHdyd0fcIuLBh7JtP2siNu77pjwv/Ydh8OGWehWRm3kIf8ZBaa8QwdbiFlQdtcj0WWycIu+AJtIAxnerRCkl+leuRtmVbI51zQn5DmA3rDCmkVtGHNilsWVJiAF9AKXNyTqKeQZkErcc1ATVlYYQscglZEJ+D/86q3kPh40r63zLjm72ukkOZBFs5BdU+jhXwhOgdbxmv/JclqtJD64BX49jVosqpmCmna+LVWW+hFfgA2fzCEer5hMwAAAABJRU5ErkJggg==</ImageToDraw>
+          <Conditions isList="true" count="0" />
+          <ClientRectangle>4.3,0.4,0.4,0.4</ClientRectangle>
+          <Name>Image2</Name>
+          <ComponentPlacement>ph.PageHeaderBand1</ComponentPlacement>
+        </Image2>
+        <Image3 Ref="128" type="Image" isKey="true">
+          <Margins>0,0,0,0</Margins>
+          <ha>Center</ha>
+          <va>Center</va>
+          <br>None;[0:0:0];1;Solid;False;4;Black</br>
+          <bh>[0:0:0:0]</bh>
+          <ImageToDraw>iVBORw0KGgoAAAANSUhEUgAAACAAAAAaCAYAAADWm14/AAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAJaSURBVEhLtdZLq05RGMDxgyKEMhATEUZvblEmLh+AyMiAgcRYTDCTgUv5AjglI1GYKMLQgCgyEwYuAyUmR+63//9tr91a6zz7nLfOcepXez/7uezOXmvvd6jX641nEXbhBK7iCV7hE743PDbmNXPMtWYhop6tMIjlOIVn+DsBf2CPk1iGUbPqwHrchoVRw4n4DXuvQzszHczEMP7H4Jo3ch7O7N/AXDxGlNzFZ/4aPnd5bCzK7fIIc7yBS1mwyx3sgX/9O+/gNf/MvYuoV+6iRZ+rYO0a6kGDuoGoZzJi0rcqWDuOuvGg3I5Rz+SLSR+qYO0IUsPVuI6HeIq0Bjw25jVzUv4xRD2T9ybdqoK1jUgNDzexsRxCyt/cxLrcNGkLfmbBZAQHkZrpCuq82mXkNd5QtM5+YFNKWoszOAef+XbMRt7IN9l460VfsRR5rb12wN7OOI016HwV1+bBfRsNjLgefL9EvQphMDMF2/AS9RDfaM8bHtfXX2Ar7BH17guDWIGzcIXXjeWLKf83L0bXnreHvfzA5TP6RgWwCi7AqJnuYxrquqnwYxPVyJ4rUdQVJ40LiBokxdes4rWoJvEjVNQUJ40HiIrlLhjrmXptrJ1i76KmOGl8RFSsX5iOqE4zYE5UK3sXNcUJ5iMqzPmOqOuSnYhqcs5oa/JibUBUlHNLLkBda6xr1+Sc0dblDbQbUVHtDfZjCdyOB/AWUW7NGe3MfLiOIiqaTM5oZ+bDtQ9R0WTai3ZmPlyz8A5R4WTwMRU/6fLhic/0Hgb58g3KXv5GdM1ks3pD/wDoIZmXLEydKgAAAABJRU5ErkJggg==</ImageToDraw>
+          <Guid>f0e145c17da544199d4063ec40c6e018</Guid>
+          <Conditions isList="true" count="0" />
+          <ClientRectangle>5.5,0.4,0.4,0.4</ClientRectangle>
+          <Name>Image3</Name>
+          <ComponentPlacement>ph.PageHeaderBand1</ComponentPlacement>
+        </Image3>
+        <Image4 Ref="129" type="Image" isKey="true">
+          <Margins>0,0,0,0</Margins>
+          <ha>Center</ha>
+          <va>Center</va>
+          <br>None;[0:0:0];1;Solid;False;4;Black</br>
+          <bh>[0:0:0:0]</bh>
+          <ImageToDraw>iVBORw0KGgoAAAANSUhEUgAAACAAAAAWCAYAAAChWZ5EAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAFtSURBVEhL7dW/K8RxHMfxI0RKSgZ1q9B3UCaTKCmD0WpkYJW/QFkMRiWDkSwmu5IyGP0qGVjIIqUczvN1+Xz79Ln3p8t99b3lhsd1vT/vz/vzvs/3fXeFJEkuUW6Qkho4CoJ5qjTQgx18/gbzco0ZNeAMYx9W8n96xho6UPAbcMZxAmtzFm/YgG48Pc8/ODSHG1jF/qKEbQyg6hy97GLUD3rasYInWMVrOcQQrNp6BMt6o8Rv6PkPIkyUbui5vSI8xHKGCVi1WjGPW5QV8Dd+IHpd6McWdK3+PucKKt4Ca/80LpDuUdAv4Ghg1tGLsIiMQNfrGrnDEtpg5U/iFOE50QacF6yiC2FR6URfEPON4RhW7QolmQuBBywi9glDGrw9fMGql1KyuRChX68FaJDCQ6UIzVBsRqpok7lQwzlm4RrR0G7iHVZ+VL0NOJqRe9T9P5K1gcyaDTQbUAP6kTEX86AGpvDoB3PCVzc5+AEKl5p2ftkIxQAAAABJRU5ErkJggg==</ImageToDraw>
+          <Guid>a1604e98c0fd459eaec921ced52f966a</Guid>
+          <Conditions isList="true" count="0" />
+          <ClientRectangle>6.8,0.4,0.4,0.4</ClientRectangle>
+          <Name>Image4</Name>
+          <ComponentPlacement>ph.PageHeaderBand1</ComponentPlacement>
+        </Image4>
+        <item6 Ref="130" type="Text" isSer="true" name="Text2" text="Albuquerque" ha="Center" va="Center" pl="ph.PageHeaderBand1" style="LimeGreen_company_info" rc="4,0.8,1.1,0.5" fn="Open Sans,9.75,Regular,Point,False,0" tb="Black" bh="Transparent" br="None;[0:0:0];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item7 Ref="131" type="Text" isSer="true" name="Text3" text="(505) 555-5939" ha="Center" va="Center" pl="ph.PageHeaderBand1" style="LimeGreen_company_info" rc="5.2,0.8,1,0.5" fn="Open Sans,9.75,Regular,Point,False,0" tb="Black" bh="Transparent" br="None;[0:0:0];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item8 Ref="132" type="Text" isSer="true" name="Text4" text="2817 Milton Dr." ha="Center" va="Center" pl="ph.PageHeaderBand1" style="LimeGreen_company_info" rc="6.3,0.8,1.4,0.5" fn="Open Sans,9.75,Regular,Point,False,0" tb="Black" bh="Transparent" br="None;[0:0:0];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item9 Ref="133" type="Text" isSer="true" name="Text18" text="Product Name" va="Center" guid="163f40a12c2b441d83de2a16d2a0d915" pl="h.ap.HeaderBand2" style="LimeGreen_header_band" rc="0,1.3,1.9,0.3" fn="Open Sans,12,Bold,Point,False,0" tb="White" bh="[145:200:83]" br="None;[155:155:155];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item10 Ref="134" type="Text" isSer="true" name="Text19" text="Unit Price" ha="Center" va="Center" guid="34924e0daba5456aa97b688da25b95cb" pl="h.ap.HeaderBand2" style="LimeGreen_header_text" rc="1.9,1.3,1.9,0.3" fn="Open Sans,12,Bold,Point,False,0" tb="White" bh="[145:200:83]" br="Left;White;1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item11 Ref="135" type="Text" isSer="true" name="Text20" text="Units In Stock" ha="Center" va="Center" guid="615dc4138cfd471f80a97880c1330413" pl="h.ap.HeaderBand2" style="LimeGreen_header_text" rc="3.8,1.3,1.9,0.3" fn="Open Sans,12,Bold,Point,False,0" tb="White" bh="[145:200:83]" br="Left;White;1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item12 Ref="136" type="Text" isSer="true" name="Text21" text="Discontinued" ha="Center" va="Center" guid="576e827a80ca4361824a5f8b95978d67" pl="h.ap.HeaderBand2" style="LimeGreen_header_text" rc="5.7,1.3,2,0.3" fn="Open Sans,12,Bold,Point,False,0" tb="White" bh="[145:200:83]" br="Left;White;1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item13 Ref="137" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_ProductName" text="Louisiana Hot Spiced Okra" va="Center" pl="d.DataOrder Details" style="LimeGreen_data" rc="0,1.6,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item14 Ref="138" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_UnitPrice" text="$17" ha="Right" va="Center" excelvalue="17" format="C" pl="d.DataOrder Details" style="LimeGreen_data" rc="1.9,1.6,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <DataOrder_Details_ProductsOrderDetails_Discontinued Ref="139" type="CheckBox" isKey="true">
+          <bh>Transparent</bh>
+          <br>None;[145:145:145];1;Solid;False;4;Black</br>
+          <tb>[120:120:120]</tb>
+          <CheckedValue>False</CheckedValue>
+          <ContourColor>Black</ContourColor>
+          <Conditions isList="true" count="0" />
+          <ClientRectangle>5.7,1.6,2,0.3</ClientRectangle>
+          <Name>DataOrder_Details_ProductsOrderDetails_Discontinued</Name>
+          <ComponentPlacement>d.DataOrder Details</ComponentPlacement>
+          <ComponentStyle>LimeGreen_data</ComponentStyle>
+        </DataOrder_Details_ProductsOrderDetails_Discontinued>
+        <item16 Ref="140" type="Text" isSer="true" name="DataOrder_Details_ProductsOrderDetails_UnitsInStock" text="4" ha="Right" va="Center" excelvalue="4" format="N" pl="d.DataOrder Details" style="LimeGreen_data" rc="3.8,1.6,1.9,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="[120:120:120]" bh="Transparent" br="None;[145:145:145];1;Solid;False;4;Black" to=",,,,WordWrap=True,A=0" />
+        <item17 Ref="141" type="Text" isSer="true" name="Text22" text="TOTAL: " ha="Right" va="Center" pl="f.FooterBand1" style="LimeGreen_total_name" rc="0,1.9,6.7,0.3" fn="Open Sans,9.75,Bold,Point,False,0" tb="White" bh="[60:63:70]" br="None;[155:155:155];1;Solid;False;4;Black;True" />
+        <item18 Ref="142" type="Text" isSer="true" name="Text23" text="$68" ha="Right" va="Center" excelvalue="68" format="C" pl="f.FooterBand1" style="LimeGreen_total" rc="6.7,1.9,1,0.3" fn="Open Sans,9.75,Regular,Point,False,0" tb="White" bh="[145:200:83]" br="None;[155:155:155];1;Solid;False;4;Black;True" />
+        <item19 Ref="143" type="Text" isSer="true" name="Text24" text="Notes:" va="Center" pl="f.FooterBand1" style="LimeGreen_payment_name" rc="0.2,2.2,0.6,0.3" fn="Open Sans,12,Bold,Point,False,0" tb="Black" bh="Transparent" br="None;[155:155:155];1;Solid;False;4;Black;True" />
+        <item20 Ref="144" type="Text" isSer="true" name="Text25" text="Education includes a BA in psychology from Colorado State University in 1970.  She also completed &quot;The Art of the Cold Call.&quot;  Nancy is a member of Toastmasters International." va="Center" guid="ecec62a40f7f4cc987200da903099a44" pl="f.FooterBand1" style="LimeGreen_payment" rc="0.2,2.5,7.4,0.39" fn="Open Sans,9.75,Regular,Point,False,0" tb="Black" bh="Transparent" br="None;[155:155:155];1;Solid;False;4;Black;True" to=",,,,WordWrap=True,A=0" />
+        <item21 Ref="145" type="Text" isSer="true" name="Text26" text="THANK YOU FOR YOUR BUSINESS" va="Center" pl="rs.ReportSummaryBand1" style="LimeGreen_footer_thanks" rc="0.1,2.99,5.1,0.4" fn="Open Sans,12,Regular,Point,False,0" tb="[130:191:62]" bh="Transparent" br="Bottom;[155:155:155];1;Solid;False;4;Black" />
+        <item22 Ref="146" type="Text" isSer="true" name="Text27" text="(505) 555-5939&#xD;&#xA;(505) 555-3620" va="Center" guid="92db881c4ab14c43b81ba12697dc6b9c" pl="rs.ReportSummaryBand1" style="LimeGreen_notes" rc="0.1,3.49,5.1,0.4" fn="Open Sans,9.75,Regular,Point,False,0" tb="Black" bh="Transparent" br="None;[155:155:155];1;Solid;False;4;Black;True" />
+        <item23 Ref="147" type="Text" isSer="true" name="Text28" text="Paula Wilson" ha="Center" va="Center" pl="rs.ReportSummaryBand1" style="LimeGreen_contacts_name" rc="5.7,3.19,1.9,0.2" fn="Open Sans,9.75,Bold,Point,False,0" tb="Black" bh="Transparent" br="None;[155:155:155];1;Solid;False;4;Black;True" />
+        <item24 Ref="148" type="Text" isSer="true" name="Text29" text="Assistant Sales Representative" ha="Center" pl="rs.ReportSummaryBand1" style="LimeGreen_notes" rc="5.8,3.39,1.7,0.6" fn="Open Sans,9.75,Regular,Point,False,0" tb="Black" bh="Transparent" br="None;[155:155:155];1;Solid;False;4;Black;True" to=",,,,WordWrap=True,A=0" />
+        <HorizontalLinePrimitive1 Ref="149" type="HorizontalLinePrimitive" isKey="true">
+          <StartCap Ref="150" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+          <EndCap Ref="151" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Color>145, 200, 83</Color>
+          <ClientRectangle>0.1,3.39,5.1,1</ClientRectangle>
+          <Name>HorizontalLinePrimitive1</Name>
+          <ComponentPlacement>rs.ReportSummaryBand1</ComponentPlacement>
+        </HorizontalLinePrimitive1>
+      </Components>
+      <Guid>c9072298027b4c59baf2277de15cc286</Guid>
+      <Conditions isList="true" count="0" />
+      <Name>Page1</Name>
+    </Page1>
+  </Pages>
+  <Variables isList="true" count="0" />
+  <Styles isList="true" count="22">
+    <LimeGreen_company_name Ref="152" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <fn>Open Sans,18,Bold,Point,False,0</fn>
+      <br>None;[155:155:155];1;Solid;False;4;Black</br>
+      <bh>Transparent</bh>
+      <tb>Black</tb>
+      <CollectionName>LimeGreen</CollectionName>
+      <Conditions isList="true" count="1">
+        <Item34 Ref="153" type="Stimulsoft.Report.StiStyleCondition" isKey="true">
+          <Type>ComponentName</Type>
+          <OperationComponentName>Containing</OperationComponentName>
+          <Placement>PageHeader</Placement>
+          <Location>MiddleLeft</Location>
+          <ComponentName>company_name</ComponentName>
+        </Item34>
+      </Conditions>
+      <Name>LimeGreen_company_name</Name>
+    </LimeGreen_company_name>
+    <LimeGreen_company_info Ref="154" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <fn>Open Sans,9.75,Regular,Point,False,0</fn>
+      <br>None;[155:155:155];1;Solid;False;4;Black</br>
+      <bh>Transparent</bh>
+      <tb>Black</tb>
+      <AllowUseBorderFormatting>False</AllowUseBorderFormatting>
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <CollectionName>LimeGreen</CollectionName>
+      <Conditions isList="true" count="1">
+        <Item36 Ref="155" type="Stimulsoft.Report.StiStyleCondition" isKey="true">
+          <Type>ComponentName</Type>
+          <OperationComponentName>Containing</OperationComponentName>
+          <ComponentName>company_info</ComponentName>
+        </Item36>
+      </Conditions>
+      <Name>LimeGreen_company_info</Name>
+    </LimeGreen_company_info>
+    <LimeGreen_bill_to Ref="156" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <fn>Open Sans,14.25,Bold,Point,False,0</fn>
+      <br>None;[155:155:155];1;Solid;False;4;Black</br>
+      <bh>[60:63:70]</bh>
+      <tb>White</tb>
+      <CollectionName>LimeGreen</CollectionName>
+      <Conditions isList="true" count="1">
+        <Item38 Ref="157" type="Stimulsoft.Report.StiStyleCondition" isKey="true">
+          <Type>ComponentName</Type>
+          <ComponentName>bill_to_name</ComponentName>
+        </Item38>
+      </Conditions>
+      <Name>LimeGreen_bill_to</Name>
+    </LimeGreen_bill_to>
+    <LimeGreen_ship_to Ref="158" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <fn>Open Sans,14.25,Bold,Point,False,0</fn>
+      <br>None;[155:155:155];1;Solid;False;4;Black</br>
+      <bh>[60:63:70]</bh>
+      <tb>White</tb>
+      <CollectionName>LimeGreen</CollectionName>
+      <Conditions isList="true" count="1">
+        <Item40 Ref="159" type="Stimulsoft.Report.StiStyleCondition" isKey="true">
+          <Type>ComponentName</Type>
+          <ComponentName>ship_to_name</ComponentName>
+        </Item40>
+      </Conditions>
+      <Name>LimeGreen_ship_to</Name>
+    </LimeGreen_ship_to>
+    <LimeGreen_bill_to_info Ref="160" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <fn>Open Sans,12,Regular,Point,False,0</fn>
+      <br>None;[155:155:155];1;Solid;False;4;Black</br>
+      <bh>[60:63:70]</bh>
+      <tb>White</tb>
+      <CollectionName>LimeGreen</CollectionName>
+      <Conditions isList="true" count="1">
+        <Item42 Ref="161" type="Stimulsoft.Report.StiStyleCondition" isKey="true">
+          <Type>ComponentName</Type>
+          <OperationComponentName>Containing</OperationComponentName>
+          <ComponentName>bill_to_info</ComponentName>
+        </Item42>
+      </Conditions>
+      <Name>LimeGreen_bill_to_info</Name>
+    </LimeGreen_bill_to_info>
+    <LimeGreen_ship_to_info Ref="162" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <fn>Open Sans,12,Regular,Point,False,0</fn>
+      <br>None;[155:155:155];1;Solid;False;4;Black</br>
+      <bh>[60:63:70]</bh>
+      <tb>White</tb>
+      <CollectionName>LimeGreen</CollectionName>
+      <Conditions isList="true" count="1">
+        <Item44 Ref="163" type="Stimulsoft.Report.StiStyleCondition" isKey="true">
+          <Type>ComponentName</Type>
+          <OperationComponentName>Containing</OperationComponentName>
+          <ComponentName>ship_to_info</ComponentName>
+        </Item44>
+      </Conditions>
+      <Name>LimeGreen_ship_to_info</Name>
+    </LimeGreen_ship_to_info>
+    <LimeGreen_invoice Ref="164" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <fn>Open Sans,48,Bold,Point,False,0</fn>
+      <br>None;[155:155:155];1;Solid;False;4;Black</br>
+      <bh>[60:63:70]</bh>
+      <tb>[145:200:83]</tb>
+      <CollectionName>LimeGreen</CollectionName>
+      <Conditions isList="true" count="1">
+        <Item46 Ref="165" type="Stimulsoft.Report.StiStyleCondition" isKey="true">
+          <Type>ComponentName</Type>
+          <OperationComponentName>Containing</OperationComponentName>
+          <ComponentName>invoice_name</ComponentName>
+        </Item46>
+      </Conditions>
+      <Name>LimeGreen_invoice</Name>
+    </LimeGreen_invoice>
+    <LimeGreen_invoice_info Ref="166" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <fn>Open Sans,9.75,Regular,Point,False,0</fn>
+      <br>None;[155:155:155];1;Solid;False;4;Black</br>
+      <bh>[89:90:92]</bh>
+      <tb>White</tb>
+      <CollectionName>LimeGreen</CollectionName>
+      <Conditions isList="true" count="1">
+        <Item48 Ref="167" type="Stimulsoft.Report.StiStyleCondition" isKey="true">
+          <Type>ComponentName</Type>
+          <OperationComponentName>Containing</OperationComponentName>
+          <ComponentName>invoice_info</ComponentName>
+        </Item48>
+      </Conditions>
+      <Name>LimeGreen_invoice_info</Name>
+    </LimeGreen_invoice_info>
+    <LimeGreen_header_band Ref="168" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <fn>Open Sans,12,Bold,Point,False,0</fn>
+      <br>None;[155:155:155];1;Solid;False;4;Black</br>
+      <bh>[145:200:83]</bh>
+      <tb>White</tb>
+      <CollectionName>LimeGreen</CollectionName>
+      <Conditions isList="true" count="1">
+        <Item50 Ref="169" type="Stimulsoft.Report.StiStyleCondition" isKey="true">
+          <Type>ComponentName</Type>
+          <OperationComponentName>Containing</OperationComponentName>
+          <ComponentName>header_band</ComponentName>
+        </Item50>
+      </Conditions>
+      <Name>LimeGreen_header_band</Name>
+    </LimeGreen_header_band>
+    <LimeGreen_header_text Ref="170" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <ha>Center</ha>
+      <fn>Open Sans,12,Bold,Point,False,0</fn>
+      <br>Left;White;1;Solid;False;4;Black</br>
+      <bh>[145:200:83]</bh>
+      <tb>White</tb>
+      <AllowUseHorAlignment>True</AllowUseHorAlignment>
+      <CollectionName>LimeGreen</CollectionName>
+      <Conditions isList="true" count="1">
+        <Item52 Ref="171" type="Stimulsoft.Report.StiStyleCondition" isKey="true">
+          <Type>ComponentName</Type>
+          <OperationComponentName>Containing</OperationComponentName>
+          <ComponentName>header_text</ComponentName>
+        </Item52>
+      </Conditions>
+      <Name>LimeGreen_header_text</Name>
+    </LimeGreen_header_text>
+    <LimeGreen_data Ref="172" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <fn>Open Sans,9.75,Regular,Point,False,0</fn>
+      <br>None;[145:145:145];1;Solid;False;4;Black</br>
+      <bh>Transparent</bh>
+      <tb>[120:120:120]</tb>
+      <CollectionName>LimeGreen</CollectionName>
+      <Conditions isList="true" count="1">
+        <Item54 Ref="173" type="Stimulsoft.Report.StiStyleCondition" isKey="true">
+          <Type>ComponentName</Type>
+          <OperationComponentName>Containing</OperationComponentName>
+          <ComponentName>data</ComponentName>
+        </Item54>
+      </Conditions>
+      <Name>LimeGreen_data</Name>
+    </LimeGreen_data>
+    <LimeGreen_data_total Ref="174" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <fn>Open Sans,9.75,Regular,Point,False,0</fn>
+      <br>None;[145:145:145];1;Solid;False;4;Black</br>
+      <bh>[213:219:209]</bh>
+      <tb>[120:120:120]</tb>
+      <CollectionName>LimeGreen</CollectionName>
+      <Conditions isList="true" count="1">
+        <Item56 Ref="175" type="Stimulsoft.Report.StiStyleCondition" isKey="true">
+          <Type>ComponentName</Type>
+          <OperationComponentName>Containing</OperationComponentName>
+          <ComponentName>data_total</ComponentName>
+        </Item56>
+      </Conditions>
+      <Name>LimeGreen_data_total</Name>
+    </LimeGreen_data_total>
+    <LimeGreen_subtotal_name Ref="176" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <fn>Open Sans,9.75,Regular,Point,False,0</fn>
+      <br>None;[155:155:155];1;Solid;False;4;Black;True</br>
+      <bh>Transparent</bh>
+      <tb>[120:120:120]</tb>
+      <CollectionName>LimeGreen</CollectionName>
+      <Conditions isList="true" count="1">
+        <Item58 Ref="177" type="Stimulsoft.Report.StiStyleCondition" isKey="true">
+          <Type>ComponentName</Type>
+          <OperationComponentName>Containing</OperationComponentName>
+          <ComponentName>subtotal_name</ComponentName>
+        </Item58>
+      </Conditions>
+      <Name>LimeGreen_subtotal_name</Name>
+    </LimeGreen_subtotal_name>
+    <LimeGreen_subtotal Ref="178" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <fn>Open Sans,9.75,Regular,Point,False,0</fn>
+      <br>None;[145:145:145];1;Solid;False;4;Black</br>
+      <bh>[213:219:209]</bh>
+      <tb>[120:120:120]</tb>
+      <CollectionName>LimeGreen</CollectionName>
+      <Conditions isList="true" count="1">
+        <Item60 Ref="179" type="Stimulsoft.Report.StiStyleCondition" isKey="true">
+          <Type>ComponentName</Type>
+          <OperationComponentName>Containing</OperationComponentName>
+          <ComponentName>totals_subtotal</ComponentName>
+        </Item60>
+      </Conditions>
+      <Name>LimeGreen_subtotal</Name>
+    </LimeGreen_subtotal>
+    <LimeGreen_discount Ref="180" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <fn>Open Sans,9.75,Regular,Point,False,0</fn>
+      <br>None;[145:145:145];1;Solid;False;4;Black</br>
+      <bh>Transparent</bh>
+      <tb>[130:191:62]</tb>
+      <CollectionName>LimeGreen</CollectionName>
+      <Conditions isList="true" count="1">
+        <Item62 Ref="181" type="Stimulsoft.Report.StiStyleCondition" isKey="true">
+          <Type>ComponentName</Type>
+          <ComponentName>discount</ComponentName>
+        </Item62>
+      </Conditions>
+      <Name>LimeGreen_discount</Name>
+    </LimeGreen_discount>
+    <LimeGreen_total_name Ref="182" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <fn>Open Sans,9.75,Bold,Point,False,0</fn>
+      <br>None;[155:155:155];1;Solid;False;4;Black;True</br>
+      <bh>[60:63:70]</bh>
+      <tb>White</tb>
+      <CollectionName>LimeGreen</CollectionName>
+      <Conditions isList="true" count="1">
+        <Item64 Ref="183" type="Stimulsoft.Report.StiStyleCondition" isKey="true">
+          <Type>ComponentName</Type>
+          <ComponentName>totals_name</ComponentName>
+        </Item64>
+      </Conditions>
+      <Name>LimeGreen_total_name</Name>
+    </LimeGreen_total_name>
+    <LimeGreen_total Ref="184" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <fn>Open Sans,9.75,Regular,Point,False,0</fn>
+      <br>None;[155:155:155];1;Solid;False;4;Black;True</br>
+      <bh>[145:200:83]</bh>
+      <tb>White</tb>
+      <CollectionName>LimeGreen</CollectionName>
+      <Conditions isList="true" count="1">
+        <Item66 Ref="185" type="Stimulsoft.Report.StiStyleCondition" isKey="true">
+          <Type>ComponentName</Type>
+          <ComponentName>totals</ComponentName>
+        </Item66>
+      </Conditions>
+      <Name>LimeGreen_total</Name>
+    </LimeGreen_total>
+    <LimeGreen_payment_name Ref="186" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <fn>Open Sans,12,Bold,Point,False,0</fn>
+      <br>None;[155:155:155];1;Solid;False;4;Black;True</br>
+      <bh>Transparent</bh>
+      <tb>Black</tb>
+      <CollectionName>LimeGreen</CollectionName>
+      <Conditions isList="true" count="1">
+        <Item68 Ref="187" type="Stimulsoft.Report.StiStyleCondition" isKey="true">
+          <Type>ComponentName</Type>
+          <ComponentName>payment_name</ComponentName>
+        </Item68>
+      </Conditions>
+      <Name>LimeGreen_payment_name</Name>
+    </LimeGreen_payment_name>
+    <LimeGreen_payment Ref="188" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <fn>Open Sans,9.75,Regular,Point,False,0</fn>
+      <br>None;[155:155:155];1;Solid;False;4;Black;True</br>
+      <bh>Transparent</bh>
+      <tb>Black</tb>
+      <CollectionName>LimeGreen</CollectionName>
+      <Conditions isList="true" count="1">
+        <Item70 Ref="189" type="Stimulsoft.Report.StiStyleCondition" isKey="true">
+          <Type>ComponentName</Type>
+          <OperationComponentName>Containing</OperationComponentName>
+          <ComponentName>payment_text</ComponentName>
+        </Item70>
+      </Conditions>
+      <Name>LimeGreen_payment</Name>
+    </LimeGreen_payment>
+    <LimeGreen_footer_thanks Ref="190" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <fn>Open Sans,12,Regular,Point,False,0</fn>
+      <br>Bottom;[155:155:155];1;Solid;False;4;Black</br>
+      <bh>Transparent</bh>
+      <tb>[130:191:62]</tb>
+      <CollectionName>LimeGreen</CollectionName>
+      <Conditions isList="true" count="1">
+        <Item72 Ref="191" type="Stimulsoft.Report.StiStyleCondition" isKey="true">
+          <Type>ComponentName</Type>
+          <ComponentName>footer_thanks</ComponentName>
+        </Item72>
+      </Conditions>
+      <Name>LimeGreen_footer_thanks</Name>
+    </LimeGreen_footer_thanks>
+    <LimeGreen_notes Ref="192" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <fn>Open Sans,9.75,Regular,Point,False,0</fn>
+      <br>None;[155:155:155];1;Solid;False;4;Black;True</br>
+      <bh>Transparent</bh>
+      <tb>Black</tb>
+      <CollectionName>LimeGreen</CollectionName>
+      <Conditions isList="true" count="1">
+        <Item74 Ref="193" type="Stimulsoft.Report.StiStyleCondition" isKey="true">
+          <Type>ComponentName</Type>
+          <OperationComponentName>Containing</OperationComponentName>
+          <ComponentName>notes_text</ComponentName>
+        </Item74>
+      </Conditions>
+      <Name>LimeGreen_notes</Name>
+    </LimeGreen_notes>
+    <LimeGreen_contacts_name Ref="194" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <fn>Open Sans,9.75,Bold,Point,False,0</fn>
+      <br>None;[155:155:155];1;Solid;False;4;Black;True</br>
+      <bh>Transparent</bh>
+      <tb>Black</tb>
+      <CollectionName>LimeGreen</CollectionName>
+      <Conditions isList="true" count="1">
+        <Item76 Ref="195" type="Stimulsoft.Report.StiStyleCondition" isKey="true">
+          <Type>ComponentName</Type>
+          <OperationComponentName>Containing</OperationComponentName>
+          <ComponentName>contact_name</ComponentName>
+        </Item76>
+      </Conditions>
+      <Name>LimeGreen_contacts_name</Name>
+    </LimeGreen_contacts_name>
+  </Styles>
+  <Bookmark Ref="196" type="Bookmark" isKey="true">
+    <Bookmarks isList="true" count="0" />
+    <text>Report</text>
+  </Bookmark>
+</StiSerializer>

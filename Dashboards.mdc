@@ -1,0 +1,981 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiDocument">
+  <ReportName>Report</ReportName>
+  <ReportAlias>Report</ReportAlias>
+  <ReportAuthor />
+  <ReportVersion>2016.1.12</ReportVersion>
+  <ReportDescription />
+  <ReportCreated>6/21/2016 2:43:55 PM</ReportCreated>
+  <RenderedWith>Wpf</RenderedWith>
+  <Unit Ref="1" type="in" isKey="true" />
+  <Pages isList="true" count="1">
+    <Page1 Ref="2" type="Page" isKey="true">
+      <PaperSize>Letter</PaperSize>
+      <Orientation>Landscape</Orientation>
+      <PageWidth>11</PageWidth>
+      <PageHeight>8.5</PageHeight>
+      <Watermark Ref="3" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <fn>Arial,100</fn>
+        <tb>[50:0:0:0]</tb>
+      </Watermark>
+      <Margins>0.39,0.39,0.39,0.39</Margins>
+      <br>None;Black;2;Solid;False;4;Black</br>
+      <bh>[27:28:31]</bh>
+      <Components isList="true" count="5">
+        <Chart1 Ref="4" type="Stimulsoft.Report.Chart.StiChart" isKey="true">
+          <Series isList="true" count="1">
+            <Item3 Ref="5" type="Stimulsoft.Report.Chart.StiClusteredBarSeries" isKey="true">
+              <BorderColor>Transparent</BorderColor>
+              <bh>[239:209:64]</bh>
+              <BrushNegative>Firebrick</BrushNegative>
+              <AllowApplyStyle>False</AllowApplyStyle>
+              <ShowShadow>False</ShowShadow>
+              <Filters isList="true" count="0" />
+              <Conditions isList="true" count="0" />
+              <TopN Ref="6" type="Stimulsoft.Report.Chart.StiSeriesTopN" isKey="true" />
+              <SeriesLabels Ref="7" type="Stimulsoft.Report.Chart.StiCenterAxisLabels" isKey="true">
+                <MarkerSize>8, 6</MarkerSize>
+                <ValueTypeSeparator>-</ValueTypeSeparator>
+                <LabelColor>51, 71, 91</LabelColor>
+                <BorderColor>Transparent</BorderColor>
+                <bh>Transparent</bh>
+                <fn>Arial,10</fn>
+                <Chart isRef="4" />
+                <Width>0</Width>
+              </SeriesLabels>
+              <TrendLine Ref="8" type="Stimulsoft.Report.Chart.StiTrendLineNone" isKey="true">
+                <LineColor>DimGray</LineColor>
+                <ShowShadow>False</ShowShadow>
+              </TrendLine>
+              <Chart isRef="4" />
+              <ValuesString>6;23;9;17;12;15</ValuesString>
+              <ArgumentsString>;Facebook;Google_x002B_;Linkedln;Quora;Twitter;reddit</ArgumentsString>
+              <ToolTipsString />
+              <TagString />
+              <HyperlinkString />
+              <TitleValue>Series 1</TitleValue>
+            </Item3>
+          </Series>
+          <Area Ref="9" type="Stimulsoft.Report.Chart.StiClusteredBarArea" isKey="true">
+            <InterlacingHor Ref="10" type="Stimulsoft.Report.Chart.StiInterlacingHor" isKey="true">
+              <InterlacedBrush>[10:155:155:155]</InterlacedBrush>
+              <Visible>False</Visible>
+              <Area isRef="9" />
+            </InterlacingHor>
+            <InterlacingVert Ref="11" type="Stimulsoft.Report.Chart.StiInterlacingVert" isKey="true">
+              <InterlacedBrush>[10:155:155:155]</InterlacedBrush>
+              <Visible>False</Visible>
+              <Area isRef="9" />
+            </InterlacingVert>
+            <GridLinesHor Ref="12" type="Stimulsoft.Report.Chart.StiGridLinesHor" isKey="true">
+              <AllowApplyStyle>False</AllowApplyStyle>
+              <Color>100, 105, 105, 105</Color>
+              <MinorColor>100, 105, 105, 105</MinorColor>
+              <Visible>False</Visible>
+              <Area isRef="9" />
+            </GridLinesHor>
+            <GridLinesHorRight Ref="13" type="Stimulsoft.Report.Chart.StiGridLinesHor" isKey="true">
+              <Color>Silver</Color>
+              <MinorColor>Gainsboro</MinorColor>
+              <Visible>False</Visible>
+              <Area isRef="9" />
+            </GridLinesHorRight>
+            <GridLinesVert Ref="14" type="Stimulsoft.Report.Chart.StiGridLinesVert" isKey="true">
+              <AllowApplyStyle>False</AllowApplyStyle>
+              <Color>100, 105, 105, 105</Color>
+              <MinorColor>100, 105, 105, 105</MinorColor>
+              <Style>Solid</Style>
+              <MinorStyle>Solid</MinorStyle>
+              <Area isRef="9" />
+            </GridLinesVert>
+            <YAxis Ref="15" type="Stimulsoft.Report.Chart.StiYLeftAxis" isKey="true">
+              <Interaction Ref="16" type="Stimulsoft.Report.Chart.StiAxisInteraction" isKey="true" />
+              <Labels Ref="17" type="Stimulsoft.Report.Chart.StiAxisLabels" isKey="true">
+                <fn>Tahoma,8</fn>
+                <Color>White</Color>
+              </Labels>
+              <Range Ref="18" type="Stimulsoft.Report.Chart.StiAxisRange" isKey="true" />
+              <Title Ref="19" type="Stimulsoft.Report.Chart.StiAxisTitle" isKey="true">
+                <fn>Tahoma,12</fn>
+                <text>Conversions</text>
+                <Color>White</Color>
+                <Direction>BottomToTop</Direction>
+              </Title>
+              <Ticks Ref="20" type="Stimulsoft.Report.Chart.StiAxisTicks" isKey="true" />
+              <LineColor>140, 140, 140</LineColor>
+              <Area isRef="9" />
+            </YAxis>
+            <YRightAxis Ref="21" type="Stimulsoft.Report.Chart.StiYRightAxis" isKey="true">
+              <Interaction Ref="22" type="Stimulsoft.Report.Chart.StiAxisInteraction" isKey="true" />
+              <Labels Ref="23" type="Stimulsoft.Report.Chart.StiAxisLabels" isKey="true">
+                <fn>Tahoma,8</fn>
+                <Color>140, 140, 140</Color>
+                <TextAlignment>Left</TextAlignment>
+              </Labels>
+              <Range Ref="24" type="Stimulsoft.Report.Chart.StiAxisRange" isKey="true" />
+              <Title Ref="25" type="Stimulsoft.Report.Chart.StiAxisTitle" isKey="true">
+                <fn>Tahoma,12,Bold</fn>
+                <Color>140, 140, 140</Color>
+                <Direction>TopToBottom</Direction>
+              </Title>
+              <Ticks Ref="26" type="Stimulsoft.Report.Chart.StiAxisTicks" isKey="true" />
+              <LineColor>140, 140, 140</LineColor>
+              <Area isRef="9" />
+            </YRightAxis>
+            <XAxis Ref="27" type="Stimulsoft.Report.Chart.StiXBottomAxis" isKey="true">
+              <DateTimeStep Ref="28" type="Stimulsoft.Report.Chart.StiAxisDateTimeStep" isKey="true" />
+              <Interaction Ref="29" type="Stimulsoft.Report.Chart.StiAxisInteraction" isKey="true" />
+              <Labels Ref="30" type="Stimulsoft.Report.Chart.StiAxisLabels" isKey="true">
+                <fn>Tahoma,8</fn>
+                <Color>White</Color>
+              </Labels>
+              <Range Ref="31" type="Stimulsoft.Report.Chart.StiAxisRange" isKey="true" />
+              <Title Ref="32" type="Stimulsoft.Report.Chart.StiAxisTitle" isKey="true">
+                <fn>Tahoma,12</fn>
+                <text>Social Network</text>
+                <Color>White</Color>
+              </Title>
+              <Ticks Ref="33" type="Stimulsoft.Report.Chart.StiAxisTicks" isKey="true" />
+              <LineColor>140, 140, 140</LineColor>
+              <Area isRef="9" />
+            </XAxis>
+            <XTopAxis Ref="34" type="Stimulsoft.Report.Chart.StiXTopAxis" isKey="true">
+              <Interaction Ref="35" type="Stimulsoft.Report.Chart.StiAxisInteraction" isKey="true" />
+              <Labels Ref="36" type="Stimulsoft.Report.Chart.StiAxisLabels" isKey="true">
+                <fn>Tahoma,8</fn>
+                <Color>140, 140, 140</Color>
+              </Labels>
+              <Title Ref="37" type="Stimulsoft.Report.Chart.StiAxisTitle" isKey="true">
+                <fn>Tahoma,12,Bold</fn>
+                <Color>140, 140, 140</Color>
+              </Title>
+              <Ticks Ref="38" type="Stimulsoft.Report.Chart.StiAxisTicks" isKey="true" />
+              <LineColor>140, 140, 140</LineColor>
+              <Area isRef="9" />
+            </XTopAxis>
+            <Chart isRef="4" />
+            <AllowApplyStyle>False</AllowApplyStyle>
+            <BorderColor>Transparent</BorderColor>
+            <bh>EmptyBrush</bh>
+          </Area>
+          <Table Ref="39" type="Stimulsoft.Report.Chart.StiChartTable" isKey="true">
+            <GridLineColor>225, 225, 225</GridLineColor>
+            <Header Ref="40" type="Stimulsoft.Report.Chart.StiChartTableHeader" isKey="true">
+              <bh>White</bh>
+              <fn>Arial,8</fn>
+              <TextColor>DarkGray</TextColor>
+            </Header>
+            <DataCells Ref="41" type="Stimulsoft.Report.Chart.StiChartTableDataCells" isKey="true">
+              <ShrinkFontToFit>False</ShrinkFontToFit>
+              <fn>Arial,8</fn>
+              <TextColor>140, 140, 140</TextColor>
+            </DataCells>
+          </Table>
+          <Style Ref="42" type="Stimulsoft.Report.Chart.StiStyle25" isKey="true">
+            <Conditions isList="true" count="0" />
+            <Name />
+          </Style>
+          <AllowApplyStyle>False</AllowApplyStyle>
+          <CustomStyleName />
+          <SeriesLabels Ref="43" type="Stimulsoft.Report.Chart.StiOutsideEndAxisLabels" isKey="true">
+            <AllowApplyStyle>False</AllowApplyStyle>
+            <MarkerSize>8, 6</MarkerSize>
+            <ValueTypeSeparator>-</ValueTypeSeparator>
+            <LabelColor>White</LabelColor>
+            <BorderColor>Transparent</BorderColor>
+            <bh>Transparent</bh>
+            <fn>Arial,10</fn>
+            <Chart isRef="4" />
+            <Width>0</Width>
+          </SeriesLabels>
+          <Legend Ref="44" type="Stimulsoft.Report.Chart.StiLegend" isKey="true">
+            <Chart isRef="4" />
+            <ShowShadow>False</ShowShadow>
+            <BorderColor>225, 225, 225</BorderColor>
+            <bh>[255:255:255]</bh>
+            <TitleColor>DimGray</TitleColor>
+            <LabelsColor>140, 140, 140</LabelsColor>
+            <TitleFont>Arial,14,Bold</TitleFont>
+            <fn>Arial,8</fn>
+            <Visible>False</Visible>
+            <MarkerSize>10, 10</MarkerSize>
+          </Legend>
+          <Title Ref="45" type="Stimulsoft.Report.Chart.StiChartTitle" isKey="true">
+            <AllowApplyStyle>False</AllowApplyStyle>
+            <fn>Tahoma,12</fn>
+            <text>Conversions by Social Network (30 Days)</text>
+            <bh>White</bh>
+            <Alignment>Near</Alignment>
+            <Visible>True</Visible>
+          </Title>
+          <Strips isList="true" count="0" />
+          <ConstantLines isList="true" count="0" />
+          <IsAnimation>False</IsAnimation>
+          <Filters isList="true" count="0" />
+          <br>None;Black;0;Solid;False;4;Black</br>
+          <bh>[42:42:42]</bh>
+          <Sort isList="true" count="0" />
+          <SeriesLabelsConditions isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <ClientRectangle>0.1,0.1,4.9,2.9</ClientRectangle>
+          <Name>Chart1</Name>
+          <ComponentPlacement>p.Page1</ComponentPlacement>
+        </Chart1>
+        <Chart2 Ref="46" type="Stimulsoft.Report.Chart.StiChart" isKey="true">
+          <Series isList="true" count="4">
+            <Item5 Ref="47" type="Stimulsoft.Report.Chart.StiClusteredColumnSeries" isKey="true">
+              <BorderColor>Transparent</BorderColor>
+              <bh>[72:118:215]</bh>
+              <BrushNegative>Firebrick</BrushNegative>
+              <AllowApplyStyle>False</AllowApplyStyle>
+              <ShowShadow>False</ShowShadow>
+              <Filters isList="true" count="0" />
+              <Conditions isList="true" count="0" />
+              <TopN Ref="48" type="Stimulsoft.Report.Chart.StiSeriesTopN" isKey="true" />
+              <SeriesLabels Ref="49" type="Stimulsoft.Report.Chart.StiCenterAxisLabels" isKey="true">
+                <MarkerSize>8, 6</MarkerSize>
+                <ValueTypeSeparator>-</ValueTypeSeparator>
+                <LabelColor>51, 71, 91</LabelColor>
+                <BorderColor>Transparent</BorderColor>
+                <bh>Transparent</bh>
+                <fn>Arial,10</fn>
+                <Chart isRef="46" />
+                <Width>0</Width>
+              </SeriesLabels>
+              <TrendLine Ref="50" type="Stimulsoft.Report.Chart.StiTrendLineNone" isKey="true">
+                <LineColor>DimGray</LineColor>
+                <ShowShadow>False</ShowShadow>
+              </TrendLine>
+              <Chart isRef="46" />
+              <ValuesString>718;291;666;347;573;453;600;743;405;218;372;646</ValuesString>
+              <ArgumentsString />
+              <ToolTipsString />
+              <TagString />
+              <HyperlinkString />
+              <TitleValue>Clicks</TitleValue>
+            </Item5>
+            <Item6 Ref="51" type="Stimulsoft.Report.Chart.StiAreaSeries" isKey="true">
+              <bh>[170:236:147:47]</bh>
+              <BrushNegative>Firebrick</BrushNegative>
+              <Marker Ref="52" type="Stimulsoft.Report.Chart.StiMarker" isKey="true">
+                <bh>[255:255:100]</bh>
+                <BorderColor>155, 92, 0</BorderColor>
+                <Size>0</Size>
+              </Marker>
+              <LineMarker Ref="53" type="Stimulsoft.Report.Chart.StiLineMarker" isKey="true">
+                <bh>[255:242:50]</bh>
+                <BorderColor>105, 42, 0</BorderColor>
+              </LineMarker>
+              <LineColor>236, 147, 47</LineColor>
+              <Lighting>False</Lighting>
+              <LineColorNegative>Firebrick</LineColorNegative>
+              <AllowApplyStyle>False</AllowApplyStyle>
+              <ShowShadow>False</ShowShadow>
+              <Filters isList="true" count="0" />
+              <Conditions isList="true" count="0" />
+              <TopN Ref="54" type="Stimulsoft.Report.Chart.StiSeriesTopN" isKey="true" />
+              <SeriesLabels Ref="55" type="Stimulsoft.Report.Chart.StiOutsideEndAxisLabels" isKey="true">
+                <MarkerSize>8, 6</MarkerSize>
+                <ValueTypeSeparator>-</ValueTypeSeparator>
+                <LabelColor>51, 71, 91</LabelColor>
+                <BorderColor>Transparent</BorderColor>
+                <bh>Transparent</bh>
+                <fn>Arial,10</fn>
+                <Chart isRef="46" />
+                <Width>0</Width>
+              </SeriesLabels>
+              <TrendLine Ref="56" type="Stimulsoft.Report.Chart.StiTrendLineNone" isKey="true">
+                <LineColor>DimGray</LineColor>
+                <ShowShadow>False</ShowShadow>
+              </TrendLine>
+              <Chart isRef="46" />
+              <ValuesString>241;295;276;232;736;375;644;571;224;699;504;473</ValuesString>
+              <ArgumentsString />
+              <ToolTipsString />
+              <TagString />
+              <HyperlinkString />
+              <TitleValue>Impressions</TitleValue>
+            </Item6>
+            <Item7 Ref="57" type="Stimulsoft.Report.Chart.StiClusteredColumnSeries" isKey="true">
+              <BorderColor>Transparent</BorderColor>
+              <bh>[225:77:87]</bh>
+              <BrushNegative>Firebrick</BrushNegative>
+              <AllowApplyStyle>False</AllowApplyStyle>
+              <ShowShadow>False</ShowShadow>
+              <Filters isList="true" count="0" />
+              <Conditions isList="true" count="0" />
+              <TopN Ref="58" type="Stimulsoft.Report.Chart.StiSeriesTopN" isKey="true" />
+              <SeriesLabels Ref="59" type="Stimulsoft.Report.Chart.StiCenterAxisLabels" isKey="true">
+                <MarkerSize>8, 6</MarkerSize>
+                <ValueTypeSeparator>-</ValueTypeSeparator>
+                <LabelColor>51, 71, 91</LabelColor>
+                <BorderColor>Transparent</BorderColor>
+                <bh>Transparent</bh>
+                <fn>Arial,10</fn>
+                <Chart isRef="46" />
+                <Width>0</Width>
+              </SeriesLabels>
+              <TrendLine Ref="60" type="Stimulsoft.Report.Chart.StiTrendLineNone" isKey="true">
+                <LineColor>DimGray</LineColor>
+                <ShowShadow>False</ShowShadow>
+              </TrendLine>
+              <Chart isRef="46" />
+              <ValuesString>270;421;482;409;382;541;615;630;222;227;297;478</ValuesString>
+              <ArgumentsString />
+              <ToolTipsString />
+              <TagString />
+              <HyperlinkString />
+              <TitleValue>Likes</TitleValue>
+            </Item7>
+            <Item8 Ref="61" type="Stimulsoft.Report.Chart.StiLineSeries" isKey="true">
+              <Marker Ref="62" type="Stimulsoft.Report.Chart.StiMarker" isKey="true">
+                <bh>[167:204:143]</bh>
+                <BorderColor>0, 4, 0</BorderColor>
+                <Size>0</Size>
+              </Marker>
+              <LineMarker Ref="63" type="Stimulsoft.Report.Chart.StiLineMarker" isKey="true">
+                <bh>[117:154:93]</bh>
+                <BorderColor>Black</BorderColor>
+              </LineMarker>
+              <LineColor>67, 104, 43</LineColor>
+              <Lighting>False</Lighting>
+              <LineColorNegative>Firebrick</LineColorNegative>
+              <ShowShadow>False</ShowShadow>
+              <Filters isList="true" count="0" />
+              <Conditions isList="true" count="0" />
+              <TopN Ref="64" type="Stimulsoft.Report.Chart.StiSeriesTopN" isKey="true" />
+              <SeriesLabels Ref="65" type="Stimulsoft.Report.Chart.StiOutsideEndAxisLabels" isKey="true">
+                <MarkerSize>8, 6</MarkerSize>
+                <ValueTypeSeparator>-</ValueTypeSeparator>
+                <LabelColor>51, 71, 91</LabelColor>
+                <BorderColor>Transparent</BorderColor>
+                <bh>Transparent</bh>
+                <fn>Arial,10</fn>
+                <Chart isRef="46" />
+                <Width>0</Width>
+              </SeriesLabels>
+              <TrendLine Ref="66" type="Stimulsoft.Report.Chart.StiTrendLineNone" isKey="true">
+                <LineColor>DimGray</LineColor>
+                <ShowShadow>False</ShowShadow>
+              </TrendLine>
+              <Chart isRef="46" />
+              <ValuesString>723;579;728;717;544;466;653;553;545;364;582;442</ValuesString>
+              <ArgumentsString />
+              <ToolTipsString />
+              <TagString />
+              <HyperlinkString />
+              <TitleValue>Engagement</TitleValue>
+            </Item8>
+          </Series>
+          <Area Ref="67" type="Stimulsoft.Report.Chart.StiClusteredColumnArea" isKey="true">
+            <InterlacingHor Ref="68" type="Stimulsoft.Report.Chart.StiInterlacingHor" isKey="true">
+              <AllowApplyStyle>False</AllowApplyStyle>
+              <InterlacedBrush>[10:155:155:155]</InterlacedBrush>
+              <Visible>False</Visible>
+              <Area isRef="67" />
+            </InterlacingHor>
+            <InterlacingVert Ref="69" type="Stimulsoft.Report.Chart.StiInterlacingVert" isKey="true">
+              <AllowApplyStyle>False</AllowApplyStyle>
+              <InterlacedBrush>[10:155:155:155]</InterlacedBrush>
+              <Visible>False</Visible>
+              <Area isRef="67" />
+            </InterlacingVert>
+            <GridLinesHor Ref="70" type="Stimulsoft.Report.Chart.StiGridLinesHor" isKey="true">
+              <Color>100, 105, 105, 105</Color>
+              <MinorColor>100, 105, 105, 105</MinorColor>
+              <Visible>False</Visible>
+              <Area isRef="67" />
+            </GridLinesHor>
+            <GridLinesHorRight Ref="71" type="Stimulsoft.Report.Chart.StiGridLinesHor" isKey="true">
+              <Color>Silver</Color>
+              <MinorColor>Gainsboro</MinorColor>
+              <Visible>False</Visible>
+              <Area isRef="67" />
+            </GridLinesHorRight>
+            <GridLinesVert Ref="72" type="Stimulsoft.Report.Chart.StiGridLinesVert" isKey="true">
+              <AllowApplyStyle>False</AllowApplyStyle>
+              <Color>100, 105, 105, 105</Color>
+              <MinorColor>100, 105, 105, 105</MinorColor>
+              <Style>Solid</Style>
+              <MinorStyle>Solid</MinorStyle>
+              <Area isRef="67" />
+            </GridLinesVert>
+            <YAxis Ref="73" type="Stimulsoft.Report.Chart.StiYLeftAxis" isKey="true">
+              <Interaction Ref="74" type="Stimulsoft.Report.Chart.StiAxisInteraction" isKey="true" />
+              <Labels Ref="75" type="Stimulsoft.Report.Chart.StiAxisLabels" isKey="true">
+                <fn>Tahoma,8</fn>
+                <Color>White</Color>
+              </Labels>
+              <Range Ref="76" type="Stimulsoft.Report.Chart.StiAxisRange" isKey="true" />
+              <Title Ref="77" type="Stimulsoft.Report.Chart.StiAxisTitle" isKey="true">
+                <fn>Tahoma,12,Bold</fn>
+                <text>Clicks and Likes</text>
+                <Color>140, 140, 140</Color>
+                <Direction>BottomToTop</Direction>
+              </Title>
+              <Ticks Ref="78" type="Stimulsoft.Report.Chart.StiAxisTicks" isKey="true" />
+              <LineColor>140, 140, 140</LineColor>
+              <Area isRef="67" />
+            </YAxis>
+            <YRightAxis Ref="79" type="Stimulsoft.Report.Chart.StiYRightAxis" isKey="true">
+              <Interaction Ref="80" type="Stimulsoft.Report.Chart.StiAxisInteraction" isKey="true" />
+              <Labels Ref="81" type="Stimulsoft.Report.Chart.StiAxisLabels" isKey="true">
+                <fn>Tahoma,8</fn>
+                <Color>140, 140, 140</Color>
+                <TextAlignment>Left</TextAlignment>
+              </Labels>
+              <Range Ref="82" type="Stimulsoft.Report.Chart.StiAxisRange" isKey="true" />
+              <Title Ref="83" type="Stimulsoft.Report.Chart.StiAxisTitle" isKey="true">
+                <fn>Tahoma,12,Bold</fn>
+                <Color>140, 140, 140</Color>
+                <Direction>TopToBottom</Direction>
+              </Title>
+              <Ticks Ref="84" type="Stimulsoft.Report.Chart.StiAxisTicks" isKey="true" />
+              <LineColor>140, 140, 140</LineColor>
+              <Area isRef="67" />
+            </YRightAxis>
+            <XAxis Ref="85" type="Stimulsoft.Report.Chart.StiXBottomAxis" isKey="true">
+              <DateTimeStep Ref="86" type="Stimulsoft.Report.Chart.StiAxisDateTimeStep" isKey="true" />
+              <Interaction Ref="87" type="Stimulsoft.Report.Chart.StiAxisInteraction" isKey="true" />
+              <Labels Ref="88" type="Stimulsoft.Report.Chart.StiAxisLabels" isKey="true">
+                <fn>Tahoma,8</fn>
+                <Color>White</Color>
+              </Labels>
+              <Range Ref="89" type="Stimulsoft.Report.Chart.StiAxisRange" isKey="true" />
+              <Title Ref="90" type="Stimulsoft.Report.Chart.StiAxisTitle" isKey="true">
+                <fn>Tahoma,12</fn>
+                <Color>White</Color>
+              </Title>
+              <Ticks Ref="91" type="Stimulsoft.Report.Chart.StiAxisTicks" isKey="true" />
+              <LineColor>140, 140, 140</LineColor>
+              <Area isRef="67" />
+            </XAxis>
+            <XTopAxis Ref="92" type="Stimulsoft.Report.Chart.StiXTopAxis" isKey="true">
+              <Interaction Ref="93" type="Stimulsoft.Report.Chart.StiAxisInteraction" isKey="true" />
+              <Labels Ref="94" type="Stimulsoft.Report.Chart.StiAxisLabels" isKey="true">
+                <fn>Tahoma,8</fn>
+                <Color>140, 140, 140</Color>
+              </Labels>
+              <Title Ref="95" type="Stimulsoft.Report.Chart.StiAxisTitle" isKey="true">
+                <fn>Tahoma,12,Bold</fn>
+                <Color>140, 140, 140</Color>
+              </Title>
+              <Ticks Ref="96" type="Stimulsoft.Report.Chart.StiAxisTicks" isKey="true" />
+              <LineColor>140, 140, 140</LineColor>
+              <Area isRef="67" />
+            </XTopAxis>
+            <Chart isRef="46" />
+            <AllowApplyStyle>False</AllowApplyStyle>
+            <BorderColor>Transparent</BorderColor>
+            <bh>EmptyBrush</bh>
+          </Area>
+          <Table Ref="97" type="Stimulsoft.Report.Chart.StiChartTable" isKey="true">
+            <GridLineColor>225, 225, 225</GridLineColor>
+            <Header Ref="98" type="Stimulsoft.Report.Chart.StiChartTableHeader" isKey="true">
+              <bh>White</bh>
+              <fn>Arial,8</fn>
+              <TextColor>DarkGray</TextColor>
+            </Header>
+            <DataCells Ref="99" type="Stimulsoft.Report.Chart.StiChartTableDataCells" isKey="true">
+              <ShrinkFontToFit>False</ShrinkFontToFit>
+              <fn>Arial,8</fn>
+              <TextColor>140, 140, 140</TextColor>
+            </DataCells>
+          </Table>
+          <Style Ref="100" type="Stimulsoft.Report.Chart.StiStyle25" isKey="true">
+            <Conditions isList="true" count="0" />
+            <Name />
+          </Style>
+          <AllowApplyStyle>False</AllowApplyStyle>
+          <CustomStyleName />
+          <SeriesLabels Ref="101" type="Stimulsoft.Report.Chart.StiNoneLabels" isKey="true">
+            <MarkerSize>8, 6</MarkerSize>
+            <ValueTypeSeparator>-</ValueTypeSeparator>
+            <Chart isRef="46" />
+            <Width>0</Width>
+          </SeriesLabels>
+          <Legend Ref="102" type="Stimulsoft.Report.Chart.StiLegend" isKey="true">
+            <AllowApplyStyle>False</AllowApplyStyle>
+            <Chart isRef="46" />
+            <ShowShadow>False</ShowShadow>
+            <BorderColor>Transparent</BorderColor>
+            <bh>EmptyBrush</bh>
+            <TitleColor>DimGray</TitleColor>
+            <LabelsColor>White</LabelsColor>
+            <va>TopOutside</va>
+            <TitleFont>Arial,14,Bold</TitleFont>
+            <fn>Arial,8</fn>
+            <MarkerSize>10, 10</MarkerSize>
+            <Columns>1</Columns>
+          </Legend>
+          <Title Ref="103" type="Stimulsoft.Report.Chart.StiChartTitle" isKey="true">
+            <AllowApplyStyle>False</AllowApplyStyle>
+            <fn>Tahoma,12</fn>
+            <text>LinkedIn Key Metrics (12 Months)</text>
+            <bh>White</bh>
+            <Alignment>Near</Alignment>
+            <Visible>True</Visible>
+          </Title>
+          <Strips isList="true" count="0" />
+          <ConstantLines isList="true" count="0" />
+          <IsAnimation>False</IsAnimation>
+          <Filters isList="true" count="0" />
+          <br>None;Black;0;Solid;False;4;Black</br>
+          <bh>[42:42:42]</bh>
+          <Sort isList="true" count="0" />
+          <SeriesLabelsConditions isList="true" count="0" />
+          <Guid>566b745762d548dcb64a34d61054e39f</Guid>
+          <Conditions isList="true" count="0" />
+          <ClientRectangle>5.1,0.1,5,2.9</ClientRectangle>
+          <Name>Chart2</Name>
+          <ComponentPlacement>p.Page1</ComponentPlacement>
+        </Chart2>
+        <Chart3 Ref="104" type="Stimulsoft.Report.Chart.StiChart" isKey="true">
+          <Series isList="true" count="3">
+            <Item10 Ref="105" type="Stimulsoft.Report.Chart.StiStackedColumnSeries" isKey="true">
+              <BorderColor>Transparent</BorderColor>
+              <bh>[225:77:87]</bh>
+              <BrushNegative>Firebrick</BrushNegative>
+              <AllowApplyStyle>False</AllowApplyStyle>
+              <ShowShadow>False</ShowShadow>
+              <Filters isList="true" count="0" />
+              <Conditions isList="true" count="0" />
+              <TopN Ref="106" type="Stimulsoft.Report.Chart.StiSeriesTopN" isKey="true" />
+              <SeriesLabels Ref="107" type="Stimulsoft.Report.Chart.StiCenterAxisLabels" isKey="true">
+                <MarkerSize>8, 6</MarkerSize>
+                <ValueTypeSeparator>-</ValueTypeSeparator>
+                <LabelColor>51, 71, 91</LabelColor>
+                <BorderColor>Transparent</BorderColor>
+                <bh>Transparent</bh>
+                <fn>Arial,10</fn>
+                <Chart isRef="104" />
+                <Width>0</Width>
+              </SeriesLabels>
+              <Chart isRef="104" />
+              <ValuesString>5;2;10;2;8;2;9;2;4;6;7;6;6;9;3;7;8;2;7;3;4;5;7;2;7;10;4;8;6;7</ValuesString>
+              <ArgumentsString />
+              <ToolTipsString />
+              <TagString />
+              <HyperlinkString />
+              <TitleValue>Negative</TitleValue>
+            </Item10>
+            <Item11 Ref="108" type="Stimulsoft.Report.Chart.StiStackedColumnSeries" isKey="true">
+              <BorderColor>Transparent</BorderColor>
+              <bh>[239:209:64]</bh>
+              <BrushNegative>Firebrick</BrushNegative>
+              <AllowApplyStyle>False</AllowApplyStyle>
+              <ShowShadow>False</ShowShadow>
+              <Filters isList="true" count="0" />
+              <Conditions isList="true" count="0" />
+              <TopN Ref="109" type="Stimulsoft.Report.Chart.StiSeriesTopN" isKey="true" />
+              <SeriesLabels Ref="110" type="Stimulsoft.Report.Chart.StiCenterAxisLabels" isKey="true">
+                <MarkerSize>8, 6</MarkerSize>
+                <ValueTypeSeparator>-</ValueTypeSeparator>
+                <LabelColor>51, 71, 91</LabelColor>
+                <BorderColor>Transparent</BorderColor>
+                <bh>Transparent</bh>
+                <fn>Arial,10</fn>
+                <Chart isRef="104" />
+                <Width>0</Width>
+              </SeriesLabels>
+              <Chart isRef="104" />
+              <ValuesString>18;12;14;19;25;21;16;17;28;30;26;15;17;19;26;16;14;17;14;13;21;17;24;30;30;19;27;25;12;30</ValuesString>
+              <ArgumentsString />
+              <ToolTipsString />
+              <TagString />
+              <HyperlinkString />
+              <TitleValue>Neutral</TitleValue>
+            </Item11>
+            <Item12 Ref="111" type="Stimulsoft.Report.Chart.StiStackedColumnSeries" isKey="true">
+              <BorderColor>Transparent</BorderColor>
+              <bh>[113:179:124]</bh>
+              <BrushNegative>Firebrick</BrushNegative>
+              <AllowApplyStyle>False</AllowApplyStyle>
+              <ShowShadow>False</ShowShadow>
+              <Filters isList="true" count="0" />
+              <Conditions isList="true" count="0" />
+              <TopN Ref="112" type="Stimulsoft.Report.Chart.StiSeriesTopN" isKey="true" />
+              <SeriesLabels Ref="113" type="Stimulsoft.Report.Chart.StiCenterAxisLabels" isKey="true">
+                <MarkerSize>8, 6</MarkerSize>
+                <ValueTypeSeparator>-</ValueTypeSeparator>
+                <LabelColor>51, 71, 91</LabelColor>
+                <BorderColor>Transparent</BorderColor>
+                <bh>Transparent</bh>
+                <fn>Arial,10</fn>
+                <Chart isRef="104" />
+                <Width>0</Width>
+              </SeriesLabels>
+              <Chart isRef="104" />
+              <ValuesString>39;34;36;33;30;47;45;44;31;47;37;32;31;48;43;40;41;31;35;43;37;44;42;34;47;40;45;34;43;45</ValuesString>
+              <ArgumentsString />
+              <ToolTipsString />
+              <TagString />
+              <HyperlinkString />
+              <TitleValue>Positive</TitleValue>
+            </Item12>
+          </Series>
+          <Area Ref="114" type="Stimulsoft.Report.Chart.StiStackedColumnArea" isKey="true">
+            <InterlacingHor Ref="115" type="Stimulsoft.Report.Chart.StiInterlacingHor" isKey="true">
+              <InterlacedBrush>Transparent</InterlacedBrush>
+              <Area isRef="114" />
+            </InterlacingHor>
+            <InterlacingVert Ref="116" type="Stimulsoft.Report.Chart.StiInterlacingVert" isKey="true">
+              <InterlacedBrush>Transparent</InterlacedBrush>
+              <Area isRef="114" />
+            </InterlacingVert>
+            <GridLinesHor Ref="117" type="Stimulsoft.Report.Chart.StiGridLinesHor" isKey="true">
+              <AllowApplyStyle>False</AllowApplyStyle>
+              <Color>Silver</Color>
+              <MinorColor>Gainsboro</MinorColor>
+              <MinorStyle>Solid</MinorStyle>
+              <Area isRef="114" />
+            </GridLinesHor>
+            <GridLinesHorRight Ref="118" type="Stimulsoft.Report.Chart.StiGridLinesHor" isKey="true">
+              <Color>Silver</Color>
+              <MinorColor>Gainsboro</MinorColor>
+              <Visible>False</Visible>
+              <Area isRef="114" />
+            </GridLinesHorRight>
+            <GridLinesVert Ref="119" type="Stimulsoft.Report.Chart.StiGridLinesVert" isKey="true">
+              <AllowApplyStyle>False</AllowApplyStyle>
+              <Color>Transparent</Color>
+              <MinorColor>Gainsboro</MinorColor>
+              <Style>Solid</Style>
+              <Area isRef="114" />
+            </GridLinesVert>
+            <YAxis Ref="120" type="Stimulsoft.Report.Chart.StiYLeftAxis" isKey="true">
+              <Interaction Ref="121" type="Stimulsoft.Report.Chart.StiAxisInteraction" isKey="true" />
+              <Labels Ref="122" type="Stimulsoft.Report.Chart.StiAxisLabels" isKey="true">
+                <fn>Tahoma,8</fn>
+                <Color>White</Color>
+              </Labels>
+              <Range Ref="123" type="Stimulsoft.Report.Chart.StiAxisRange" isKey="true" />
+              <Title Ref="124" type="Stimulsoft.Report.Chart.StiAxisTitle" isKey="true">
+                <fn>Tahoma,12,Bold</fn>
+                <Color>Black</Color>
+                <Direction>BottomToTop</Direction>
+              </Title>
+              <Ticks Ref="125" type="Stimulsoft.Report.Chart.StiAxisTicks" isKey="true" />
+              <LineColor>Gray</LineColor>
+              <Area isRef="114" />
+            </YAxis>
+            <YRightAxis Ref="126" type="Stimulsoft.Report.Chart.StiYRightAxis" isKey="true">
+              <Interaction Ref="127" type="Stimulsoft.Report.Chart.StiAxisInteraction" isKey="true" />
+              <Labels Ref="128" type="Stimulsoft.Report.Chart.StiAxisLabels" isKey="true">
+                <fn>Tahoma,8</fn>
+                <Color>Black</Color>
+                <TextAlignment>Left</TextAlignment>
+              </Labels>
+              <Range Ref="129" type="Stimulsoft.Report.Chart.StiAxisRange" isKey="true" />
+              <Title Ref="130" type="Stimulsoft.Report.Chart.StiAxisTitle" isKey="true">
+                <fn>Tahoma,12,Bold</fn>
+                <Color>Black</Color>
+                <Direction>TopToBottom</Direction>
+              </Title>
+              <Ticks Ref="131" type="Stimulsoft.Report.Chart.StiAxisTicks" isKey="true" />
+              <LineColor>Gray</LineColor>
+              <Area isRef="114" />
+            </YRightAxis>
+            <XAxis Ref="132" type="Stimulsoft.Report.Chart.StiXBottomAxis" isKey="true">
+              <DateTimeStep Ref="133" type="Stimulsoft.Report.Chart.StiAxisDateTimeStep" isKey="true" />
+              <Interaction Ref="134" type="Stimulsoft.Report.Chart.StiAxisInteraction" isKey="true" />
+              <Labels Ref="135" type="Stimulsoft.Report.Chart.StiAxisLabels" isKey="true">
+                <fn>Tahoma,8</fn>
+                <Color>Black</Color>
+              </Labels>
+              <Range Ref="136" type="Stimulsoft.Report.Chart.StiAxisRange" isKey="true" />
+              <Title Ref="137" type="Stimulsoft.Report.Chart.StiAxisTitle" isKey="true">
+                <fn>Tahoma,12,Bold</fn>
+                <Color>Black</Color>
+              </Title>
+              <Ticks Ref="138" type="Stimulsoft.Report.Chart.StiAxisTicks" isKey="true" />
+              <LineColor>Gray</LineColor>
+              <Visible>False</Visible>
+              <Area isRef="114" />
+            </XAxis>
+            <XTopAxis Ref="139" type="Stimulsoft.Report.Chart.StiXTopAxis" isKey="true">
+              <Interaction Ref="140" type="Stimulsoft.Report.Chart.StiAxisInteraction" isKey="true" />
+              <Labels Ref="141" type="Stimulsoft.Report.Chart.StiAxisLabels" isKey="true">
+                <fn>Tahoma,8</fn>
+                <Color>Black</Color>
+              </Labels>
+              <Title Ref="142" type="Stimulsoft.Report.Chart.StiAxisTitle" isKey="true">
+                <fn>Tahoma,12,Bold</fn>
+                <Color>Black</Color>
+              </Title>
+              <Ticks Ref="143" type="Stimulsoft.Report.Chart.StiAxisTicks" isKey="true" />
+              <LineColor>Gray</LineColor>
+              <Area isRef="114" />
+            </XTopAxis>
+            <Chart isRef="104" />
+            <AllowApplyStyle>False</AllowApplyStyle>
+            <BorderColor>Gray</BorderColor>
+            <bh>EmptyBrush</bh>
+          </Area>
+          <Table Ref="144" type="Stimulsoft.Report.Chart.StiChartTable" isKey="true">
+            <GridLineColor>225, 225, 225</GridLineColor>
+            <Header Ref="145" type="Stimulsoft.Report.Chart.StiChartTableHeader" isKey="true">
+              <bh>White</bh>
+              <fn>Arial,8</fn>
+              <TextColor>DarkGray</TextColor>
+            </Header>
+            <DataCells Ref="146" type="Stimulsoft.Report.Chart.StiChartTableDataCells" isKey="true">
+              <ShrinkFontToFit>False</ShrinkFontToFit>
+              <fn>Arial,8</fn>
+              <TextColor>140, 140, 140</TextColor>
+            </DataCells>
+          </Table>
+          <Style Ref="147" type="Stimulsoft.Report.Chart.StiStyle25" isKey="true">
+            <Conditions isList="true" count="0" />
+            <Name />
+          </Style>
+          <AllowApplyStyle>False</AllowApplyStyle>
+          <CustomStyleName />
+          <SeriesLabels Ref="148" type="Stimulsoft.Report.Chart.StiNoneLabels" isKey="true">
+            <AllowApplyStyle>False</AllowApplyStyle>
+            <MarkerSize>8, 6</MarkerSize>
+            <ValueTypeSeparator>-</ValueTypeSeparator>
+            <Chart isRef="104" />
+            <Width>0</Width>
+          </SeriesLabels>
+          <Legend Ref="149" type="Stimulsoft.Report.Chart.StiLegend" isKey="true">
+            <AllowApplyStyle>False</AllowApplyStyle>
+            <Chart isRef="104" />
+            <ShowShadow>False</ShowShadow>
+            <BorderColor>Transparent</BorderColor>
+            <bh>EmptyBrush</bh>
+            <TitleColor>DimGray</TitleColor>
+            <LabelsColor>White</LabelsColor>
+            <va>TopOutside</va>
+            <TitleFont>Arial,14,Bold</TitleFont>
+            <fn>Arial,8</fn>
+            <MarkerSize>10, 10</MarkerSize>
+            <Columns>1</Columns>
+          </Legend>
+          <Title Ref="150" type="Stimulsoft.Report.Chart.StiChartTitle" isKey="true">
+            <AllowApplyStyle>False</AllowApplyStyle>
+            <fn>Tahoma,12</fn>
+            <text>Talkwalker Brand Sentiment (Last 30 Days)</text>
+            <bh>White</bh>
+            <Alignment>Near</Alignment>
+            <Visible>True</Visible>
+          </Title>
+          <Strips isList="true" count="0" />
+          <ConstantLines isList="true" count="0" />
+          <IsAnimation>False</IsAnimation>
+          <Filters isList="true" count="0" />
+          <br>None;Black;0;Solid;False;4;Black</br>
+          <bh>[42:42:42]</bh>
+          <Sort isList="true" count="0" />
+          <SeriesLabelsConditions isList="true" count="0" />
+          <Guid>16798c8b9b6643298612da1cac25953d</Guid>
+          <Conditions isList="true" count="0" />
+          <ClientRectangle>0.1,3.1,10,2</ClientRectangle>
+          <Name>Chart3</Name>
+          <ComponentPlacement>p.Page1</ComponentPlacement>
+        </Chart3>
+        <Chart4 Ref="151" type="Stimulsoft.Report.Chart.StiChart" isKey="true">
+          <Series isList="true" count="1">
+            <Item14 Ref="152" type="Stimulsoft.Report.Chart.StiClusteredColumnSeries" isKey="true">
+              <BorderColor>Transparent</BorderColor>
+              <bh>[82:144:233]</bh>
+              <BrushNegative>Firebrick</BrushNegative>
+              <AllowApplyStyle>False</AllowApplyStyle>
+              <ShowShadow>False</ShowShadow>
+              <Filters isList="true" count="0" />
+              <Conditions isList="true" count="0" />
+              <TopN Ref="153" type="Stimulsoft.Report.Chart.StiSeriesTopN" isKey="true" />
+              <SeriesLabels Ref="154" type="Stimulsoft.Report.Chart.StiCenterAxisLabels" isKey="true">
+                <MarkerSize>8, 6</MarkerSize>
+                <ValueTypeSeparator>-</ValueTypeSeparator>
+                <LabelColor>51, 71, 91</LabelColor>
+                <BorderColor>Transparent</BorderColor>
+                <bh>Transparent</bh>
+                <fn>Arial,10</fn>
+                <Chart isRef="151" />
+                <Width>0</Width>
+              </SeriesLabels>
+              <TrendLine Ref="155" type="Stimulsoft.Report.Chart.StiTrendLineNone" isKey="true">
+                <LineColor>DimGray</LineColor>
+                <ShowShadow>False</ShowShadow>
+              </TrendLine>
+              <Chart isRef="151" />
+              <ValuesString>579;518;551;606;605;687;525;686;635;676;703;720;478;685;522;681;568;626;740;656;594;637;746;515;539;485;486;613;492;574</ValuesString>
+              <ArgumentsString />
+              <ToolTipsString />
+              <TagString />
+              <HyperlinkString />
+              <TitleValue>Clicks</TitleValue>
+            </Item14>
+          </Series>
+          <Area Ref="156" type="Stimulsoft.Report.Chart.StiClusteredColumnArea" isKey="true">
+            <InterlacingHor Ref="157" type="Stimulsoft.Report.Chart.StiInterlacingHor" isKey="true">
+              <InterlacedBrush>Transparent</InterlacedBrush>
+              <Area isRef="156" />
+            </InterlacingHor>
+            <InterlacingVert Ref="158" type="Stimulsoft.Report.Chart.StiInterlacingVert" isKey="true">
+              <InterlacedBrush>Transparent</InterlacedBrush>
+              <Area isRef="156" />
+            </InterlacingVert>
+            <GridLinesHor Ref="159" type="Stimulsoft.Report.Chart.StiGridLinesHor" isKey="true">
+              <Color>Silver</Color>
+              <MinorColor>Gainsboro</MinorColor>
+              <Area isRef="156" />
+            </GridLinesHor>
+            <GridLinesHorRight Ref="160" type="Stimulsoft.Report.Chart.StiGridLinesHor" isKey="true">
+              <Color>Silver</Color>
+              <MinorColor>Gainsboro</MinorColor>
+              <Visible>False</Visible>
+              <Area isRef="156" />
+            </GridLinesHorRight>
+            <GridLinesVert Ref="161" type="Stimulsoft.Report.Chart.StiGridLinesVert" isKey="true">
+              <Color>Silver</Color>
+              <MinorColor>Gainsboro</MinorColor>
+              <Visible>False</Visible>
+              <Area isRef="156" />
+            </GridLinesVert>
+            <YAxis Ref="162" type="Stimulsoft.Report.Chart.StiYLeftAxis" isKey="true">
+              <Interaction Ref="163" type="Stimulsoft.Report.Chart.StiAxisInteraction" isKey="true" />
+              <Labels Ref="164" type="Stimulsoft.Report.Chart.StiAxisLabels" isKey="true">
+                <fn>Tahoma,8</fn>
+                <Color>White</Color>
+              </Labels>
+              <Range Ref="165" type="Stimulsoft.Report.Chart.StiAxisRange" isKey="true" />
+              <Title Ref="166" type="Stimulsoft.Report.Chart.StiAxisTitle" isKey="true">
+                <fn>Tahoma,12,Bold</fn>
+                <Color>Black</Color>
+                <Direction>BottomToTop</Direction>
+              </Title>
+              <Ticks Ref="167" type="Stimulsoft.Report.Chart.StiAxisTicks" isKey="true" />
+              <LineColor>Gray</LineColor>
+              <Area isRef="156" />
+            </YAxis>
+            <YRightAxis Ref="168" type="Stimulsoft.Report.Chart.StiYRightAxis" isKey="true">
+              <Interaction Ref="169" type="Stimulsoft.Report.Chart.StiAxisInteraction" isKey="true" />
+              <Labels Ref="170" type="Stimulsoft.Report.Chart.StiAxisLabels" isKey="true">
+                <fn>Tahoma,8</fn>
+                <Color>Black</Color>
+                <TextAlignment>Left</TextAlignment>
+              </Labels>
+              <Range Ref="171" type="Stimulsoft.Report.Chart.StiAxisRange" isKey="true" />
+              <Title Ref="172" type="Stimulsoft.Report.Chart.StiAxisTitle" isKey="true">
+                <fn>Tahoma,12,Bold</fn>
+                <Color>Black</Color>
+                <Direction>TopToBottom</Direction>
+              </Title>
+              <Ticks Ref="173" type="Stimulsoft.Report.Chart.StiAxisTicks" isKey="true" />
+              <LineColor>Gray</LineColor>
+              <Area isRef="156" />
+            </YRightAxis>
+            <XAxis Ref="174" type="Stimulsoft.Report.Chart.StiXBottomAxis" isKey="true">
+              <DateTimeStep Ref="175" type="Stimulsoft.Report.Chart.StiAxisDateTimeStep" isKey="true" />
+              <Interaction Ref="176" type="Stimulsoft.Report.Chart.StiAxisInteraction" isKey="true" />
+              <Labels Ref="177" type="Stimulsoft.Report.Chart.StiAxisLabels" isKey="true">
+                <fn>Tahoma,8</fn>
+                <Color>Black</Color>
+              </Labels>
+              <Range Ref="178" type="Stimulsoft.Report.Chart.StiAxisRange" isKey="true" />
+              <Title Ref="179" type="Stimulsoft.Report.Chart.StiAxisTitle" isKey="true">
+                <fn>Tahoma,12,Bold</fn>
+                <Color>Black</Color>
+              </Title>
+              <Ticks Ref="180" type="Stimulsoft.Report.Chart.StiAxisTicks" isKey="true" />
+              <LineColor>Gray</LineColor>
+              <Visible>False</Visible>
+              <Area isRef="156" />
+            </XAxis>
+            <XTopAxis Ref="181" type="Stimulsoft.Report.Chart.StiXTopAxis" isKey="true">
+              <Interaction Ref="182" type="Stimulsoft.Report.Chart.StiAxisInteraction" isKey="true" />
+              <Labels Ref="183" type="Stimulsoft.Report.Chart.StiAxisLabels" isKey="true">
+                <fn>Tahoma,8</fn>
+                <Color>Black</Color>
+              </Labels>
+              <Title Ref="184" type="Stimulsoft.Report.Chart.StiAxisTitle" isKey="true">
+                <fn>Tahoma,12,Bold</fn>
+                <Color>Black</Color>
+              </Title>
+              <Ticks Ref="185" type="Stimulsoft.Report.Chart.StiAxisTicks" isKey="true" />
+              <LineColor>Gray</LineColor>
+              <Area isRef="156" />
+            </XTopAxis>
+            <Chart isRef="151" />
+            <AllowApplyStyle>False</AllowApplyStyle>
+            <BorderColor>Gray</BorderColor>
+            <bh>EmptyBrush</bh>
+          </Area>
+          <Table Ref="186" type="Stimulsoft.Report.Chart.StiChartTable" isKey="true">
+            <GridLineColor>225, 225, 225</GridLineColor>
+            <Header Ref="187" type="Stimulsoft.Report.Chart.StiChartTableHeader" isKey="true">
+              <bh>White</bh>
+              <fn>Arial,8</fn>
+              <TextColor>DarkGray</TextColor>
+            </Header>
+            <DataCells Ref="188" type="Stimulsoft.Report.Chart.StiChartTableDataCells" isKey="true">
+              <ShrinkFontToFit>False</ShrinkFontToFit>
+              <fn>Arial,8</fn>
+              <TextColor>140, 140, 140</TextColor>
+            </DataCells>
+          </Table>
+          <Style Ref="189" type="Stimulsoft.Report.Chart.StiStyle25" isKey="true">
+            <Conditions isList="true" count="0" />
+            <Name />
+          </Style>
+          <AllowApplyStyle>False</AllowApplyStyle>
+          <CustomStyleName />
+          <SeriesLabels Ref="190" type="Stimulsoft.Report.Chart.StiNoneLabels" isKey="true">
+            <AllowApplyStyle>False</AllowApplyStyle>
+            <MarkerSize>8, 6</MarkerSize>
+            <ValueTypeSeparator>-</ValueTypeSeparator>
+            <Chart isRef="151" />
+            <Width>0</Width>
+          </SeriesLabels>
+          <Legend Ref="191" type="Stimulsoft.Report.Chart.StiLegend" isKey="true">
+            <AllowApplyStyle>False</AllowApplyStyle>
+            <Chart isRef="151" />
+            <ShowShadow>False</ShowShadow>
+            <BorderColor>Transparent</BorderColor>
+            <bh>EmptyBrush</bh>
+            <TitleColor>DimGray</TitleColor>
+            <LabelsColor>White</LabelsColor>
+            <va>TopOutside</va>
+            <TitleFont>Arial,14,Bold</TitleFont>
+            <fn>Arial,8</fn>
+            <MarkerSize>10, 10</MarkerSize>
+            <Columns>1</Columns>
+          </Legend>
+          <Title Ref="192" type="Stimulsoft.Report.Chart.StiChartTitle" isKey="true">
+            <AllowApplyStyle>False</AllowApplyStyle>
+            <fn>Tahoma,12</fn>
+            <text>Bitly - Clicks by Day</text>
+            <bh>White</bh>
+            <Alignment>Near</Alignment>
+            <Visible>True</Visible>
+          </Title>
+          <Strips isList="true" count="0" />
+          <ConstantLines isList="true" count="0" />
+          <IsAnimation>False</IsAnimation>
+          <Filters isList="true" count="0" />
+          <br>None;Black;0;Solid;False;4;Black</br>
+          <bh>[42:42:42]</bh>
+          <Sort isList="true" count="0" />
+          <SeriesLabelsConditions isList="true" count="0" />
+          <Guid>a31436997afe469a85b1585c67a68ae4</Guid>
+          <Conditions isList="true" count="0" />
+          <ClientRectangle>0.1,5.2,10,2</ClientRectangle>
+          <Name>Chart4</Name>
+          <ComponentPlacement>p.Page1</ComponentPlacement>
+        </Chart4>
+        <item4 Ref="193" type="Text" isSer="true" name="Text1" text="Designed by Stimulsoft" pl="p.Page1" rc="7.6,7.3,2.5,0.4" fn="Arial,18" tb="White" bh="Transparent" />
+      </Components>
+      <Guid>ff53e267dcf5476ebb5770626ba1ffcc</Guid>
+      <Conditions isList="true" count="0" />
+      <Name>Page1</Name>
+    </Page1>
+  </Pages>
+  <Variables isList="true" count="0" />
+  <Styles isList="true" count="0" />
+  <Bookmark Ref="194" type="Bookmark" isKey="true">
+    <Bookmarks isList="true" count="0" />
+    <text>Report</text>
+  </Bookmark>
+</StiSerializer>
