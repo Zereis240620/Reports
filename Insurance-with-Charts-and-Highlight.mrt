@@ -1,0 +1,1504 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="1">
+      <Demo Ref="2" type="Stimulsoft.Report.Dictionary.StiXmlDatabase" isKey="true">
+        <Alias>Demo</Alias>
+        <Key />
+        <Name>Demo</Name>
+        <PathData>D:\Demo.xml</PathData>
+        <PathSchema>D:\Demo.xsd</PathSchema>
+      </Demo>
+    </Databases>
+    <DataSources isList="true" count="13">
+      <Categories Ref="3" type="DataTableSource" isKey="true">
+        <Alias>Categories</Alias>
+        <Columns isList="true" count="4">
+          <value>CategoryID,System.Int32</value>
+          <value>CategoryName,System.String</value>
+          <value>Description,System.String</value>
+          <value>Picture,System.Byte[]</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Categories</Name>
+        <NameInSource>Demo.Categories</NameInSource>
+      </Categories>
+      <Countries Ref="4" type="DataTableSource" isKey="true">
+        <Alias>Countries</Alias>
+        <Columns isList="true" count="3">
+          <value>CountriesID,System.Int32</value>
+          <value>CountryName,System.String</value>
+          <value>Flag,System.Byte[]</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Countries</Name>
+        <NameInSource>Demo.Countries</NameInSource>
+      </Countries>
+      <Customers Ref="5" type="DataTableSource" isKey="true">
+        <Alias>Customers</Alias>
+        <Columns isList="true" count="11">
+          <value>Address,System.String</value>
+          <value>City,System.String</value>
+          <value>CompanyName,System.String</value>
+          <value>ContactName,System.String</value>
+          <value>ContactTitle,System.String</value>
+          <value>Country,System.String</value>
+          <value>CustomerID,System.String</value>
+          <value>Fax,System.String</value>
+          <value>Phone,System.String</value>
+          <value>PostalCode,System.String</value>
+          <value>Region,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Customers</Name>
+        <NameInSource>Demo.Customers</NameInSource>
+      </Customers>
+      <Employees Ref="6" type="DataTableSource" isKey="true">
+        <Alias>Employees</Alias>
+        <Columns isList="true" count="17">
+          <value>Address,System.String</value>
+          <value>BirthDate,System.DateTime</value>
+          <value>City,System.String</value>
+          <value>Country,System.String</value>
+          <value>EmployeeID,System.Int32</value>
+          <value>FirstName,System.String</value>
+          <value>HireDate,System.DateTime</value>
+          <value>HomePhone,System.String</value>
+          <value>LastName,System.String</value>
+          <value>Notes,System.String</value>
+          <value>PostalCode,System.String</value>
+          <value>Region,System.String</value>
+          <value>ReportsTo,System.Int32</value>
+          <value>Title,System.String</value>
+          <value>TitleOfCourtesy,System.String</value>
+          <value>Extension,System.String</value>
+          <value>Photo,System.Byte[]</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Employees</Name>
+        <NameInSource>Demo.Employees</NameInSource>
+      </Employees>
+      <Order_x0020_Details Ref="7" type="DataTableSource" isKey="true">
+        <Alias>Order Details</Alias>
+        <Columns isList="true" count="5">
+          <value>Discount,System.Single</value>
+          <value>OrderID,System.Int32</value>
+          <value>ProductID,System.Int32</value>
+          <value>Quantity,System.Int16</value>
+          <value>UnitPrice,System.Decimal</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Order Details</Name>
+        <NameInSource>Demo.Order Details</NameInSource>
+      </Order_x0020_Details>
+      <Orders Ref="8" type="DataTableSource" isKey="true">
+        <Alias>Orders</Alias>
+        <Columns isList="true" count="14">
+          <value>CustomerID,System.String</value>
+          <value>EmployeeID,System.Int32</value>
+          <value>Freight,System.Decimal</value>
+          <value>OrderDate,System.DateTime</value>
+          <value>OrderID,System.Int32</value>
+          <value>RequiredDate,System.DateTime</value>
+          <value>ShipAddress,System.String</value>
+          <value>ShipCity,System.String</value>
+          <value>ShipCountry,System.String</value>
+          <value>ShipName,System.String</value>
+          <value>ShippedDate,System.DateTime</value>
+          <value>ShipPostalCode,System.String</value>
+          <value>ShipRegion,System.String</value>
+          <value>ShipVia,System.Int32</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Orders</Name>
+        <NameInSource>Demo.Orders</NameInSource>
+      </Orders>
+      <Products Ref="9" type="DataTableSource" isKey="true">
+        <Alias>Products</Alias>
+        <Columns isList="true" count="10">
+          <value>CategoryID,System.Int32</value>
+          <value>ProductID,System.Int32</value>
+          <value>ProductName,System.String</value>
+          <value>QuantityPerUnit,System.String</value>
+          <value>SupplierID,System.Int32</value>
+          <value>UnitPrice,System.Decimal</value>
+          <value>UnitsInStock,System.Int16</value>
+          <value>UnitsOnOrder,System.Int16</value>
+          <value>ReorderLevel,System.Int16</value>
+          <value>Discontinued,System.Boolean</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Products</Name>
+        <NameInSource>Demo.Products</NameInSource>
+      </Products>
+      <Shippers Ref="10" type="DataTableSource" isKey="true">
+        <Alias>Shippers</Alias>
+        <Columns isList="true" count="3">
+          <value>CompanyName,System.String</value>
+          <value>Phone,System.String</value>
+          <value>ShipperID,System.Int32</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Shippers</Name>
+        <NameInSource>Demo.Shippers</NameInSource>
+      </Shippers>
+      <Suppliers Ref="11" type="DataTableSource" isKey="true">
+        <Alias>Suppliers</Alias>
+        <Columns isList="true" count="12">
+          <value>Address,System.String</value>
+          <value>City,System.String</value>
+          <value>CompanyName,System.String</value>
+          <value>ContactName,System.String</value>
+          <value>ContactTitle,System.String</value>
+          <value>Country,System.String</value>
+          <value>Fax,System.String</value>
+          <value>HomePage,System.String</value>
+          <value>Phone,System.String</value>
+          <value>PostalCode,System.String</value>
+          <value>Region,System.String</value>
+          <value>SupplierID,System.Int32</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Suppliers</Name>
+        <NameInSource>Demo.Suppliers</NameInSource>
+      </Suppliers>
+      <Auto Ref="12" type="DataTableSource" isKey="true">
+        <Alias>Auto</Alias>
+        <Columns isList="true" count="5">
+          <value>Rank,System.Double</value>
+          <value>Country,System.String</value>
+          <value>Year2009,System.Double</value>
+          <value>Year2005,System.Double</value>
+          <value>Year2000,System.Double</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Auto</Name>
+        <NameInSource>Demo.Auto</NameInSource>
+      </Auto>
+      <GlobalGrowth Ref="13" type="DataTableSource" isKey="true">
+        <Alias>GlobalGrowth</Alias>
+        <Columns isList="true" count="5">
+          <value>Region,System.String</value>
+          <value>Year2006,System.Double</value>
+          <value>Year2007,System.Double</value>
+          <value>Year2008,System.Double</value>
+          <value>Year2009,System.Double</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>GlobalGrowth</Name>
+        <NameInSource>Demo.GlobalGrowth</NameInSource>
+      </GlobalGrowth>
+      <Opec Ref="14" type="DataTableSource" isKey="true">
+        <Alias>Opec</Alias>
+        <Columns isList="true" count="9">
+          <value>Year,System.Double</value>
+          <value>Iran,System.Double</value>
+          <value>Iraq,System.Double</value>
+          <value>Kuwait,System.Double</value>
+          <value>Saudi_x0020_Arabia,System.Double</value>
+          <value>UAE,System.Double</value>
+          <value>Venezuela,System.Double</value>
+          <value>Libya,System.Double</value>
+          <value>Nigeria,System.Double</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>Opec</Name>
+        <NameInSource>Demo.Opec</NameInSource>
+      </Opec>
+      <States Ref="15" type="DataTableSource" isKey="true">
+        <Alias>States</Alias>
+        <Columns isList="true" count="4">
+          <value>Name,System.String</value>
+          <value>USPS,System.String</value>
+          <value>Population,System.Int32</value>
+          <value>Capital,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Name>States</Name>
+        <NameInSource>Demo.States</NameInSource>
+      </States>
+    </DataSources>
+    <Relations isList="true" count="8">
+      <Employees Ref="16" type="DataRelation" isKey="true">
+        <Alias>Employees</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>ReportsTo</value>
+        </ChildColumns>
+        <ChildSource isRef="6" />
+        <Dictionary isRef="1" />
+        <Name>Employees</Name>
+        <NameInSource>EmployeesEmployees</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>EmployeeID</value>
+        </ParentColumns>
+        <ParentSource isRef="6" />
+      </Employees>
+      <Products Ref="17" type="DataRelation" isKey="true">
+        <Alias>Products</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>ProductID</value>
+        </ChildColumns>
+        <ChildSource isRef="7" />
+        <Dictionary isRef="1" />
+        <Name>Products</Name>
+        <NameInSource>ProductsOrder_Details</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>ProductID</value>
+        </ParentColumns>
+        <ParentSource isRef="9" />
+      </Products>
+      <Orders Ref="18" type="DataRelation" isKey="true">
+        <Alias>Orders</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>OrderID</value>
+        </ChildColumns>
+        <ChildSource isRef="7" />
+        <Dictionary isRef="1" />
+        <Name>Orders</Name>
+        <NameInSource>OrdersOrder_Details</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>OrderID</value>
+        </ParentColumns>
+        <ParentSource isRef="8" />
+      </Orders>
+      <Customers Ref="19" type="DataRelation" isKey="true">
+        <Alias>Customers</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>CustomerID</value>
+        </ChildColumns>
+        <ChildSource isRef="8" />
+        <Dictionary isRef="1" />
+        <Name>Customers</Name>
+        <NameInSource>CustomersOrders</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>CustomerID</value>
+        </ParentColumns>
+        <ParentSource isRef="5" />
+      </Customers>
+      <Shippers Ref="20" type="DataRelation" isKey="true">
+        <Alias>Shippers</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>ShipVia</value>
+        </ChildColumns>
+        <ChildSource isRef="8" />
+        <Dictionary isRef="1" />
+        <Name>Shippers</Name>
+        <NameInSource>ShippersOrders</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>ShipperID</value>
+        </ParentColumns>
+        <ParentSource isRef="10" />
+      </Shippers>
+      <Employees Ref="21" type="DataRelation" isKey="true">
+        <Alias>Employees</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>EmployeeID</value>
+        </ChildColumns>
+        <ChildSource isRef="8" />
+        <Dictionary isRef="1" />
+        <Name>Employees</Name>
+        <NameInSource>EmployeesOrders</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>EmployeeID</value>
+        </ParentColumns>
+        <ParentSource isRef="6" />
+      </Employees>
+      <Categories Ref="22" type="DataRelation" isKey="true">
+        <Alias>Categories</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>CategoryID</value>
+        </ChildColumns>
+        <ChildSource isRef="9" />
+        <Dictionary isRef="1" />
+        <Name>Categories</Name>
+        <NameInSource>CategoriesProducts</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>CategoryID</value>
+        </ParentColumns>
+        <ParentSource isRef="3" />
+      </Categories>
+      <Suppliers Ref="23" type="DataRelation" isKey="true">
+        <Alias>Suppliers</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>SupplierID</value>
+        </ChildColumns>
+        <ChildSource isRef="9" />
+        <Dictionary isRef="1" />
+        <Name>Suppliers</Name>
+        <NameInSource>SuppliersProducts</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>SupplierID</value>
+        </ParentColumns>
+        <ParentSource isRef="11" />
+      </Suppliers>
+    </Relations>
+    <Report isRef="0" />
+    <Variables isList="true" count="1">
+      <value>,Variable1,Country,,System.String,,False,False,True,False,_x003C__x003F_xml_x0020_version_x003D__x0022_1.0_x0022__x0020_encoding_x003D__x0022_utf-16_x0022__x0020_standalone_x003D__x0022_yes_x0022__x003F__x003E__x003C_StiSerializer_x0020_version_x003D__x0022_1.02_x0022__x0020_type_x003D__x0022_Net_x0022__x0020_application_x003D__x0022_State_x0022__x003E__x003C_ItemsInitializationType_x003E_Columns_x003C__x002F_ItemsInitializationType_x003E__x003C_KeysColumn_x003E_Customers.Country_x003C__x002F_KeysColumn_x003E__x003C_ValuesColumn_x003E_Customers.Country_x003C__x002F_ValuesColumn_x003E__x003C_BindingVariable_x0020_isNull_x003D__x0022_true_x0022__x0020__x002F__x003E__x003C_AllowUserValues_x003E_False_x003C__x002F_AllowUserValues_x003E__x003C_Keys_x0020_isList_x003D__x0022_true_x0022__x0020_count_x003D__x0022_0_x0022__x0020__x002F__x003E__x003C_Values_x0020_isList_x003D__x0022_true_x0022__x0020_count_x003D__x0022_0_x0022__x0020__x002F__x003E__x003C_ValuesBinding_x0020_isList_x003D__x0022_true_x0022__x0020_count_x003D__x0022_0_x0022__x0020__x002F__x003E__x003C__x002F_StiSerializer_x003E_,,False,First</value>
+    </Variables>
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <Page1 Ref="24" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="6">
+        <customPageHeaderBand Ref="25" type="PageHeaderBand" isKey="true">
+          <Border>None;[193:152:89];1;Solid;False;4;Black</Border>
+          <Brush>[85:96:110]</Brush>
+          <ClientRectangle>0,20,1091,100</ClientRectangle>
+          <Components isList="true" count="4">
+            <customHeaderImage Ref="26" type="Image" isKey="true">
+              <Border>None;White;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,130,100</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Guid>df073a10e438459ab15df05ebb2cf955</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Image>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</Image>
+              <Margins>0,0,0,0</Margins>
+              <Name>customHeaderImage</Name>
+              <Page isRef="24" />
+              <Parent isRef="25" />
+              <VertAlignment>Center</VertAlignment>
+            </customHeaderImage>
+            <customHeaderLine1 Ref="27" type="Text" isKey="true">
+              <Border>None;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>[85:96:110]</Brush>
+              <ClientRectangle>130,10,530,80</ClientRectangle>
+              <ComponentStyle>Header_Line1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Open Sans,24,Bold</Font>
+              <Guid>858de43e52b84e8aaea6990722f0e93f</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>customHeaderLine1</Name>
+              <Page isRef="24" />
+              <Parent isRef="25" />
+              <Text>Insurance Report in {Variable1}</Text>
+              <TextBrush>White</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </customHeaderLine1>
+            <customHeaderDate Ref="28" type="Text" isKey="true">
+              <Border>None;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>[85:96:110]</Brush>
+              <ClientRectangle>960,30,130,20</ClientRectangle>
+              <ComponentStyle>Header_Time</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Open Sans,9.75</Font>
+              <Guid>3e0d93d302464cffba7167fa8b43c9c0</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>customHeaderDate</Name>
+              <Page isRef="24" />
+              <Parent isRef="25" />
+              <Text>{Today}</Text>
+              <TextBrush>White</TextBrush>
+              <TextFormat Ref="29" type="CustomFormat" isKey="true">
+                <StringFormat>yyyy/MM/dd</StringFormat>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </customHeaderDate>
+            <customHeaderTime Ref="30" type="Text" isKey="true">
+              <Border>None;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>[85:96:110]</Brush>
+              <ClientRectangle>960,50,130,20</ClientRectangle>
+              <ComponentStyle>Header_Time</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Open Sans,9.75</Font>
+              <Guid>95dc0a73b8df4c0cbbfeb719dacc5d85</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>customHeaderTime</Name>
+              <Page isRef="24" />
+              <Parent isRef="25" />
+              <Text>{Time}</Text>
+              <TextBrush>White</TextBrush>
+              <TextFormat Ref="31" type="TimeFormat" isKey="true">
+                <StringFormat>HH:mm:ss</StringFormat>
+              </TextFormat>
+              <Type>SystemVariables</Type>
+              <VertAlignment>Center</VertAlignment>
+            </customHeaderTime>
+          </Components>
+          <ComponentStyle>Header_Line1</ComponentStyle>
+          <Conditions isList="true" count="1">
+            <value>_x007B_Variable1_x0020__x003D__x003D__x0020__x0022__x0022__x007D_,Red,Transparent,Arial_x002C_8,False,False,,,None,None</value>
+          </Conditions>
+          <Guid>69272961ef5d4c4b93ddefee582fe7db</Guid>
+          <Name>customPageHeaderBand</Name>
+          <Page isRef="24" />
+          <Parent isRef="24" />
+        </customPageHeaderBand>
+        <PageHeaderBand1 Ref="32" type="PageHeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,160,1091,10</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <Guid>577ddac726de4a00bb5a5a740d035178</Guid>
+          <Name>PageHeaderBand1</Name>
+          <Page isRef="24" />
+          <Parent isRef="24" />
+        </PageHeaderBand1>
+        <customPageFooterBand Ref="33" type="PageFooterBand" isKey="true">
+          <Border>None;[193:152:89];1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,719,1091,30</ClientRectangle>
+          <Components isList="true" count="4">
+            <customFooterLine1 Ref="34" type="Text" isKey="true">
+              <Border>None;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,10,500,20</ClientRectangle>
+              <ComponentStyle>Footer_Line1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Open Sans,9.75</Font>
+              <Guid>8faa13a7987a4e43aa21e9efc85e8d0c</Guid>
+              <Margins>5,0,0,0</Margins>
+              <Name>customFooterLine1</Name>
+              <Page isRef="24" />
+              <Parent isRef="33" />
+              <Text>Line1</Text>
+              <TextBrush>[85:96:110]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </customFooterLine1>
+            <customFooterTime Ref="35" type="Text" isKey="true">
+              <Border>None;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1040,10,50,20</ClientRectangle>
+              <ComponentStyle>Footer_Line1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Open Sans,9.75</Font>
+              <Guid>45d42a9b4ee34cfb92a8ca01cb026777</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>customFooterTime</Name>
+              <Page isRef="24" />
+              <Parent isRef="33" />
+              <Text>{Time}</Text>
+              <TextBrush>[85:96:110]</TextBrush>
+              <TextFormat Ref="36" type="TimeFormat" isKey="true">
+                <StringFormat>HH:mm:ss</StringFormat>
+              </TextFormat>
+              <Type>SystemVariables</Type>
+              <VertAlignment>Center</VertAlignment>
+            </customFooterTime>
+            <customFooterDate Ref="37" type="Text" isKey="true">
+              <Border>None;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>910,10,130,20</ClientRectangle>
+              <ComponentStyle>Footer_Line1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Open Sans,9.75</Font>
+              <Guid>2139c0bb21f44f9e955a05d8498410e0</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>customFooterDate</Name>
+              <Page isRef="24" />
+              <Parent isRef="33" />
+              <Text>{Today}</Text>
+              <TextBrush>[85:96:110]</TextBrush>
+              <TextFormat Ref="38" type="CustomFormat" isKey="true">
+                <StringFormat>yyyy/MM/dd</StringFormat>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </customFooterDate>
+            <customFooterPageNumber Ref="39" type="Text" isKey="true">
+              <Border>None;[193:152:89];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,8,1090,20</ClientRectangle>
+              <ComponentStyle>Footer_Line1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Open Sans,9.75</Font>
+              <Guid>5880d62d3cc442a294512f189222d0a4</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>customFooterPageNumber</Name>
+              <Page isRef="24" />
+              <Parent isRef="33" />
+              <Text>{PageNofM}</Text>
+              <TextBrush>[85:96:110]</TextBrush>
+              <Type>SystemVariables</Type>
+              <VertAlignment>Center</VertAlignment>
+            </customFooterPageNumber>
+          </Components>
+          <ComponentStyle>Footer_Line1</ComponentStyle>
+          <Conditions isList="true" count="0" />
+          <Guid>c01e50a3208c4e03a21f064e344d734b</Guid>
+          <Name>customPageFooterBand</Name>
+          <Page isRef="24" />
+          <Parent isRef="24" />
+        </customPageFooterBand>
+        <customHeaderCharts Ref="40" type="HeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,210,1091,350</ClientRectangle>
+          <Components isList="true" count="3">
+            <customChart1 Ref="41" type="Stimulsoft.Report.Chart.StiChart" isKey="true">
+              <AllowApplyStyle>False</AllowApplyStyle>
+              <Area Ref="42" type="Stimulsoft.Report.Chart.StiPieArea" isKey="true">
+                <BorderColor>171, 172, 173</BorderColor>
+                <Brush>White</Brush>
+                <Chart isRef="41" />
+              </Area>
+              <Border>None;Black;0;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>0,0,360,350</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <ConstantLines isList="true" count="0" />
+              <CustomStyleName>Charts</CustomStyleName>
+              <Filters isList="true" count="0" />
+              <IsAnimation>False</IsAnimation>
+              <Legend Ref="43" type="Stimulsoft.Report.Chart.StiLegend" isKey="true">
+                <AllowApplyStyle>False</AllowApplyStyle>
+                <BorderColor>Transparent</BorderColor>
+                <Brush>Transparent</Brush>
+                <Chart isRef="41" />
+                <Columns>1</Columns>
+                <Font>Arial,8</Font>
+                <LabelsColor>85, 96, 110</LabelsColor>
+                <MarkerSize>15, 10</MarkerSize>
+                <ShowShadow>False</ShowShadow>
+                <TitleColor>85, 96, 110</TitleColor>
+                <TitleFont>Arial,14,Bold</TitleFont>
+                <VertAlignment>BottomOutside</VertAlignment>
+              </Legend>
+              <Name>customChart1</Name>
+              <Page isRef="24" />
+              <Parent isRef="40" />
+              <Series isList="true" count="1">
+                <Item37 Ref="44" type="Stimulsoft.Report.Chart.StiPieSeries" isKey="true">
+                  <AllowApplyBorderColor>False</AllowApplyBorderColor>
+                  <BorderColor>Transparent</BorderColor>
+                  <Brush>[38:174:144]</Brush>
+                  <Chart isRef="41" />
+                  <Conditions isList="true" count="0" />
+                  <Filters isList="true" count="0" />
+                  <ListOfArguments>Household;Professional;Accident</ListOfArguments>
+                  <ListOfValues>38;35;27</ListOfValues>
+                  <SeriesLabels Ref="45" type="Stimulsoft.Report.Chart.StiCenterAxisLabels" isKey="true">
+                    <BorderColor>Transparent</BorderColor>
+                    <Brush>Transparent</Brush>
+                    <Chart isRef="41" />
+                    <Font>Arial,7</Font>
+                    <LabelColor>90, 90, 90</LabelColor>
+                    <MarkerSize>8, 6</MarkerSize>
+                    <ValueTypeSeparator>-</ValueTypeSeparator>
+                    <Width>0</Width>
+                  </SeriesLabels>
+                  <Title>Series 1</Title>
+                  <TopN Ref="46" type="Stimulsoft.Report.Chart.StiSeriesTopN" isKey="true" />
+                </Item37>
+              </Series>
+              <SeriesLabels Ref="47" type="Stimulsoft.Report.Chart.StiCenterPieLabels" isKey="true">
+                <AllowApplyStyle>False</AllowApplyStyle>
+                <BorderColor>Transparent</BorderColor>
+                <Brush>EmptyBrush</Brush>
+                <Chart isRef="41" />
+                <Font>Arial,9.75,Regular,Point,False,0</Font>
+                <LabelColor>White</LabelColor>
+                <LegendValueType>Argument</LegendValueType>
+                <MarkerSize>8, 6</MarkerSize>
+                <TextAfter> %</TextAfter>
+                <ValueTypeSeparator>-</ValueTypeSeparator>
+                <Width>0</Width>
+              </SeriesLabels>
+              <SeriesLabelsConditions isList="true" count="0" />
+              <Sort isList="true" count="0" />
+              <Strips isList="true" count="0" />
+              <Style Ref="48" type="Stimulsoft.Report.Chart.StiCustomStyle" isKey="true">
+                <Conditions isList="true" count="0" />
+                <Name />
+              </Style>
+              <Table Ref="49" type="Stimulsoft.Report.Chart.StiChartTable" isKey="true">
+                <DataCells Ref="50" type="Stimulsoft.Report.Chart.StiChartTableDataCells" isKey="true">
+                  <Font>Arial,8</Font>
+                  <ShrinkFontToFit>False</ShrinkFontToFit>
+                  <TextColor>85, 96, 110</TextColor>
+                </DataCells>
+                <GridLineColor>Transparent</GridLineColor>
+                <Header Ref="51" type="Stimulsoft.Report.Chart.StiChartTableHeader" isKey="true">
+                  <Brush>White</Brush>
+                  <Font>Arial,8</Font>
+                  <TextColor>DarkGray</TextColor>
+                </Header>
+              </Table>
+              <Title Ref="52" type="Stimulsoft.Report.Chart.StiChartTitle" isKey="true">
+                <Brush>[85:96:110]</Brush>
+                <Font>Open Sans,12,Bold</Font>
+                <Text>Insurance Home and Work Injury</Text>
+                <Visible>True</Visible>
+              </Title>
+            </customChart1>
+            <customChart2 Ref="53" type="Stimulsoft.Report.Chart.StiChart" isKey="true">
+              <AllowApplyStyle>False</AllowApplyStyle>
+              <Area Ref="54" type="Stimulsoft.Report.Chart.StiClusteredColumnArea" isKey="true">
+                <AllowApplyStyle>False</AllowApplyStyle>
+                <BorderColor>Transparent</BorderColor>
+                <Brush>White</Brush>
+                <Chart isRef="53" />
+                <GridLinesHor Ref="55" type="Stimulsoft.Report.Chart.StiGridLinesHor" isKey="true">
+                  <Area isRef="54" />
+                  <Color>100, 105, 105, 105</Color>
+                  <MinorColor>100, 105, 105, 105</MinorColor>
+                </GridLinesHor>
+                <GridLinesHorRight Ref="56" type="Stimulsoft.Report.Chart.StiGridLinesHor" isKey="true">
+                  <Area isRef="54" />
+                  <Color>Silver</Color>
+                  <MinorColor>Gainsboro</MinorColor>
+                  <Visible>False</Visible>
+                </GridLinesHorRight>
+                <GridLinesVert Ref="57" type="Stimulsoft.Report.Chart.StiGridLinesVert" isKey="true">
+                  <Area isRef="54" />
+                  <Color>100, 105, 105, 105</Color>
+                  <MinorColor>100, 105, 105, 105</MinorColor>
+                </GridLinesVert>
+                <InterlacingHor Ref="58" type="Stimulsoft.Report.Chart.StiInterlacingHor" isKey="true">
+                  <Area isRef="54" />
+                  <InterlacedBrush>[10:155:155:155]</InterlacedBrush>
+                </InterlacingHor>
+                <InterlacingVert Ref="59" type="Stimulsoft.Report.Chart.StiInterlacingVert" isKey="true">
+                  <Area isRef="54" />
+                  <InterlacedBrush>[10:155:155:155]</InterlacedBrush>
+                </InterlacingVert>
+                <XAxis Ref="60" type="Stimulsoft.Report.Chart.StiXBottomAxis" isKey="true">
+                  <Area isRef="54" />
+                  <DateTimeStep Ref="61" type="Stimulsoft.Report.Chart.StiAxisDateTimeStep" isKey="true" />
+                  <Interaction Ref="62" type="Stimulsoft.Report.Chart.StiAxisInteraction" isKey="true" />
+                  <Labels Ref="63" type="Stimulsoft.Report.Chart.StiAxisLabels" isKey="true">
+                    <Color>85, 96, 110</Color>
+                    <Font>Open Sans,9.75,Regular,Point,False,0</Font>
+                  </Labels>
+                  <LineColor>85, 96, 110</LineColor>
+                  <Range Ref="64" type="Stimulsoft.Report.Chart.StiAxisRange" isKey="true" />
+                  <Ticks Ref="65" type="Stimulsoft.Report.Chart.StiAxisTicks" isKey="true" />
+                  <Title Ref="66" type="Stimulsoft.Report.Chart.StiAxisTitle" isKey="true">
+                    <Color>85, 96, 110</Color>
+                    <Font>Tahoma,12,Bold</Font>
+                  </Title>
+                </XAxis>
+                <XTopAxis Ref="67" type="Stimulsoft.Report.Chart.StiXTopAxis" isKey="true">
+                  <Area isRef="54" />
+                  <Interaction Ref="68" type="Stimulsoft.Report.Chart.StiAxisInteraction" isKey="true" />
+                  <Labels Ref="69" type="Stimulsoft.Report.Chart.StiAxisLabels" isKey="true">
+                    <Color>85, 96, 110</Color>
+                    <Font>Tahoma,8</Font>
+                  </Labels>
+                  <LineColor>85, 96, 110</LineColor>
+                  <Ticks Ref="70" type="Stimulsoft.Report.Chart.StiAxisTicks" isKey="true" />
+                  <Title Ref="71" type="Stimulsoft.Report.Chart.StiAxisTitle" isKey="true">
+                    <Color>85, 96, 110</Color>
+                    <Font>Tahoma,12,Bold</Font>
+                  </Title>
+                </XTopAxis>
+                <YAxis Ref="72" type="Stimulsoft.Report.Chart.StiYLeftAxis" isKey="true">
+                  <AllowApplyStyle>False</AllowApplyStyle>
+                  <Area isRef="54" />
+                  <Interaction Ref="73" type="Stimulsoft.Report.Chart.StiAxisInteraction" isKey="true" />
+                  <Labels Ref="74" type="Stimulsoft.Report.Chart.StiAxisLabels" isKey="true">
+                    <Color>85, 96, 110</Color>
+                    <Font>Open Sans,9.75,Regular,Point,False,0</Font>
+                    <TextAfter> %</TextAfter>
+                  </Labels>
+                  <LineColor>85, 96, 110</LineColor>
+                  <Range Ref="75" type="Stimulsoft.Report.Chart.StiAxisRange" isKey="true">
+                    <Auto>False</Auto>
+                    <Maximum>100</Maximum>
+                  </Range>
+                  <Ticks Ref="76" type="Stimulsoft.Report.Chart.StiAxisTicks" isKey="true" />
+                  <Title Ref="77" type="Stimulsoft.Report.Chart.StiAxisTitle" isKey="true">
+                    <Color>85, 96, 110</Color>
+                    <Direction>BottomToTop</Direction>
+                    <Font>Tahoma,12,Bold</Font>
+                  </Title>
+                </YAxis>
+                <YRightAxis Ref="78" type="Stimulsoft.Report.Chart.StiYRightAxis" isKey="true">
+                  <Area isRef="54" />
+                  <Interaction Ref="79" type="Stimulsoft.Report.Chart.StiAxisInteraction" isKey="true" />
+                  <Labels Ref="80" type="Stimulsoft.Report.Chart.StiAxisLabels" isKey="true">
+                    <Color>85, 96, 110</Color>
+                    <Font>Tahoma,8</Font>
+                    <TextAlignment>Left</TextAlignment>
+                  </Labels>
+                  <LineColor>85, 96, 110</LineColor>
+                  <Range Ref="81" type="Stimulsoft.Report.Chart.StiAxisRange" isKey="true" />
+                  <Ticks Ref="82" type="Stimulsoft.Report.Chart.StiAxisTicks" isKey="true" />
+                  <Title Ref="83" type="Stimulsoft.Report.Chart.StiAxisTitle" isKey="true">
+                    <Color>85, 96, 110</Color>
+                    <Direction>TopToBottom</Direction>
+                    <Font>Tahoma,12,Bold</Font>
+                  </Title>
+                </YRightAxis>
+              </Area>
+              <Border>None;Black;0;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>370,0,350,350</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <ConstantLines isList="true" count="0" />
+              <CustomStyleName>Charts</CustomStyleName>
+              <Filters isList="true" count="0" />
+              <Guid>c3d8c3fa51884b67b51300f18a5aedfa</Guid>
+              <IsAnimation>False</IsAnimation>
+              <Legend Ref="84" type="Stimulsoft.Report.Chart.StiLegend" isKey="true">
+                <AllowApplyStyle>False</AllowApplyStyle>
+                <BorderColor>Transparent</BorderColor>
+                <Brush>Transparent</Brush>
+                <Chart isRef="53" />
+                <Columns>1</Columns>
+                <Font>Arial,8</Font>
+                <LabelsColor>85, 96, 110</LabelsColor>
+                <MarkerBorder>False</MarkerBorder>
+                <MarkerSize>15, 10</MarkerSize>
+                <ShowShadow>False</ShowShadow>
+                <TitleColor>85, 96, 110</TitleColor>
+                <TitleFont>Arial,14,Bold</TitleFont>
+                <VertAlignment>BottomOutside</VertAlignment>
+              </Legend>
+              <Name>customChart2</Name>
+              <Page isRef="24" />
+              <Parent isRef="40" />
+              <Series isList="true" count="1">
+                <Item39 Ref="85" type="Stimulsoft.Report.Chart.StiClusteredColumnSeries" isKey="true">
+                  <AllowApplyStyle>False</AllowApplyStyle>
+                  <BorderColor>Transparent</BorderColor>
+                  <Brush>[38:174:144]</Brush>
+                  <BrushNegative>Firebrick</BrushNegative>
+                  <Chart isRef="53" />
+                  <Conditions isList="true" count="0" />
+                  <Filters isList="true" count="0" />
+                  <ListOfArguments>2014;2015;2016</ListOfArguments>
+                  <ListOfValues>67;73;58</ListOfValues>
+                  <SeriesLabels Ref="86" type="Stimulsoft.Report.Chart.StiCenterAxisLabels" isKey="true">
+                    <BorderColor>Transparent</BorderColor>
+                    <Brush>White</Brush>
+                    <Chart isRef="53" />
+                    <Font>Arial,7</Font>
+                    <LabelColor>90, 90, 90</LabelColor>
+                    <MarkerSize>8, 6</MarkerSize>
+                    <ValueTypeSeparator>-</ValueTypeSeparator>
+                    <Width>0</Width>
+                  </SeriesLabels>
+                  <ShowInLegend>False</ShowInLegend>
+                  <ShowShadow>False</ShowShadow>
+                  <Title>Series 1</Title>
+                  <TopN Ref="87" type="Stimulsoft.Report.Chart.StiSeriesTopN" isKey="true" />
+                  <TrendLine Ref="88" type="Stimulsoft.Report.Chart.StiTrendLineNone" isKey="true">
+                    <LineColor>140, 140, 140</LineColor>
+                    <ShowShadow>False</ShowShadow>
+                  </TrendLine>
+                </Item39>
+              </Series>
+              <SeriesLabels Ref="89" type="Stimulsoft.Report.Chart.StiOutsideEndAxisLabels" isKey="true">
+                <AllowApplyStyle>False</AllowApplyStyle>
+                <BorderColor>Transparent</BorderColor>
+                <Brush>Transparent</Brush>
+                <Chart isRef="53" />
+                <Font>Arial,9.75</Font>
+                <LabelColor>205, 66, 55</LabelColor>
+                <MarkerSize>8, 6</MarkerSize>
+                <ValueTypeSeparator>-</ValueTypeSeparator>
+                <Width>0</Width>
+              </SeriesLabels>
+              <SeriesLabelsConditions isList="true" count="0" />
+              <Sort isList="true" count="0" />
+              <Strips isList="true" count="0" />
+              <Style Ref="90" type="Stimulsoft.Report.Chart.StiCustomStyle" isKey="true">
+                <Conditions isList="true" count="0" />
+                <Name />
+              </Style>
+              <Table Ref="91" type="Stimulsoft.Report.Chart.StiChartTable" isKey="true">
+                <DataCells Ref="92" type="Stimulsoft.Report.Chart.StiChartTableDataCells" isKey="true">
+                  <Font>Arial,8</Font>
+                  <ShrinkFontToFit>False</ShrinkFontToFit>
+                  <TextColor>85, 96, 110</TextColor>
+                </DataCells>
+                <GridLineColor>Transparent</GridLineColor>
+                <Header Ref="93" type="Stimulsoft.Report.Chart.StiChartTableHeader" isKey="true">
+                  <Brush>White</Brush>
+                  <Font>Arial,8</Font>
+                  <TextColor>DarkGray</TextColor>
+                </Header>
+              </Table>
+              <Title Ref="94" type="Stimulsoft.Report.Chart.StiChartTitle" isKey="true">
+                <AllowApplyStyle>False</AllowApplyStyle>
+                <Brush>[85:96:110]</Brush>
+                <Font>Open Sans,12,Bold</Font>
+                <Text>Insurance Payments in Fires</Text>
+                <Visible>True</Visible>
+              </Title>
+            </customChart2>
+            <customChart3 Ref="95" type="Stimulsoft.Report.Chart.StiChart" isKey="true">
+              <AllowApplyStyle>False</AllowApplyStyle>
+              <Area Ref="96" type="Stimulsoft.Report.Chart.StiClusteredColumnArea" isKey="true">
+                <BorderColor>171, 172, 173</BorderColor>
+                <Brush>White</Brush>
+                <Chart isRef="95" />
+                <GridLinesHor Ref="97" type="Stimulsoft.Report.Chart.StiGridLinesHor" isKey="true">
+                  <Area isRef="96" />
+                  <Color>100, 105, 105, 105</Color>
+                  <MinorColor>100, 105, 105, 105</MinorColor>
+                </GridLinesHor>
+                <GridLinesHorRight Ref="98" type="Stimulsoft.Report.Chart.StiGridLinesHor" isKey="true">
+                  <Area isRef="96" />
+                  <Color>Silver</Color>
+                  <MinorColor>Gainsboro</MinorColor>
+                  <Visible>False</Visible>
+                </GridLinesHorRight>
+                <GridLinesVert Ref="99" type="Stimulsoft.Report.Chart.StiGridLinesVert" isKey="true">
+                  <Area isRef="96" />
+                  <Color>100, 105, 105, 105</Color>
+                  <MinorColor>100, 105, 105, 105</MinorColor>
+                </GridLinesVert>
+                <InterlacingHor Ref="100" type="Stimulsoft.Report.Chart.StiInterlacingHor" isKey="true">
+                  <Area isRef="96" />
+                  <InterlacedBrush>[10:155:155:155]</InterlacedBrush>
+                </InterlacingHor>
+                <InterlacingVert Ref="101" type="Stimulsoft.Report.Chart.StiInterlacingVert" isKey="true">
+                  <Area isRef="96" />
+                  <InterlacedBrush>[10:155:155:155]</InterlacedBrush>
+                </InterlacingVert>
+                <XAxis Ref="102" type="Stimulsoft.Report.Chart.StiXBottomAxis" isKey="true">
+                  <Area isRef="96" />
+                  <DateTimeStep Ref="103" type="Stimulsoft.Report.Chart.StiAxisDateTimeStep" isKey="true" />
+                  <Interaction Ref="104" type="Stimulsoft.Report.Chart.StiAxisInteraction" isKey="true" />
+                  <Labels Ref="105" type="Stimulsoft.Report.Chart.StiAxisLabels" isKey="true">
+                    <Color>85, 96, 110</Color>
+                    <Font>Open Sans,9.75,Regular,Point,False,0</Font>
+                  </Labels>
+                  <LineColor>85, 96, 110</LineColor>
+                  <Range Ref="106" type="Stimulsoft.Report.Chart.StiAxisRange" isKey="true" />
+                  <Ticks Ref="107" type="Stimulsoft.Report.Chart.StiAxisTicks" isKey="true" />
+                  <Title Ref="108" type="Stimulsoft.Report.Chart.StiAxisTitle" isKey="true">
+                    <Color>85, 96, 110</Color>
+                    <Font>Tahoma,12,Bold</Font>
+                  </Title>
+                </XAxis>
+                <XTopAxis Ref="109" type="Stimulsoft.Report.Chart.StiXTopAxis" isKey="true">
+                  <Area isRef="96" />
+                  <Interaction Ref="110" type="Stimulsoft.Report.Chart.StiAxisInteraction" isKey="true" />
+                  <Labels Ref="111" type="Stimulsoft.Report.Chart.StiAxisLabels" isKey="true">
+                    <Color>85, 96, 110</Color>
+                    <Font>Tahoma,8</Font>
+                  </Labels>
+                  <LineColor>85, 96, 110</LineColor>
+                  <Ticks Ref="112" type="Stimulsoft.Report.Chart.StiAxisTicks" isKey="true" />
+                  <Title Ref="113" type="Stimulsoft.Report.Chart.StiAxisTitle" isKey="true">
+                    <Color>85, 96, 110</Color>
+                    <Font>Tahoma,12,Bold</Font>
+                  </Title>
+                </XTopAxis>
+                <YAxis Ref="114" type="Stimulsoft.Report.Chart.StiYLeftAxis" isKey="true">
+                  <Area isRef="96" />
+                  <Interaction Ref="115" type="Stimulsoft.Report.Chart.StiAxisInteraction" isKey="true" />
+                  <Labels Ref="116" type="Stimulsoft.Report.Chart.StiAxisLabels" isKey="true">
+                    <Color>85, 96, 110</Color>
+                    <Font>Open Sans,9.75,Regular,Point,False,0</Font>
+                    <TextAfter> %</TextAfter>
+                  </Labels>
+                  <LineColor>85, 96, 110</LineColor>
+                  <Range Ref="117" type="Stimulsoft.Report.Chart.StiAxisRange" isKey="true">
+                    <Auto>False</Auto>
+                    <Maximum>100</Maximum>
+                  </Range>
+                  <Ticks Ref="118" type="Stimulsoft.Report.Chart.StiAxisTicks" isKey="true" />
+                  <Title Ref="119" type="Stimulsoft.Report.Chart.StiAxisTitle" isKey="true">
+                    <Color>85, 96, 110</Color>
+                    <Direction>BottomToTop</Direction>
+                    <Font>Tahoma,12,Bold</Font>
+                  </Title>
+                </YAxis>
+                <YRightAxis Ref="120" type="Stimulsoft.Report.Chart.StiYRightAxis" isKey="true">
+                  <Area isRef="96" />
+                  <Interaction Ref="121" type="Stimulsoft.Report.Chart.StiAxisInteraction" isKey="true" />
+                  <Labels Ref="122" type="Stimulsoft.Report.Chart.StiAxisLabels" isKey="true">
+                    <Color>85, 96, 110</Color>
+                    <Font>Tahoma,8</Font>
+                    <TextAlignment>Left</TextAlignment>
+                  </Labels>
+                  <LineColor>85, 96, 110</LineColor>
+                  <Range Ref="123" type="Stimulsoft.Report.Chart.StiAxisRange" isKey="true" />
+                  <Ticks Ref="124" type="Stimulsoft.Report.Chart.StiAxisTicks" isKey="true" />
+                  <Title Ref="125" type="Stimulsoft.Report.Chart.StiAxisTitle" isKey="true">
+                    <Color>85, 96, 110</Color>
+                    <Direction>TopToBottom</Direction>
+                    <Font>Tahoma,12,Bold</Font>
+                  </Title>
+                </YRightAxis>
+              </Area>
+              <Border>None;Black;0;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>730,0,360,350</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <ConstantLines isList="true" count="0" />
+              <CustomStyleName>Charts</CustomStyleName>
+              <Filters isList="true" count="0" />
+              <Guid>52c1e72e78df47df9d9757598a18b89c</Guid>
+              <IsAnimation>False</IsAnimation>
+              <Legend Ref="126" type="Stimulsoft.Report.Chart.StiLegend" isKey="true">
+                <AllowApplyStyle>False</AllowApplyStyle>
+                <BorderColor>Transparent</BorderColor>
+                <Brush>Transparent</Brush>
+                <Chart isRef="95" />
+                <Columns>1</Columns>
+                <Font>Arial,8</Font>
+                <LabelsColor>85, 96, 110</LabelsColor>
+                <MarkerBorder>False</MarkerBorder>
+                <MarkerSize>10, 10</MarkerSize>
+                <ShowShadow>False</ShowShadow>
+                <TitleColor>85, 96, 110</TitleColor>
+                <TitleFont>Arial,14,Bold</TitleFont>
+                <VertAlignment>BottomOutside</VertAlignment>
+                <Visible>False</Visible>
+              </Legend>
+              <Name>customChart3</Name>
+              <Page isRef="24" />
+              <Parent isRef="40" />
+              <Series isList="true" count="1">
+                <Item41 Ref="127" type="Stimulsoft.Report.Chart.StiLineSeries" isKey="true">
+                  <Chart isRef="95" />
+                  <Conditions isList="true" count="0" />
+                  <Filters isList="true" count="0" />
+                  <LineColor>38, 174, 144</LineColor>
+                  <LineColorNegative>Firebrick</LineColorNegative>
+                  <LineMarker Ref="128" type="Stimulsoft.Report.Chart.StiLineMarker" isKey="true">
+                    <BorderColor>0, 24, 0</BorderColor>
+                    <Brush>[88:224:194]</Brush>
+                  </LineMarker>
+                  <ListOfArguments>Auto;Home;Health;Life</ListOfArguments>
+                  <ListOfValues>89;56;62;42</ListOfValues>
+                  <Marker Ref="129" type="Stimulsoft.Report.Chart.StiMarker" isKey="true">
+                    <BorderColor>0, 74, 44</BorderColor>
+                    <Brush>[138:255:244]</Brush>
+                  </Marker>
+                  <SeriesLabels Ref="130" type="Stimulsoft.Report.Chart.StiOutsideEndAxisLabels" isKey="true">
+                    <BorderColor>Transparent</BorderColor>
+                    <Brush>Transparent</Brush>
+                    <Chart isRef="95" />
+                    <Font>Arial,7</Font>
+                    <LabelColor>90, 90, 90</LabelColor>
+                    <MarkerSize>8, 6</MarkerSize>
+                    <ValueTypeSeparator>-</ValueTypeSeparator>
+                    <Width>0</Width>
+                  </SeriesLabels>
+                  <Title>Series 1</Title>
+                  <TopN Ref="131" type="Stimulsoft.Report.Chart.StiSeriesTopN" isKey="true" />
+                  <TrendLine Ref="132" type="Stimulsoft.Report.Chart.StiTrendLineNone" isKey="true">
+                    <LineColor>140, 140, 140</LineColor>
+                    <ShowShadow>False</ShowShadow>
+                  </TrendLine>
+                </Item41>
+              </Series>
+              <SeriesLabels Ref="133" type="Stimulsoft.Report.Chart.StiOutsideEndAxisLabels" isKey="true">
+                <AllowApplyStyle>False</AllowApplyStyle>
+                <BorderColor>Transparent</BorderColor>
+                <Brush>Transparent</Brush>
+                <Chart isRef="95" />
+                <Font>Arial,8.25</Font>
+                <LabelColor>205, 66, 55</LabelColor>
+                <LegendValueType>Argument</LegendValueType>
+                <MarkerSize>8, 6</MarkerSize>
+                <TextAfter> </TextAfter>
+                <ValueTypeSeparator>-</ValueTypeSeparator>
+                <Width>0</Width>
+              </SeriesLabels>
+              <SeriesLabelsConditions isList="true" count="0" />
+              <Sort isList="true" count="0" />
+              <Strips isList="true" count="0" />
+              <Style Ref="134" type="Stimulsoft.Report.Chart.StiCustomStyle" isKey="true">
+                <Conditions isList="true" count="0" />
+                <Name />
+              </Style>
+              <Table Ref="135" type="Stimulsoft.Report.Chart.StiChartTable" isKey="true">
+                <DataCells Ref="136" type="Stimulsoft.Report.Chart.StiChartTableDataCells" isKey="true">
+                  <Font>Arial,8</Font>
+                  <ShrinkFontToFit>False</ShrinkFontToFit>
+                  <TextColor>85, 96, 110</TextColor>
+                </DataCells>
+                <GridLineColor>Transparent</GridLineColor>
+                <Header Ref="137" type="Stimulsoft.Report.Chart.StiChartTableHeader" isKey="true">
+                  <Brush>White</Brush>
+                  <Font>Arial,8</Font>
+                  <TextColor>DarkGray</TextColor>
+                </Header>
+              </Table>
+              <Title Ref="138" type="Stimulsoft.Report.Chart.StiChartTitle" isKey="true">
+                <AllowApplyStyle>False</AllowApplyStyle>
+                <Brush>[85:96:110]</Brush>
+                <Font>Open Sans,12,Bold</Font>
+                <Text>Statistics Different Types of Insurance</Text>
+                <Visible>True</Visible>
+              </Title>
+            </customChart3>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>customHeaderCharts</Name>
+          <Page isRef="24" />
+          <Parent isRef="24" />
+          <PrintOnAllPages>False</PrintOnAllPages>
+        </customHeaderCharts>
+        <customHeaderperfomance_report Ref="139" type="HeaderBand" isKey="true">
+          <Brush>[36:175:178]</Brush>
+          <ClientRectangle>0,600,1091,40</ClientRectangle>
+          <Components isList="true" count="5">
+            <Headerperfomance_report_airline__Airline_ Ref="140" type="Text" isKey="true">
+              <Border>Left;White;1;Solid;False;4;Black</Border>
+              <Brush>[36:175:178]</Brush>
+              <ClientRectangle>0,0,270,40</ClientRectangle>
+              <ComponentStyle>Header_Data</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Open Sans,9,Bold</Font>
+              <Margins>5,0,0,0</Margins>
+              <Name>Headerperfomance_report_airline__Airline_</Name>
+              <Page isRef="24" />
+              <Parent isRef="139" />
+              <Text>City</Text>
+              <TextBrush>White</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Headerperfomance_report_airline__Airline_>
+            <Headerperfomance_report_airport__Airport_ Ref="141" type="Text" isKey="true">
+              <Border>Left;White;1;Solid;False;4;Black</Border>
+              <Brush>[36:175:178]</Brush>
+              <ClientRectangle>270,0,290,40</ClientRectangle>
+              <ComponentStyle>Header_Data</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Open Sans,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>5,0,0,0</Margins>
+              <Name>Headerperfomance_report_airport__Airport_</Name>
+              <Page isRef="24" />
+              <Parent isRef="139" />
+              <Text>Number of Insurance Contracts</Text>
+              <TextBrush>White</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Headerperfomance_report_airport__Airport_>
+            <Headerperfomance_report_deaprtmentName__Deaprtment_Name_ Ref="142" type="Text" isKey="true">
+              <Border>Left;White;1;Solid;False;4;Black</Border>
+              <Brush>[36:175:178]</Brush>
+              <ClientRectangle>560,0,160,40</ClientRectangle>
+              <ComponentStyle>Header_Data</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Open Sans,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>5,0,0,0</Margins>
+              <Name>Headerperfomance_report_deaprtmentName__Deaprtment_Name_</Name>
+              <Page isRef="24" />
+              <Parent isRef="139" />
+              <Text>Insurance Claims</Text>
+              <TextBrush>White</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Headerperfomance_report_deaprtmentName__Deaprtment_Name_>
+            <Headerperfomance_report_jobType__Job_Type_ Ref="143" type="Text" isKey="true">
+              <Border>Left;White;1;Solid;False;4;Black</Border>
+              <Brush>[36:175:178]</Brush>
+              <ClientRectangle>720,0,180,40</ClientRectangle>
+              <ComponentStyle>Header_Data</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Open Sans,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>5,0,0,0</Margins>
+              <Name>Headerperfomance_report_jobType__Job_Type_</Name>
+              <Page isRef="24" />
+              <Parent isRef="139" />
+              <Text>Insurance Charges</Text>
+              <TextBrush>White</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Headerperfomance_report_jobType__Job_Type_>
+            <Headerperfomance_report_isWideBody__Is_Wide_Body_ Ref="144" type="Text" isKey="true">
+              <Border>Left;White;1;Solid;False;4;Black</Border>
+              <Brush>[36:175:178]</Brush>
+              <ClientRectangle>900,0,190,40</ClientRectangle>
+              <ComponentStyle>Header_Data</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Open Sans,9,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>5,0,0,0</Margins>
+              <Name>Headerperfomance_report_isWideBody__Is_Wide_Body_</Name>
+              <Page isRef="24" />
+              <Parent isRef="139" />
+              <Text>Insurance Payments</Text>
+              <TextBrush>White</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Headerperfomance_report_isWideBody__Is_Wide_Body_>
+          </Components>
+          <ComponentStyle>Header_Data</ComponentStyle>
+          <Conditions isList="true" count="0" />
+          <Name>customHeaderperfomance_report</Name>
+          <Page isRef="24" />
+          <Parent isRef="24" />
+        </customHeaderperfomance_report>
+        <customDataperfomance_report Ref="145" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,680,1091,30</ClientRectangle>
+          <Components isList="true" count="5">
+            <Dataperfomance_report_airline__Airline_ Ref="146" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,0,270,30</ClientRectangle>
+              <ComponentStyle>Data</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Open Sans,7</Font>
+              <Margins>3,0,0,0</Margins>
+              <Name>Dataperfomance_report_airline__Airline_</Name>
+              <Page isRef="24" />
+              <Parent isRef="145" />
+              <Text>{Order_Details.Orders.Customers.City}</Text>
+              <TextBrush>[52:58:65]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Dataperfomance_report_airline__Airline_>
+            <Dataperfomance_report_airport__Airport_ Ref="147" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>270,0,290,30</ClientRectangle>
+              <ComponentStyle>Data</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Open Sans,7</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>3,3,0,0</Margins>
+              <Name>Dataperfomance_report_airport__Airport_</Name>
+              <Page isRef="24" />
+              <Parent isRef="145" />
+              <Text>{Order_Details.Products.UnitsInStock}</Text>
+              <TextBrush>[52:58:65]</TextBrush>
+              <TextFormat Ref="148" type="NumberFormat" isKey="true">
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Dataperfomance_report_airport__Airport_>
+            <Dataperfomance_report_deaprtmentName__Deaprtment_Name_ Ref="149" type="Text" isKey="true">
+              <Border>None;White;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>560,0,160,30</ClientRectangle>
+              <ComponentStyle>Data</ComponentStyle>
+              <Conditions isList="true" count="1">
+                <value>Order_Details.Products.UnitsOnOrder,EqualTo,_x0030_,,String,White,[38:174:144],Arial_x002C_8,True,False,,,All,TextColor_x002C__x0020_BackColor_x002C__x0020_Borders</value>
+              </Conditions>
+              <Font>Open Sans,7</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>3,3,0,0</Margins>
+              <Name>Dataperfomance_report_deaprtmentName__Deaprtment_Name_</Name>
+              <Page isRef="24" />
+              <Parent isRef="145" />
+              <Text>{Order_Details.Products.UnitsOnOrder}</Text>
+              <TextBrush>[52:58:65]</TextBrush>
+              <TextFormat Ref="150" type="NumberFormat" isKey="true">
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Dataperfomance_report_deaprtmentName__Deaprtment_Name_>
+            <Dataperfomance_report_jobType__Job_Type_ Ref="151" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>720,0,180,30</ClientRectangle>
+              <ComponentStyle>Data</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Open Sans,7</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>3,3,0,0</Margins>
+              <Name>Dataperfomance_report_jobType__Job_Type_</Name>
+              <Page isRef="24" />
+              <Parent isRef="145" />
+              <Text>{Order_Details.UnitPrice * Order_Details.Products.UnitsInStock}</Text>
+              <TextBrush>[52:58:65]</TextBrush>
+              <TextFormat Ref="152" type="CurrencyFormat" isKey="true">
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>0</NegativePattern>
+                <PositivePattern>0</PositivePattern>
+              </TextFormat>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Dataperfomance_report_jobType__Job_Type_>
+            <Text1 Ref="153" type="Text" isKey="true">
+              <Border>None;White;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>900,0,190,30</ClientRectangle>
+              <ComponentStyle>Data</ComponentStyle>
+              <Conditions isList="true" count="1">
+                <value>_x007B__x0028_Order_Details.UnitPrice_x0020__x002A__x0020_Order_Details.Products.UnitsOnOrder_x0029__x0020__x003E__x0020__x0028_Order_Details.UnitPrice_x0020__x002A__x0020_Order_Details.Products.UnitsInStock_x0029__x007D_,White,[205:66:55],Arial_x002C_8,True,False,,,Top_x002C__x0020_Left_x002C__x0020_Bottom,TextColor_x002C__x0020_BackColor_x002C__x0020_Borders</value>
+              </Conditions>
+              <Font>Open Sans,7</Font>
+              <Guid>8ef8c0be67bc4e53bf4dbca45c2bdcc3</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>3,3,0,0</Margins>
+              <Name>Text1</Name>
+              <Page isRef="24" />
+              <Parent isRef="145" />
+              <Text>{Order_Details.UnitPrice * Order_Details.Products.UnitsOnOrder}</Text>
+              <TextBrush>[52:58:65]</TextBrush>
+              <TextFormat Ref="154" type="CurrencyFormat" isKey="true">
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>0</NegativePattern>
+                <PositivePattern>0</PositivePattern>
+              </TextFormat>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text1>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DataRelationName isNull="true" />
+          <DataSourceName>Order Details</DataSourceName>
+          <EvenStyle>Data_Even</EvenStyle>
+          <Filters isList="true" count="1">
+            <value>_x007B_Order_Details.Orders.Customers.Country_x0020__x003D__x003D__x0020_Variable1_x007D_</value>
+          </Filters>
+          <Name>customDataperfomance_report</Name>
+          <Page isRef="24" />
+          <Parent isRef="24" />
+          <Sort isList="true" count="0" />
+        </customDataperfomance_report>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Guid>917ed515201147298a47e20526c48475</Guid>
+      <Margins>39,39,39,39</Margins>
+      <Name>Page1</Name>
+      <Orientation>Landscape</Orientation>
+      <PageHeight>827</PageHeight>
+      <PageWidth>1169</PageWidth>
+      <PaperSize>A4</PaperSize>
+      <Report isRef="0" />
+      <Watermark Ref="155" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <Font>Arial,100</Font>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
+    </Page1>
+  </Pages>
+  <PreviewSettings>268435455</PreviewSettings>
+  <PrinterSettings Ref="156" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Insurance with Charts and Highlight</ReportAlias>
+  <ReportChanged>5/19/2016 4:32:14 PM</ReportChanged>
+  <ReportCreated>3/22/2016 10:27:51 AM</ReportCreated>
+  <ReportFile>D:\Reports\Insurance-with-Charts-and-Highlight.mrt</ReportFile>
+  <ReportGuid>aeed72882af7407ea82bc9aab04fa9ba</ReportGuid>
+  <ReportName>Insurance-with-Charts-and-Highlight</ReportName>
+  <ReportUnit>HundredthsOfInch</ReportUnit>
+  <ReportVersion>2016.1.12</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    public class Perfomance : Stimulsoft.Report.StiReport
+    {
+        public Perfomance()        {
+            this.InitializeComponent();
+        }
+
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}
+</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="13">
+    <Header_Line1 Ref="157" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderFormatting>False</AllowUseBorderFormatting>
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Border>None;White;1;Solid;False;4;Black</Border>
+      <Brush>[85:96:110]</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Open Sans,24,Bold</Font>
+      <HorAlignment>Center</HorAlignment>
+      <Name>Header_Line1</Name>
+      <TextBrush>White</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Header_Line1>
+    <Header_Line2 Ref="158" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderFormatting>False</AllowUseBorderFormatting>
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Border>None;White;1;Solid;False;4;Black</Border>
+      <Brush>[85:96:110]</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Open Sans,14.25,Bold</Font>
+      <HorAlignment>Center</HorAlignment>
+      <Name>Header_Line2</Name>
+      <TextBrush>White</TextBrush>
+    </Header_Line2>
+    <Header_Time Ref="159" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderFormatting>False</AllowUseBorderFormatting>
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Border>None;White;1;Solid;False;4;Black</Border>
+      <Brush>[85:96:110]</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Open Sans,9.75</Font>
+      <HorAlignment>Center</HorAlignment>
+      <Name>Header_Time</Name>
+      <TextBrush>White</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Header_Time>
+    <Header_Data Ref="160" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderFormatting>False</AllowUseBorderFormatting>
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Border>None;White;1;Solid;False;4;Black</Border>
+      <Brush>[36:175:178]</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Open Sans,9,Bold</Font>
+      <HorAlignment>Center</HorAlignment>
+      <Name>Header_Data</Name>
+      <TextBrush>White</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Header_Data>
+    <Data Ref="161" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderFormatting>False</AllowUseBorderFormatting>
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <AllowUseBrush>False</AllowUseBrush>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Open Sans,7</Font>
+      <HorAlignment>Center</HorAlignment>
+      <Name>Data</Name>
+      <TextBrush>[52:58:65]</TextBrush>
+    </Data>
+    <Data_Even Ref="162" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Brush>[232:234:236]</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Arial,7</Font>
+      <HorAlignment>Center</HorAlignment>
+      <Name>Data_Even</Name>
+      <TextBrush>Black</TextBrush>
+    </Data_Even>
+    <Footer_Data Ref="163" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderFormatting>False</AllowUseBorderFormatting>
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Border>None;White;1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Open Sans,9,Bold</Font>
+      <HorAlignment>Right</HorAlignment>
+      <Name>Footer_Data</Name>
+      <TextBrush>[36:175:178]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Footer_Data>
+    <Footer_Line1 Ref="164" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderFormatting>False</AllowUseBorderFormatting>
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Border>None;White;1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Open Sans,9.75</Font>
+      <HorAlignment>Center</HorAlignment>
+      <Name>Footer_Line1</Name>
+      <TextBrush>[85:96:110]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Footer_Line1>
+    <Header_Group1 Ref="165" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderFormatting>False</AllowUseBorderFormatting>
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Border>None;White;1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Open Sans,21.75,Bold</Font>
+      <HorAlignment>Center</HorAlignment>
+      <Name>Header_Group1</Name>
+      <TextBrush>[85:96:110]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Header_Group1>
+    <Header_Group2 Ref="166" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderFormatting>False</AllowUseBorderFormatting>
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Border>None;White;1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Open Sans,14.25</Font>
+      <HorAlignment>Center</HorAlignment>
+      <Name>Header_Group2</Name>
+      <TextBrush>[85:96:110]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Header_Group2>
+    <Footer_Group2 Ref="167" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderFormatting>False</AllowUseBorderFormatting>
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Border>None;White;1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Open Sans,12</Font>
+      <HorAlignment>Center</HorAlignment>
+      <Name>Footer_Group2</Name>
+      <TextBrush>[85:96:110]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Footer_Group2>
+    <Footer_Group1 Ref="168" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <AllowUseBorderFormatting>False</AllowUseBorderFormatting>
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <Border>None;White;1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Open Sans,14.25,Bold</Font>
+      <HorAlignment>Center</HorAlignment>
+      <Name>Footer_Group1</Name>
+      <TextBrush>[85:96:110]</TextBrush>
+      <VertAlignment>Center</VertAlignment>
+    </Footer_Group1>
+    <Charts Ref="169" type="Stimulsoft.Report.StiChartStyle" isKey="true">
+      <AllowUseBorderFormatting>False</AllowUseBorderFormatting>
+      <AllowUseBorderSides>False</AllowUseBorderSides>
+      <AxisLabelsColor>85, 96, 110</AxisLabelsColor>
+      <AxisLineColor>85, 96, 110</AxisLineColor>
+      <AxisTitleColor>85, 96, 110</AxisTitleColor>
+      <BasicStyleColor>WhiteSmoke</BasicStyleColor>
+      <Brush>Transparent</Brush>
+      <BrushType>Solid</BrushType>
+      <ChartAreaBorderColor>171, 172, 173</ChartAreaBorderColor>
+      <ChartAreaBrush>White</ChartAreaBrush>
+      <ChartAreaShowShadow>False</ChartAreaShowShadow>
+      <Conditions isList="true" count="0" />
+      <GridLinesHorColor>100, 105, 105, 105</GridLinesHorColor>
+      <GridLinesVertColor>100, 105, 105, 105</GridLinesVertColor>
+      <InterlacingHorBrush>[10:155:155:155]</InterlacingHorBrush>
+      <InterlacingVertBrush>[10:155:155:155]</InterlacingVertBrush>
+      <LegendBorderColor>Transparent</LegendBorderColor>
+      <LegendBrush>Transparent</LegendBrush>
+      <LegendLabelsColor>85, 96, 110</LegendLabelsColor>
+      <LegendTitleColor>85, 96, 110</LegendTitleColor>
+      <Name>Charts</Name>
+      <SeriesLabelsBorderColor>Transparent</SeriesLabelsBorderColor>
+      <SeriesLabelsBrush>Transparent</SeriesLabelsBrush>
+      <SeriesLabelsColor>90, 90, 90</SeriesLabelsColor>
+      <StyleColors>[38:174:144], [205:66:55]</StyleColors>
+      <TrendLineColor>140, 140, 140</TrendLineColor>
+      <TrendLineShowShadow>False</TrendLineShowShadow>
+    </Charts>
+  </Styles>
+</StiSerializer>
