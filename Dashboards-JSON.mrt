@@ -1,0 +1,884 @@
+{
+  "ReportVersion": "2016.1.12",
+  "ReportGuid": "260cde2e04e64ad1a5f0320cb9faf7d4",
+  "ReportName": "Report",
+  "ReportAlias": "Report",
+  "ReportCreated": "/Date(1459420521000+0300)/",
+  "ReportChanged": "/Date(1459423732000+0300)/",
+  "EngineVersion": "EngineV2",
+  "ReportUnit": "Inches",
+  "PreviewSettings": 268435455,
+  "Script": "using System;\r\nusing System.Drawing;\r\nusing System.Windows.Forms;\r\nusing System.Data;\r\nusing Stimulsoft.Controls;\r\nusing Stimulsoft.Base.Drawing;\r\nusing Stimulsoft.Report;\r\nusing Stimulsoft.Report.Dialogs;\r\nusing Stimulsoft.Report.Components;\r\n\r\nnamespace Reports\r\n{\r\n    public class Report : Stimulsoft.Report.StiReport\r\n    {\r\n        public Report()        {\r\n            this.InitializeComponent();\r\n        }\r\n\r\n        #region StiReport Designer generated code - do not modify\r\n\t\t#endregion StiReport Designer generated code - do not modify\r\n    }\r\n}\r\n",
+  "ReferencedAssemblies": {
+    "0": "System.Dll",
+    "1": "System.Drawing.Dll",
+    "2": "System.Windows.Forms.Dll",
+    "3": "System.Data.Dll",
+    "4": "System.Xml.Dll",
+    "5": "Stimulsoft.Controls.Dll",
+    "6": "Stimulsoft.Base.Dll",
+    "7": "Stimulsoft.Report.Dll"
+  },
+  "ReportResources": {
+    "0": {
+      "Resource": "Image1.png",
+      "Component": "Image1",
+      "Property": "Image"
+    },
+    "1": {
+      "Resource": "Image2.png",
+      "Component": "Image2",
+      "Property": "Image"
+    },
+    "2": {
+      "Resource": "Image3.png",
+      "Component": "Image3",
+      "Property": "Image"
+    },
+    "3": {
+      "Resource": "Image4.png",
+      "Component": "Image4",
+      "Property": "Image"
+    }
+  },
+  "Pages": {
+    "0": {
+      "Ident": "StiPage",
+      "Name": "Page1",
+      "Guid": "ff53e267dcf5476ebb5770626ba1ffcc",
+      "Interaction": {
+        "Ident": "StiInteraction"
+      },
+      "Border": ";;2;;;;;solid:Black",
+      "Brush": "solid:27,28,31",
+      "Components": {
+        "0": {
+          "Ident": "StiChart",
+          "Name": "Chart1",
+          "MinSize": "0,0",
+          "MaxSize": "0,0",
+          "ClientRectangle": "0.1,0.1,4.9,2.9",
+          "Interaction": {
+            "Ident": "StiInteraction"
+          },
+          "Border": ";;0;;;;;solid:Black",
+          "Brush": "solid:42,42,42",
+          "Series": {
+            "0": {
+              "Ident": "StiClusteredBarSeries",
+              "AllowApplyStyle": false,
+              "ShowShadow": false,
+              "SeriesLabels": {
+                "Ident": "StiCenterAxisLabels",
+                "MarkerSize": {
+                  "Width": 8,
+                  "Height": 6
+                },
+                "ValueTypeSeparator": "-",
+                "LabelColor": "51,71,91",
+                "BorderColor": "Transparent",
+                "Brush": "solid:",
+                "Font": ";10;;"
+              },
+              "TrendLine": {
+                "Ident": "StiTrendLineNone",
+                "LineColor": "DimGray"
+              },
+              "ListOfValues": {
+                "Value": "6;23;9;17;12;15"
+              },
+              "ListOfArguments": {
+                "Value": ";Facebook;Google+;Linkedln;Quora;Twitter;reddit"
+              },
+              "Title": {
+                "Value": "Series 1"
+              },
+              "BorderColor": "Transparent",
+              "Brush": "solid:239,209,64",
+              "BrushNegative": "solid:Firebrick"
+            }
+          },
+          "Area": {
+            "Ident": "StiClusteredBarArea",
+            "AllowApplyStyle": false,
+            "BorderColor": "Transparent",
+            "Brush": "empty",
+            "InterlacingHor": {
+              "InterlacedBrush": "solid:10,155,155,155",
+              "Visible": false,
+              "Area": true
+            },
+            "InterlacingVert": {
+              "InterlacedBrush": "solid:10,155,155,155",
+              "Visible": false,
+              "Area": true
+            },
+            "GridLinesHor": {
+              "AllowApplyStyle": false,
+              "Color": "100,105,105,105",
+              "MinorColor": "100,105,105,105",
+              "Visible": false,
+              "Area": true
+            },
+            "GridLinesHorRight": {
+              "Visible": false,
+              "Area": true
+            },
+            "GridLinesVert": {
+              "AllowApplyStyle": false,
+              "Color": "100,105,105,105",
+              "MinorColor": "100,105,105,105",
+              "Style": "Solid",
+              "MinorStyle": "Solid",
+              "Area": true
+            },
+            "YAxis": {
+              "Ident": "StiYLeftAxis",
+              "Labels": {
+                "Color": "White",
+                "TextAlignment": "Right"
+              },
+              "Title": {
+                "Font": ";;Regular;",
+                "Text": "Conversions",
+                "Color": "White",
+                "Direction": "BottomToTop"
+              }
+            },
+            "YRightAxis": {
+              "Ident": "StiYRightAxis",
+              "Labels": {
+                "Color": "140,140,140",
+                "TextAlignment": "Left"
+              },
+              "Title": {
+                "Color": "140,140,140",
+                "Direction": "TopToBottom"
+              }
+            },
+            "XAxis": {
+              "Ident": "StiXBottomAxis",
+              "Labels": {
+                "Color": "White",
+                "TextAlignment": "Right"
+              },
+              "Title": {
+                "Font": ";;Regular;",
+                "Text": "Social Network",
+                "Color": "White"
+              }
+            },
+            "XTopAxis": {
+              "Ident": "StiXTopAxis",
+              "Labels": {
+                "Color": "140,140,140",
+                "TextAlignment": "Right"
+              },
+              "Title": {
+                "Color": "140,140,140"
+              }
+            }
+          },
+          "Table": {
+            "GridLineColor": "225,225,225",
+            "Header": {
+              "Brush": "solid:White"
+            },
+            "DataCells": {
+              "TextColor": "140,140,140"
+            }
+          },
+          "SeriesLabels": {
+            "Ident": "StiOutsideEndAxisLabels",
+            "AllowApplyStyle": false,
+            "MarkerSize": {
+              "Width": 8,
+              "Height": 6
+            },
+            "ValueTypeSeparator": "-",
+            "LabelColor": "White",
+            "BorderColor": "Transparent",
+            "Brush": "solid:",
+            "Font": ";10;;"
+          },
+          "Legend": {
+            "ShowShadow": false,
+            "BorderColor": "225,225,225",
+            "Brush": "solid:255,255,255",
+            "TitleColor": "DimGray",
+            "LabelsColor": "140,140,140",
+            "Visible": false,
+            "MarkerSize": {
+              "Width": 10,
+              "Height": 10
+            },
+            "Size": "0,0"
+          },
+          "Title": {
+            "AllowApplyStyle": false,
+            "Font": ";;Regular;",
+            "Text": "Conversions by Social Network (30 Days)",
+            "Brush": "solid:White",
+            "Alignment": "Near",
+            "Visible": true
+          },
+          "AllowApplyStyle": false,
+          "Style": {
+            "Ident": "StiStyle25"
+          }
+        },
+        "1": {
+          "Ident": "StiChart",
+          "Name": "Chart2",
+          "Guid": "566b745762d548dcb64a34d61054e39f",
+          "MinSize": "0,0",
+          "MaxSize": "0,0",
+          "ClientRectangle": "5.1,0.1,5,2.9",
+          "Interaction": {
+            "Ident": "StiInteraction"
+          },
+          "Border": ";;0;;;;;solid:Black",
+          "Brush": "solid:42,42,42",
+          "Series": {
+            "0": {
+              "Ident": "StiClusteredColumnSeries",
+              "AllowApplyStyle": false,
+              "ShowShadow": false,
+              "SeriesLabels": {
+                "Ident": "StiCenterAxisLabels",
+                "MarkerSize": {
+                  "Width": 8,
+                  "Height": 6
+                },
+                "ValueTypeSeparator": "-",
+                "LabelColor": "51,71,91",
+                "BorderColor": "Transparent",
+                "Brush": "solid:",
+                "Font": ";10;;"
+              },
+              "TrendLine": {
+                "Ident": "StiTrendLineNone",
+                "LineColor": "DimGray"
+              },
+              "ListOfValues": {
+                "Value": "718;\r\n291;\r\n666;\r\n347;\r\n573;\r\n453;\r\n600;\r\n743;\r\n405;\r\n218;\r\n372;\r\n646"
+              },
+              "Title": {
+                "Value": "Clicks"
+              },
+              "BorderColor": "Transparent",
+              "Brush": "solid:72,118,215",
+              "BrushNegative": "solid:Firebrick"
+            },
+            "1": {
+              "Ident": "StiAreaSeries",
+              "AllowApplyStyle": false,
+              "ShowShadow": false,
+              "SeriesLabels": {
+                "Ident": "StiOutsideEndAxisLabels",
+                "MarkerSize": {
+                  "Width": 8,
+                  "Height": 6
+                },
+                "ValueTypeSeparator": "-",
+                "LabelColor": "51,71,91",
+                "BorderColor": "Transparent",
+                "Brush": "solid:",
+                "Font": ";10;;"
+              },
+              "TrendLine": {
+                "Ident": "StiTrendLineNone",
+                "LineColor": "DimGray"
+              },
+              "ListOfValues": {
+                "Value": "241;\r\n295;\r\n276;\r\n232;\r\n736;\r\n375;\r\n644;\r\n571;\r\n224;\r\n699;\r\n504;\r\n473"
+              },
+              "Title": {
+                "Value": "Impressions"
+              },
+              "Marker": {
+                "Brush": "solid:255,255,100",
+                "BorderColor": "155,92,0",
+                "Size": 0.0
+              },
+              "LineMarker": {
+                "Brush": "solid:255,242,50",
+                "BorderColor": "105,42,0"
+              },
+              "LineColor": "236,147,47",
+              "Lighting": false,
+              "Brush": "solid:170,236,147,47",
+              "BrushNegative": "solid:Firebrick"
+            },
+            "2": {
+              "Ident": "StiClusteredColumnSeries",
+              "AllowApplyStyle": false,
+              "ShowShadow": false,
+              "SeriesLabels": {
+                "Ident": "StiCenterAxisLabels",
+                "MarkerSize": {
+                  "Width": 8,
+                  "Height": 6
+                },
+                "ValueTypeSeparator": "-",
+                "LabelColor": "51,71,91",
+                "BorderColor": "Transparent",
+                "Brush": "solid:",
+                "Font": ";10;;"
+              },
+              "TrendLine": {
+                "Ident": "StiTrendLineNone",
+                "LineColor": "DimGray"
+              },
+              "ListOfValues": {
+                "Value": "270;\r\n421;\r\n482;\r\n409;\r\n382;\r\n541;\r\n615;\r\n630;\r\n222;\r\n227;\r\n297;\r\n478"
+              },
+              "Title": {
+                "Value": "Likes"
+              },
+              "BorderColor": "Transparent",
+              "Brush": "solid:225,77,87",
+              "BrushNegative": "solid:Firebrick"
+            },
+            "3": {
+              "Ident": "StiLineSeries",
+              "ShowShadow": false,
+              "SeriesLabels": {
+                "Ident": "StiOutsideEndAxisLabels",
+                "MarkerSize": {
+                  "Width": 8,
+                  "Height": 6
+                },
+                "ValueTypeSeparator": "-",
+                "LabelColor": "51,71,91",
+                "BorderColor": "Transparent",
+                "Brush": "solid:",
+                "Font": ";10;;"
+              },
+              "TrendLine": {
+                "Ident": "StiTrendLineNone",
+                "LineColor": "DimGray"
+              },
+              "ListOfValues": {
+                "Value": "723;\r\n579;\r\n728;\r\n717;\r\n544;\r\n466;\r\n653;\r\n553;\r\n545;\r\n364;\r\n582;\r\n442"
+              },
+              "Title": {
+                "Value": "Engagement"
+              },
+              "Marker": {
+                "Brush": "solid:167,204,143",
+                "BorderColor": "0,4,0",
+                "Size": 0.0
+              },
+              "LineMarker": {
+                "Brush": "solid:117,154,93",
+                "BorderColor": "Black"
+              },
+              "LineColor": "67,104,43",
+              "Lighting": false
+            }
+          },
+          "Area": {
+            "Ident": "StiClusteredColumnArea",
+            "AllowApplyStyle": false,
+            "BorderColor": "Transparent",
+            "Brush": "empty",
+            "InterlacingHor": {
+              "AllowApplyStyle": false,
+              "InterlacedBrush": "solid:10,155,155,155",
+              "Visible": false,
+              "Area": true
+            },
+            "InterlacingVert": {
+              "AllowApplyStyle": false,
+              "InterlacedBrush": "solid:10,155,155,155",
+              "Visible": false,
+              "Area": true
+            },
+            "GridLinesHor": {
+              "Color": "100,105,105,105",
+              "MinorColor": "100,105,105,105",
+              "Visible": false,
+              "Area": true
+            },
+            "GridLinesHorRight": {
+              "Visible": false,
+              "Area": true
+            },
+            "GridLinesVert": {
+              "AllowApplyStyle": false,
+              "Color": "100,105,105,105",
+              "MinorColor": "100,105,105,105",
+              "Style": "Solid",
+              "MinorStyle": "Solid",
+              "Area": true
+            },
+            "YAxis": {
+              "Ident": "StiYLeftAxis",
+              "Labels": {
+                "Color": "White",
+                "TextAlignment": "Right"
+              },
+              "Title": {
+                "Text": "Clicks and Likes",
+                "Color": "140,140,140",
+                "Direction": "BottomToTop"
+              }
+            },
+            "YRightAxis": {
+              "Ident": "StiYRightAxis",
+              "Labels": {
+                "Color": "140,140,140",
+                "TextAlignment": "Left"
+              },
+              "Title": {
+                "Color": "140,140,140",
+                "Direction": "TopToBottom"
+              }
+            },
+            "XAxis": {
+              "Ident": "StiXBottomAxis",
+              "Labels": {
+                "Color": "White",
+                "TextAlignment": "Right"
+              },
+              "Title": {
+                "Font": ";;Regular;",
+                "Color": "White"
+              }
+            },
+            "XTopAxis": {
+              "Ident": "StiXTopAxis",
+              "Labels": {
+                "Color": "140,140,140",
+                "TextAlignment": "Right"
+              },
+              "Title": {
+                "Color": "140,140,140"
+              }
+            }
+          },
+          "Table": {
+            "GridLineColor": "225,225,225",
+            "Header": {
+              "Brush": "solid:White"
+            },
+            "DataCells": {
+              "TextColor": "140,140,140"
+            }
+          },
+          "SeriesLabels": {
+            "Ident": "StiNoneLabels",
+            "MarkerSize": {
+              "Width": 8,
+              "Height": 6
+            },
+            "ValueTypeSeparator": "-"
+          },
+          "Legend": {
+            "AllowApplyStyle": false,
+            "ShowShadow": false,
+            "BorderColor": "Transparent",
+            "Brush": "empty",
+            "TitleColor": "DimGray",
+            "LabelsColor": "White",
+            "VertAlignment": "TopOutside",
+            "MarkerSize": {
+              "Width": 10,
+              "Height": 10
+            },
+            "Columns": 1,
+            "Size": "0,0"
+          },
+          "Title": {
+            "AllowApplyStyle": false,
+            "Font": ";;Regular;",
+            "Text": "LinkedIn Key Metrics (12 Months)",
+            "Brush": "solid:White",
+            "Alignment": "Near",
+            "Visible": true
+          },
+          "AllowApplyStyle": false,
+          "Style": {
+            "Ident": "StiStyle25"
+          }
+        },
+        "2": {
+          "Ident": "StiChart",
+          "Name": "Chart3",
+          "Guid": "16798c8b9b6643298612da1cac25953d",
+          "MinSize": "0,0",
+          "MaxSize": "0,0",
+          "ClientRectangle": "0.1,3.1,10,2",
+          "Interaction": {
+            "Ident": "StiInteraction"
+          },
+          "Border": ";;0;;;;;solid:Black",
+          "Brush": "solid:42,42,42",
+          "Series": {
+            "0": {
+              "Ident": "StiStackedColumnSeries",
+              "AllowApplyStyle": false,
+              "ShowShadow": false,
+              "SeriesLabels": {
+                "Ident": "StiCenterAxisLabels",
+                "MarkerSize": {
+                  "Width": 8,
+                  "Height": 6
+                },
+                "ValueTypeSeparator": "-",
+                "LabelColor": "51,71,91",
+                "BorderColor": "Transparent",
+                "Brush": "solid:",
+                "Font": ";10;;"
+              },
+              "ListOfValues": {
+                "Value": "5;\r\n2;\r\n10;\r\n2;\r\n8;\r\n2;\r\n9;\r\n2;\r\n4;\r\n6;\r\n7;\r\n6;\r\n6;\r\n9;\r\n3;\r\n7;\r\n8;\r\n2;\r\n7;\r\n3;\r\n4;\r\n5;\r\n7;\r\n2;\r\n7;\r\n10;\r\n4;\r\n8;\r\n6;\r\n7;"
+              },
+              "Title": {
+                "Value": "Negative"
+              },
+              "BorderColor": "Transparent",
+              "Brush": "solid:225,77,87",
+              "BrushNegative": "solid:Firebrick"
+            },
+            "1": {
+              "Ident": "StiStackedColumnSeries",
+              "AllowApplyStyle": false,
+              "ShowShadow": false,
+              "SeriesLabels": {
+                "Ident": "StiCenterAxisLabels",
+                "MarkerSize": {
+                  "Width": 8,
+                  "Height": 6
+                },
+                "ValueTypeSeparator": "-",
+                "LabelColor": "51,71,91",
+                "BorderColor": "Transparent",
+                "Brush": "solid:",
+                "Font": ";10;;"
+              },
+              "ListOfValues": {
+                "Value": "18;\r\n12;\r\n14;\r\n19;\r\n25;\r\n21;\r\n16;\r\n17;\r\n28;\r\n30;\r\n26;\r\n15;\r\n17;\r\n19;\r\n26;\r\n16;\r\n14;\r\n17;\r\n14;\r\n13;\r\n21;\r\n17;\r\n24;\r\n30;\r\n30;\r\n19;\r\n27;\r\n25;\r\n12;\r\n30;"
+              },
+              "Title": {
+                "Value": "Neutral"
+              },
+              "BorderColor": "Transparent",
+              "Brush": "solid:239,209,64",
+              "BrushNegative": "solid:Firebrick"
+            },
+            "2": {
+              "Ident": "StiStackedColumnSeries",
+              "AllowApplyStyle": false,
+              "ShowShadow": false,
+              "SeriesLabels": {
+                "Ident": "StiCenterAxisLabels",
+                "MarkerSize": {
+                  "Width": 8,
+                  "Height": 6
+                },
+                "ValueTypeSeparator": "-",
+                "LabelColor": "51,71,91",
+                "BorderColor": "Transparent",
+                "Brush": "solid:",
+                "Font": ";10;;"
+              },
+              "ListOfValues": {
+                "Value": "39;\r\n34;\r\n36;\r\n33;\r\n30;\r\n47;\r\n45;\r\n44;\r\n31;\r\n47;\r\n37;\r\n32;\r\n31;\r\n48;\r\n43;\r\n40;\r\n41;\r\n31;\r\n35;\r\n43;\r\n37;\r\n44;\r\n42;\r\n34;\r\n47;\r\n40;\r\n45;\r\n34;\r\n43;\r\n45;"
+              },
+              "Title": {
+                "Value": "Positive"
+              },
+              "BorderColor": "Transparent",
+              "Brush": "solid:113,179,124",
+              "BrushNegative": "solid:Firebrick"
+            }
+          },
+          "Area": {
+            "Ident": "StiStackedColumnArea",
+            "AllowApplyStyle": false,
+            "Brush": "empty",
+            "InterlacingHor": {
+              "InterlacedBrush": "solid:",
+              "Area": true
+            },
+            "InterlacingVert": {
+              "InterlacedBrush": "solid:",
+              "Area": true
+            },
+            "GridLinesHor": {
+              "AllowApplyStyle": false,
+              "MinorStyle": "Solid",
+              "Area": true
+            },
+            "GridLinesHorRight": {
+              "Visible": false,
+              "Area": true
+            },
+            "GridLinesVert": {
+              "AllowApplyStyle": false,
+              "Color": "Transparent",
+              "Style": "Solid",
+              "Area": true
+            },
+            "YAxis": {
+              "Ident": "StiYLeftAxis",
+              "Labels": {
+                "Color": "White",
+                "TextAlignment": "Right"
+              },
+              "Title": {
+                "Direction": "BottomToTop"
+              }
+            },
+            "YRightAxis": {
+              "Ident": "StiYRightAxis",
+              "Labels": {
+                "TextAlignment": "Left"
+              },
+              "Title": {
+                "Direction": "TopToBottom"
+              }
+            },
+            "XAxis": {
+              "Ident": "StiXBottomAxis",
+              "Labels": {
+                "TextAlignment": "Right"
+              },
+              "Visible": false
+            },
+            "XTopAxis": {
+              "Ident": "StiXTopAxis",
+              "Labels": {
+                "TextAlignment": "Right"
+              }
+            }
+          },
+          "Table": {
+            "GridLineColor": "225,225,225",
+            "Header": {
+              "Brush": "solid:White"
+            },
+            "DataCells": {
+              "TextColor": "140,140,140"
+            }
+          },
+          "SeriesLabels": {
+            "Ident": "StiNoneLabels",
+            "AllowApplyStyle": false,
+            "MarkerSize": {
+              "Width": 8,
+              "Height": 6
+            },
+            "ValueTypeSeparator": "-"
+          },
+          "Legend": {
+            "AllowApplyStyle": false,
+            "ShowShadow": false,
+            "BorderColor": "Transparent",
+            "Brush": "empty",
+            "TitleColor": "DimGray",
+            "LabelsColor": "White",
+            "VertAlignment": "TopOutside",
+            "MarkerSize": {
+              "Width": 10,
+              "Height": 10
+            },
+            "Columns": 1,
+            "Size": "0,0"
+          },
+          "Title": {
+            "AllowApplyStyle": false,
+            "Font": ";;Regular;",
+            "Text": "Talkwalker Brand Sentiment (Last 30 Days)",
+            "Brush": "solid:White",
+            "Alignment": "Near",
+            "Visible": true
+          },
+          "AllowApplyStyle": false,
+          "Style": {
+            "Ident": "StiStyle25"
+          }
+        },
+        "3": {
+          "Ident": "StiChart",
+          "Name": "Chart4",
+          "Guid": "a31436997afe469a85b1585c67a68ae4",
+          "MinSize": "0,0",
+          "MaxSize": "0,0",
+          "ClientRectangle": "0.1,5.2,10,2",
+          "Interaction": {
+            "Ident": "StiInteraction"
+          },
+          "Border": ";;0;;;;;solid:Black",
+          "Brush": "solid:42,42,42",
+          "Series": {
+            "0": {
+              "Ident": "StiClusteredColumnSeries",
+              "AllowApplyStyle": false,
+              "ShowShadow": false,
+              "SeriesLabels": {
+                "Ident": "StiCenterAxisLabels",
+                "MarkerSize": {
+                  "Width": 8,
+                  "Height": 6
+                },
+                "ValueTypeSeparator": "-",
+                "LabelColor": "51,71,91",
+                "BorderColor": "Transparent",
+                "Brush": "solid:",
+                "Font": ";10;;"
+              },
+              "TrendLine": {
+                "Ident": "StiTrendLineNone",
+                "LineColor": "DimGray"
+              },
+              "ListOfValues": {
+                "Value": "579;\r\n518;\r\n551;\r\n606;\r\n605;\r\n687;\r\n525;\r\n686;\r\n635;\r\n676;\r\n703;\r\n720;\r\n478;\r\n685;\r\n522;\r\n681;\r\n568;\r\n626;\r\n740;\r\n656;\r\n594;\r\n637;\r\n746;\r\n515;\r\n539;\r\n485;\r\n486;\r\n613;\r\n492;\r\n574;"
+              },
+              "Title": {
+                "Value": "Clicks"
+              },
+              "BorderColor": "Transparent",
+              "Brush": "solid:82,144,233",
+              "BrushNegative": "solid:Firebrick"
+            }
+          },
+          "Area": {
+            "Ident": "StiClusteredColumnArea",
+            "AllowApplyStyle": false,
+            "Brush": "empty",
+            "InterlacingHor": {
+              "InterlacedBrush": "solid:",
+              "Area": true
+            },
+            "InterlacingVert": {
+              "InterlacedBrush": "solid:",
+              "Area": true
+            },
+            "GridLinesHor": {
+              "Area": true
+            },
+            "GridLinesHorRight": {
+              "Visible": false,
+              "Area": true
+            },
+            "GridLinesVert": {
+              "Visible": false,
+              "Area": true
+            },
+            "YAxis": {
+              "Ident": "StiYLeftAxis",
+              "Labels": {
+                "Color": "White",
+                "TextAlignment": "Right"
+              },
+              "Title": {
+                "Direction": "BottomToTop"
+              }
+            },
+            "YRightAxis": {
+              "Ident": "StiYRightAxis",
+              "Labels": {
+                "TextAlignment": "Left"
+              },
+              "Title": {
+                "Direction": "TopToBottom"
+              }
+            },
+            "XAxis": {
+              "Ident": "StiXBottomAxis",
+              "Labels": {
+                "TextAlignment": "Right"
+              },
+              "Visible": false
+            },
+            "XTopAxis": {
+              "Ident": "StiXTopAxis",
+              "Labels": {
+                "TextAlignment": "Right"
+              }
+            }
+          },
+          "Table": {
+            "GridLineColor": "225,225,225",
+            "Header": {
+              "Brush": "solid:White"
+            },
+            "DataCells": {
+              "TextColor": "140,140,140"
+            }
+          },
+          "SeriesLabels": {
+            "Ident": "StiNoneLabels",
+            "AllowApplyStyle": false,
+            "MarkerSize": {
+              "Width": 8,
+              "Height": 6
+            },
+            "ValueTypeSeparator": "-"
+          },
+          "Legend": {
+            "AllowApplyStyle": false,
+            "ShowShadow": false,
+            "BorderColor": "Transparent",
+            "Brush": "empty",
+            "TitleColor": "DimGray",
+            "LabelsColor": "White",
+            "VertAlignment": "TopOutside",
+            "MarkerSize": {
+              "Width": 10,
+              "Height": 10
+            },
+            "Columns": 1,
+            "Size": "0,0"
+          },
+          "Title": {
+            "AllowApplyStyle": false,
+            "Font": ";;Regular;",
+            "Text": "Bitly - Clicks by Day",
+            "Brush": "solid:White",
+            "Alignment": "Near",
+            "Visible": true
+          },
+          "AllowApplyStyle": false,
+          "Style": {
+            "Ident": "StiStyle25"
+          }
+        },
+        "4": {
+          "Ident": "StiText",
+          "Name": "Text1",
+          "MinSize": "0,0",
+          "MaxSize": "0,0",
+          "ClientRectangle": "7.6,7.3,2.5,0.4",
+          "Interaction": {
+            "Ident": "StiInteraction"
+          },
+          "Text": {
+            "Value": "Designed by Stimulsoft"
+          },
+          "Font": ";18;;",
+          "Border": ";;;;;;;solid:Black",
+          "Brush": "solid:",
+          "TextBrush": "solid:White",
+          "Type": "Expression"
+        }
+      },
+      "PaperSize": "Letter",
+      "Orientation": "Landscape",
+      "PageWidth": 11.0,
+      "PageHeight": 8.5,
+      "Watermark": {
+        "TextBrush": "solid:50,0,0,0"
+      },
+      "Margins": {
+        "Left": 0.39,
+        "Right": 0.39,
+        "Top": 0.39,
+        "Bottom": 0.39
+      }
+    }
+  }
+}
